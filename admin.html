@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex,nofollow">
+<title>Admin · News &amp; Events | Saveetha MBA</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231B2358'/><text x='32' y='42' font-family='Manrope,system-ui' font-weight='800' font-size='38' text-anchor='middle' fill='%23C9A25B' letter-spacing='-1'>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261117ui">
+</head>
+<body class="admin-page">
+
+<header class="admin-bar">
+  <div class="admin-bar-inner">
+    <div class="admin-brand">
+      <div class="brand-mark">S<span style="color:var(--orange-500)">E</span>C</div>
+      <div>
+        <div class="ab-t1">Saveetha MBA · Admin</div>
+        <div class="ab-t2">News &amp; Events Manager</div>
+      </div>
+    </div>
+    <div class="admin-bar-actions" id="adminActions" hidden>
+      <span class="admin-draft-badge" id="draftBadge">Draft</span>
+      <button class="btn btn-ghost" id="importBtn" type="button">Import JSON</button>
+      <button class="btn btn-ghost" id="exportBtn" type="button">Export (Publish)</button>
+      <button class="btn btn-dark" id="logoutBtn" type="button">Lock</button>
+    </div>
+  </div>
+</header>
+
+<!-- LOGIN -->
+<section class="admin-login" id="loginView">
+  <div class="admin-login-card">
+    <h1>Admin sign-in</h1>
+    <p class="muted">Enter the department admin password to manage News &amp; Events.</p>
+    <form id="loginForm" autocomplete="off">
+      <label><span>Password</span>
+        <input type="password" id="pwInput" required autocomplete="current-password">
+      </label>
+      <button class="btn btn-dark" type="submit">Unlock
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m0 0l-6-6m6 6l-6 6"/></svg>
+      </button>
+      <div class="err" id="loginErr" role="alert"></div>
+    </form>
+    <p class="muted small">This is a client-side gate for convenience — real protection needs a backend. <a href="index.html">← Back to site</a></p>
+  </div>
+</section>
+
+<!-- LIST -->
+<main class="admin-shell" id="listView" hidden>
+  <div class="admin-container">
+    <div class="admin-head">
+      <div>
+        <h1>News &amp; Events</h1>
+        <p class="muted">Add, edit or remove items. Changes are saved to your browser. Click <strong>Export (Publish)</strong> to download the updated <code>events.json</code> and upload it to your server.</p>
+      </div>
+      <button class="btn btn-dark" id="newBtn" type="button">+ New item
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+      </button>
+    </div>
+
+    <div class="admin-filter" role="tablist">
+      <button class="admin-filter-btn is-active" data-filter="all" type="button">All</button>
+      <button class="admin-filter-btn" data-filter="event" type="button">Events</button>
+      <button class="admin-filter-btn" data-filter="news" type="button">News</button>
+      <button class="admin-filter-btn" data-filter="award" type="button">Awards</button>
+      <button class="admin-filter-btn" data-filter="placement" type="button">Placements</button>
+    </div>
+
+    <div class="admin-table" id="listBody"></div>
+    <div class="admin-empty" id="listEmpty" hidden>No items yet. Click <strong>+ New item</strong> to add one.</div>
+  </div>
+</main>
+
+<!-- EDIT -->
+<main class="admin-shell" id="editView" hidden>
+  <div class="admin-container">
+    <button class="back-link" id="backBtn" type="button">← Back to list</button>
+    <h1 id="editTitle">New item</h1>
+
+    <form id="editForm" class="admin-form" autocomplete="off">
+      <input type="hidden" name="id" id="f_id">
+
+      <div class="row-2">
+        <label class="field">
+          <span>Type</span>
+          <select name="type" id="f_type" required>
+            <option value="event">Event</option>
+            <option value="news">News</option>
+            <option value="award">Award</option>
+            <option value="placement">Placement</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Date</span>
+          <input type="date" name="date" id="f_date" required>
+        </label>
+      </div>
+
+      <div class="row-2">
+        <label class="field">
+          <span>Category <em>(which list on the Events page; drives the counts)</em></span>
+          <select name="category" id="f_category">
+            <option value="guest-lecture">Guest lecture / seminar / talk</option>
+            <option value="workshop">Workshop</option>
+            <option value="fdp">FDP / faculty workshop</option>
+            <option value="conference">Conference / conclave</option>
+            <option value="student-activity">Student activity</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>End date <em>(optional, for multi-day events)</em></span>
+          <input type="date" name="end" id="f_end">
+        </label>
+      </div>
+
+      <label class="field">
+        <span>Kind <em>(short label above the title, e.g. "Guest lecture", "Seminar", "Business Talk Series", "Alumni talk". Home page "Guest lectures" counts only "Guest lecture")</em></span>
+        <input type="text" name="tag" id="f_tag" maxlength="80" list="kindList">
+        <datalist id="kindList">
+          <option value="Guest lecture"><option value="Seminar"><option value="Business Talk Series">
+          <option value="Voice of Alumni"><option value="Alumni talk"><option value="Webinar">
+          <option value="Workshop"><option value="Faculty workshop"><option value="FDP">
+          <option value="Management fest"><option value="Inauguration"><option value="Club inauguration">
+        </datalist>
+      </label>
+
+      <label class="field">
+        <span>Title</span>
+        <input type="text" name="title" id="f_title" required maxlength="140">
+      </label>
+
+      <label class="field">
+        <span>Speaker(s) / chief guest <em>(name, designation, organisation — no phone numbers or emails)</em></span>
+        <textarea name="speakers" id="f_speakers" rows="2" maxlength="600"></textarea>
+      </label>
+
+      <label class="field">
+        <span>Organisation(s) <em>(comma-separated, e.g. "Infosys, CMIE" — counted on the Industry Connect page)</em></span>
+        <input type="text" name="organisations" id="f_orgs" maxlength="300">
+      </label>
+
+      <label class="field">
+        <span>Note <em>(optional extra line shown under the speakers, e.g. venue)</em></span>
+        <input type="text" name="note" id="f_note" maxlength="300">
+      </label>
+
+      <label class="field">
+        <span>Summary <em>(optional — 1–2 lines for highlight cards; leave blank to use the speakers)</em></span>
+        <textarea name="summary" id="f_summary" rows="2" maxlength="300"></textarea>
+      </label>
+
+      <label class="field">
+        <span>Context <em>(e.g. "Saveetha Campus, Thandalam")</em></span>
+        <input type="text" name="context" id="f_context" maxlength="120">
+      </label>
+
+      <label class="field">
+        <span>Cover image URL <em>(optional — shown on cards and at the top of the detail page)</em></span>
+        <input type="url" name="cover" id="f_cover" placeholder="https://… or assets/images/…">
+      </label>
+
+      <div class="field">
+        <div class="gallery-head">
+          <div>
+            <span class="gallery-label">Photo gallery <em>(optional — shown as a grid below the body on the detail page)</em></span>
+            <p class="muted small gallery-hint">Paste an image URL, add a short caption and alt text for accessibility. You can add as many as you like, and drag the up/down arrows to reorder.</p>
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" id="galAddBtn">+ Add image
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+        </div>
+        <div class="admin-gallery-list" id="galList"></div>
+        <div class="admin-gallery-empty" id="galEmpty">No images yet. Click <strong>+ Add image</strong> to add the first one.</div>
+      </div>
+
+      <label class="field">
+        <span>Body <em>(full content — HTML allowed: &lt;p&gt;, &lt;h3&gt;, &lt;ul&gt;, &lt;strong&gt;, &lt;a&gt;)</em></span>
+        <textarea name="body" id="f_body" rows="10"></textarea>
+      </label>
+
+      <label class="field">
+        <span>External URL <em>(optional — if set, card links to this instead of the detail page)</em></span>
+        <input type="text" name="externalUrl" id="f_ext" placeholder="https://… or student-life.html">
+      </label>
+
+      <div class="row-2">
+        <label class="checkbox"><input type="checkbox" name="featured" id="f_featured"><span>Featured (photo highlight on the Events page — needs a cover image)</span></label>
+        <label class="checkbox"><input type="checkbox" name="published" id="f_published" checked><span>Published (visible on site)</span></label>
+      </div>
+
+      <div class="admin-form-actions">
+        <button type="submit" class="btn btn-dark">Save item
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg>
+        </button>
+        <button type="button" class="btn btn-ghost" id="cancelBtn">Cancel</button>
+        <button type="button" class="btn btn-danger" id="deleteBtn" hidden>Delete</button>
+      </div>
+    </form>
+  </div>
+</main>
+
+<!-- Hidden file input for import -->
+<input type="file" id="importFile" accept="application/json" hidden>
+
+<!-- Toast -->
+<div class="admin-toast" id="toast" hidden></div>
+
+<script src="assets/js/events-store.js?v=20261117b"></script>
+<script defer>
+(function () {
+  'use strict';
+
+  // ---------- client-side password gate ----------
+  // The hash below is SHA-256 of the admin password. To change the password:
+  //   1. Run in your browser console:
+  //        crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOUR-NEW-PASSWORD'))
+  //          .then(h => console.log(Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('')));
+  //   2. Paste the hex string below.
+  // Default password: saveetha-mba-admin
+  const ADMIN_HASH = '55453ef8a0255c880c34a2f6fc2217e83d463de006e112eaa7b55fe0e48b48a1';
+  const SESSION_KEY = 'mba-admin-session';
+
+  async function sha256hex(str) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  const el = id => document.getElementById(id);
+  const loginView = el('loginView');
+  const listView = el('listView');
+  const editView = el('editView');
+  const adminActions = el('adminActions');
+
+  function showLogin() {
+    loginView.hidden = false;
+    listView.hidden = true;
+    editView.hidden = true;
+    adminActions.hidden = true;
+  }
+  function showList() {
+    loginView.hidden = true;
+    listView.hidden = false;
+    editView.hidden = true;
+    adminActions.hidden = false;
+    renderList();
+  }
+  function showEdit(ev) {
+    loginView.hidden = true;
+    listView.hidden = true;
+    editView.hidden = false;
+    adminActions.hidden = false;
+    populateForm(ev);
+  }
+
+  // Restore session
+  if (sessionStorage.getItem(SESSION_KEY) === '1') {
+    showList();
+  } else {
+    showLogin();
+  }
+
+  // Login submit
+  el('loginForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const pw = el('pwInput').value;
+    const h = await sha256hex(pw);
+    if (h === ADMIN_HASH) {
+      sessionStorage.setItem(SESSION_KEY, '1');
+      el('loginErr').textContent = '';
+      el('pwInput').value = '';
+      showList();
+    } else {
+      el('loginErr').textContent = 'Incorrect password.';
+    }
+  });
+
+  el('logoutBtn').addEventListener('click', () => {
+    sessionStorage.removeItem(SESSION_KEY);
+    showLogin();
+  });
+
+  // ---------- list ----------
+  let currentFilter = 'all';
+
+  async function renderList() {
+    const S = window.EventsStore;
+    const draft = await S.loadDraft();
+    const list = (draft.events || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    const body = el('listBody');
+    const filtered = currentFilter === 'all' ? list : list.filter(e => e.type === currentFilter);
+    if (!filtered.length) {
+      body.innerHTML = '';
+      el('listEmpty').hidden = false;
+      return;
+    }
+    el('listEmpty').hidden = true;
+    body.innerHTML = filtered.map(ev => {
+      const dp = S.formatDateParts(ev.date);
+      const kind = S.kindLabel(ev.type);
+      const pubDot = ev.published ? '<span class="dot-pub" title="Published"></span>' : '<span class="dot-draft" title="Unpublished"></span>';
+      const featured = ev.featured ? '<span class="pill-featured">Featured</span>' : '';
+      return (
+        '<div class="admin-row" data-id="' + S.escapeHTML(ev.id) + '">' +
+          '<div class="ar-date"><span class="d">' + dp.d + '</span><span class="m">' + dp.m + '</span><span class="y">' + dp.y + '</span></div>' +
+          '<div class="ar-main">' +
+            '<div class="ar-meta"><span class="ar-kind kind-' + ev.type + '">' + kind + '</span>' + (ev.tag ? '<span class="ar-tag">' + S.escapeHTML(ev.tag) + '</span>' : '') + featured + pubDot + '</div>' +
+            '<div class="ar-title">' + S.escapeHTML(ev.title) + '</div>' +
+            '<div class="ar-sum">' + S.escapeHTML(ev.summary) + '</div>' +
+          '</div>' +
+          '<div class="ar-actions">' +
+            '<a href="event.html?id=' + encodeURIComponent(ev.id) + '" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" title="Preview">View</a>' +
+            '<button type="button" class="btn btn-ghost btn-sm" data-act="edit">Edit</button>' +
+            '<button type="button" class="btn btn-danger btn-sm" data-act="del">Delete</button>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join('');
+
+    // wire buttons
+    body.querySelectorAll('.admin-row').forEach(row => {
+      const id = row.getAttribute('data-id');
+      row.querySelector('[data-act="edit"]').addEventListener('click', async () => {
+        const S = window.EventsStore;
+        const draft = await S.loadDraft();
+        const ev = draft.events.find(e => e.id === id);
+        if (ev) showEdit(ev);
+      });
+      row.querySelector('[data-act="del"]').addEventListener('click', async () => {
+        if (!confirm('Delete this item? You can undo only by re-importing a JSON backup.')) return;
+        await window.EventsStore.removeEvent(id);
+        toast('Item deleted');
+        renderList();
+      });
+    });
+  }
+
+  document.querySelectorAll('.admin-filter-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.admin-filter-btn').forEach(x => x.classList.remove('is-active'));
+      b.classList.add('is-active');
+      currentFilter = b.getAttribute('data-filter');
+      renderList();
+    });
+  });
+
+  el('newBtn').addEventListener('click', () => {
+    showEdit({ type: 'event', category: 'guest-lecture', published: true, featured: false, date: new Date().toISOString().slice(0, 10) });
+  });
+
+  // ---------- edit form ----------
+  // Working gallery state for the currently-edited item.
+  let galleryState = [];
+
+  function renderGallery() {
+    const host = el('galList');
+    const empty = el('galEmpty');
+    if (!galleryState.length) {
+      host.innerHTML = '';
+      empty.hidden = false;
+      return;
+    }
+    empty.hidden = true;
+    host.innerHTML = galleryState.map((g, i) => {
+      const safeUrl = (g.url || '').replace(/"/g, '&quot;');
+      const thumb = g.url
+        ? '<img src="' + safeUrl + '" alt="" loading="lazy" onerror="this.classList.add(\'thumb-err\')">'
+        : '<span class="thumb-placeholder">IMG</span>';
+      return (
+        '<div class="admin-gallery-item" data-idx="' + i + '">' +
+          '<div class="agi-thumb">' + thumb + '</div>' +
+          '<div class="agi-fields">' +
+            '<label><span>Image URL</span>' +
+              '<input type="url" class="agi-url" placeholder="https://…" value="' + safeUrl + '">' +
+            '</label>' +
+            '<div class="agi-fields-row">' +
+              '<label><span>Caption</span>' +
+                '<input type="text" class="agi-cap" maxlength="160" placeholder="Optional caption shown below the photo" value="' + (g.caption || '').replace(/"/g, '&quot;') + '">' +
+              '</label>' +
+              '<label><span>Alt text</span>' +
+                '<input type="text" class="agi-alt" maxlength="160" placeholder="What the image shows (for screen readers)" value="' + (g.alt || '').replace(/"/g, '&quot;') + '">' +
+              '</label>' +
+            '</div>' +
+          '</div>' +
+          '<div class="agi-actions">' +
+            '<button type="button" class="agi-btn" data-act="up" title="Move up" aria-label="Move up"' + (i === 0 ? ' disabled' : '') + '>' +
+              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" width="14" height="14"><path d="M6 15l6-6 6 6"/></svg>' +
+            '</button>' +
+            '<button type="button" class="agi-btn" data-act="down" title="Move down" aria-label="Move down"' + (i === galleryState.length - 1 ? ' disabled' : '') + '>' +
+              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" width="14" height="14"><path d="M6 9l6 6 6-6"/></svg>' +
+            '</button>' +
+            '<button type="button" class="agi-btn agi-del" data-act="del" title="Remove" aria-label="Remove">' +
+              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" width="14" height="14"><path d="M6 6l12 12M18 6L6 18"/></svg>' +
+            '</button>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join('');
+
+    // Wire per-row handlers
+    host.querySelectorAll('.admin-gallery-item').forEach(row => {
+      const idx = Number(row.getAttribute('data-idx'));
+      const urlEl = row.querySelector('.agi-url');
+      const capEl = row.querySelector('.agi-cap');
+      const altEl = row.querySelector('.agi-alt');
+      urlEl.addEventListener('input', () => {
+        galleryState[idx].url = urlEl.value.trim();
+        // Update live thumbnail without full re-render to preserve focus
+        const thumbHost = row.querySelector('.agi-thumb');
+        thumbHost.innerHTML = urlEl.value
+          ? '<img src="' + urlEl.value.replace(/"/g, '&quot;') + '" alt="" loading="lazy" onerror="this.classList.add(\'thumb-err\')">'
+          : '<span class="thumb-placeholder">IMG</span>';
+      });
+      capEl.addEventListener('input', () => { galleryState[idx].caption = capEl.value; });
+      altEl.addEventListener('input', () => { galleryState[idx].alt = altEl.value; });
+      row.querySelector('[data-act="up"]').addEventListener('click', () => {
+        if (idx === 0) return;
+        const t = galleryState[idx - 1]; galleryState[idx - 1] = galleryState[idx]; galleryState[idx] = t;
+        renderGallery();
+      });
+      row.querySelector('[data-act="down"]').addEventListener('click', () => {
+        if (idx === galleryState.length - 1) return;
+        const t = galleryState[idx + 1]; galleryState[idx + 1] = galleryState[idx]; galleryState[idx] = t;
+        renderGallery();
+      });
+      row.querySelector('[data-act="del"]').addEventListener('click', () => {
+        galleryState.splice(idx, 1);
+        renderGallery();
+      });
+    });
+  }
+
+  el('galAddBtn').addEventListener('click', () => {
+    galleryState.push({ url: '', caption: '', alt: '' });
+    renderGallery();
+    // Focus the newly-added URL field
+    const rows = el('galList').querySelectorAll('.admin-gallery-item');
+    const last = rows[rows.length - 1];
+    if (last) last.querySelector('.agi-url').focus();
+  });
+
+  let editingOriginal = null;
+  function populateForm(ev) {
+    editingOriginal = ev;
+    el('editTitle').textContent = ev.id ? 'Edit item' : 'New item';
+    el('f_id').value = ev.id || '';
+    el('f_type').value = ev.type || 'event';
+    el('f_date').value = ev.date || '';
+    el('f_tag').value = ev.tag || '';
+    el('f_category').value = ev.category || 'guest-lecture';
+    el('f_end').value = ev.end || '';
+    el('f_speakers').value = ev.speakers || '';
+    el('f_orgs').value = (ev.organisations || []).join(', ');
+    el('f_note').value = ev.note || '';
+    el('f_title').value = ev.title || '';
+    el('f_summary').value = ev.summary || '';
+    el('f_context').value = ev.context || '';
+    el('f_cover').value = ev.cover || '';
+    el('f_body').value = ev.body || '';
+    el('f_ext').value = ev.externalUrl || '';
+    el('f_featured').checked = !!ev.featured;
+    el('f_published').checked = ev.published !== false;
+    el('deleteBtn').hidden = !ev.id;
+    // Gallery — deep-clone so we don't mutate the stored object until save
+    galleryState = Array.isArray(ev.gallery)
+      ? ev.gallery.map(g => ({ url: g.url || '', caption: g.caption || '', alt: g.alt || '' }))
+      : [];
+    renderGallery();
+  }
+
+  el('editForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    // Trim + drop rows without a URL
+    const cleanGallery = galleryState
+      .map(g => ({
+        url: (g.url || '').trim(),
+        caption: (g.caption || '').trim(),
+        alt: (g.alt || '').trim()
+      }))
+      .filter(g => g.url);
+    const prev = editingOriginal || {};
+    const payload = {
+      cardTitle: prev.cardTitle, coverPoster: prev.coverPoster, coverAlt: prev.coverAlt,
+      id: el('f_id').value || undefined,
+      type: el('f_type').value,
+      date: el('f_date').value,
+      tag: el('f_tag').value.trim(),
+      kind: el('f_tag').value.trim().split(' · ')[0],
+      category: el('f_category').value,
+      end: el('f_end').value,
+      speakers: el('f_speakers').value.trim(),
+      organisations: el('f_orgs').value.split(',').map(s => s.trim()).filter(Boolean),
+      note: el('f_note').value.trim(),
+      title: el('f_title').value.trim(),
+      summary: el('f_summary').value.trim(),
+      context: el('f_context').value.trim(),
+      cover: el('f_cover').value.trim(),
+      body: el('f_body').value,
+      externalUrl: el('f_ext').value.trim(),
+      featured: el('f_featured').checked,
+      published: el('f_published').checked,
+      gallery: cleanGallery
+    };
+    if (!payload.summary) payload.summary = payload.speakers.slice(0, 300);
+    payload.context = payload.context || payload.organisations.join(', ');
+    if (!payload.title || !payload.date) { toast('Please fill title and date', true); return; }
+    if (payload.end && payload.end < payload.date) { toast('End date is before the start date', true); return; }
+    await window.EventsStore.saveEvent(payload);
+    toast('Saved — remember to Export (Publish) when ready to go live');
+    showList();
+  });
+
+  el('cancelBtn').addEventListener('click', () => showList());
+  el('backBtn').addEventListener('click', () => showList());
+
+  el('deleteBtn').addEventListener('click', async () => {
+    const id = el('f_id').value;
+    if (!id) return;
+    if (!confirm('Delete this item? This cannot be undone unless you re-import a JSON backup.')) return;
+    await window.EventsStore.removeEvent(id);
+    toast('Item deleted');
+    showList();
+  });
+
+  // ---------- export / import ----------
+  el('exportBtn').addEventListener('click', () => {
+    window.EventsStore.exportJSON();
+    toast('events.json downloaded — upload it to /data/ on your server to publish');
+  });
+
+  el('importBtn').addEventListener('click', () => el('importFile').click());
+
+  el('importFile').addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      await window.EventsStore.importJSON(file);
+      toast('JSON imported');
+      renderList();
+    } catch (err) {
+      toast('Import failed: ' + err.message, true);
+    }
+    e.target.value = '';
+  });
+
+  // ---------- toast ----------
+  let toastTimer;
+  function toast(msg, err) {
+    const t = el('toast');
+    t.textContent = msg;
+    t.className = 'admin-toast' + (err ? ' err' : ' ok');
+    t.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { t.hidden = true; }, 3500);
+  }
+})();
+</script>
+</body>
+</html>

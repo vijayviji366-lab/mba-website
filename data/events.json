@@ -1,0 +1,2684 @@
+{
+  "version": 2,
+  "updated": "2026-11-17",
+  "source": "Department of Management Studies event register FY 2025-26 and FY 2026-27, plus FDP brochures. Dates checked against the weekday column.",
+  "events": [
+    {
+      "id": "2026-10-17-ai-ml-driven-management",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-10-17",
+      "end": "",
+      "title": "AI/ML-Driven Management",
+      "speakers": "Dr. R. Joseph Manoj, AI Engineer, Hexaware",
+      "note": "",
+      "organisations": [
+        "Hexaware"
+      ],
+      "summary": "Dr. R. Joseph Manoj, AI Engineer, Hexaware",
+      "context": "Hexaware",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-10-10-think-better-be-better",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-10-10",
+      "end": "",
+      "title": "Think Better, Be Better",
+      "speakers": "Mr. Hariharan Sampathkumar, International NLP Master Practitioner",
+      "note": "",
+      "organisations": [],
+      "summary": "Mr. Hariharan Sampathkumar, International NLP Master Practitioner",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-10-10-think-better-be-better/1.jpg",
+          "caption": "",
+          "alt": "Think Better, Be Better: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-26-the-professional-you",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-09-26",
+      "end": "",
+      "title": "The Professional You",
+      "speakers": "Ms. Sreekala R, MD, Vistara CDC",
+      "note": "",
+      "organisations": [
+        "Vistara CDC"
+      ],
+      "summary": "Ms. Sreekala R, MD, Vistara CDC",
+      "context": "Vistara CDC",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-09-26-the-professional-you/1.jpg",
+          "caption": "",
+          "alt": "The Professional You: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-25-business-development-and-the-art-of-building-relationships",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Alumni-referred industry expert talk",
+      "kind": "Alumni-referred industry expert talk",
+      "date": "2026-09-25",
+      "end": "",
+      "title": "Business Development and the Art of Building Relationships",
+      "speakers": "Ms. Priya Dey, Global Business Development consultant",
+      "note": "",
+      "organisations": [],
+      "summary": "Ms. Priya Dey, Global Business Development consultant",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/1.jpg",
+          "caption": "",
+          "alt": "Business Development and the Art of Building Relationships: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-10-drestein-three-day-management-fest",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Management fest",
+      "kind": "Management fest",
+      "date": "2026-09-10",
+      "end": "2026-09-12",
+      "title": "Drestein: three-day management fest",
+      "speakers": "Day 1: Stock Market War Room (Think Like a Fund Manager), Tactix and Biz Vibe business quiz (Syed Mudassar Ahmed). Day 2: Ad Mad Show (Ms. Arabbi Athreya), Business Premier League, The Biz Maestro (Mr. Kulandaivel V, Dy. General Manager, IR & HR Admin., Schwing Stetter (India) Pvt Ltd) and Corporate Walk. Day 3: The Campus Odyssey and Intelligent Business Modelling: Turning Data into Decisions (Mr. Veeramani Krishnamoorthy, Senior Manager, Renault)",
+      "note": "",
+      "organisations": [
+        "Renault",
+        "Schwing Stetter"
+      ],
+      "summary": "Day 1: Stock Market War Room (Think Like a Fund Manager), Tactix and Biz Vibe business quiz (Syed Mudassar Ahmed). Day 2: Ad Mad Show (Ms. Arabbi Athreya), Business Premier League, The Biz Maestro (Mr. Kulandaivel V, Dy. General Manager, IR & HR Admin., Schwing Stetter (India) Pvt Ltd) and Corporate",
+      "context": "Renault, Schwing Stetter",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-09-future-ready-skills",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Orientation · Day 3",
+      "kind": "Orientation",
+      "date": "2026-09-09",
+      "end": "",
+      "title": "Future Ready Skills",
+      "speakers": "Mr. Joshy Thomas, AGM, HR, Hyundai Motor India Ltd.",
+      "note": "",
+      "organisations": [
+        "Hyundai Motor India"
+      ],
+      "summary": "Mr. Joshy Thomas, AGM, HR, Hyundai Motor India Ltd.",
+      "context": "Hyundai Motor India",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-08-tech-trends-shaping-business",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Orientation · Day 2",
+      "kind": "Orientation",
+      "date": "2026-09-08",
+      "end": "",
+      "title": "Tech Trends Shaping Business",
+      "speakers": "Mr. Swaminathan M, Digital Transformation Leader",
+      "note": "",
+      "organisations": [],
+      "summary": "Mr. Swaminathan M, Digital Transformation Leader",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-08-from-pitch-to-portfolio-bridging-the-founder-investor-mindse",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Orientation · Day 2",
+      "kind": "Orientation",
+      "date": "2026-09-08",
+      "end": "",
+      "title": "From Pitch to Portfolio: Bridging the Founder–Investor Mindset",
+      "speakers": "Mr. Aravind Suresh, Managing Partner, Mudhal VC, and Mr. Richie Richard, Co-founder, Meensatti",
+      "note": "",
+      "organisations": [
+        "Mudhal VC",
+        "Meensatti"
+      ],
+      "summary": "Mr. Aravind Suresh, Managing Partner, Mudhal VC, and Mr. Richie Richard, Co-founder, Meensatti",
+      "context": "Mudhal VC, Meensatti",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-07-the-journey-begins-dream-dare-deliver",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Orientation · Day 1",
+      "kind": "Orientation",
+      "date": "2026-09-07",
+      "end": "",
+      "title": "The Journey Begins: Dream, Dare, Deliver",
+      "speakers": "Ms. Ameeta Fernando, Faculty, Loyola Institute of Business Administration (LIBA)",
+      "note": "",
+      "organisations": [],
+      "summary": "Ms. Ameeta Fernando, Faculty, Loyola Institute of Business Administration (LIBA)",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-07-orientation-programme-for-the-incoming-mba-batch",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Orientation",
+      "kind": "Orientation",
+      "date": "2026-09-07",
+      "end": "2026-09-09",
+      "title": "Orientation programme for the incoming MBA batch",
+      "speakers": "Three days of guest lectures from LIBA, Mudhal VC, Meensatti and Hyundai Motor India, listed under Guest lectures",
+      "note": "",
+      "organisations": [],
+      "summary": "Three days of guest lectures from LIBA, Mudhal VC, Meensatti and Hyundai Motor India, listed under Guest lectures",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-09-02-fresher-inauguration",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Inauguration",
+      "kind": "Inauguration",
+      "date": "2026-09-02",
+      "end": "",
+      "title": "Fresher Inauguration",
+      "speakers": "Chief guest: Mr. Hariharan Subramanian, Head HR, India, IRIS KPO Resourcing (I) Pvt. Ltd.",
+      "note": "",
+      "organisations": [
+        "IRIS KPO Resourcing"
+      ],
+      "summary": "Chief guest: Mr. Hariharan Subramanian, Head HR, India, IRIS KPO Resourcing (I) Pvt. Ltd.",
+      "context": "IRIS KPO Resourcing",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-from-campus-to-career-an-alumni-conclave",
+      "type": "event",
+      "category": "conference",
+      "tag": "Alumni conclave · Odd Semester Event Day",
+      "kind": "Alumni conclave",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "From Campus to Career: An Alumni Conclave",
+      "speakers": "Panel: Mr. A. Mohammed Ibrahim (Senior HRBP, Petrofac), Ms. Subitsha Sridharan (HR Associate, LTIMindtree), Mr. Mathew Ajay Lazar M (HR Associate, Deloitte), Mr. Harish G (Sr. Executive HR, Legacy Health)",
+      "note": "",
+      "organisations": [
+        "Petrofac",
+        "LTIMindtree",
+        "Deloitte",
+        "Legacy Health"
+      ],
+      "summary": "Alumni from Petrofac, LTIMindtree, Deloitte and Legacy Health on the move from campus to career.",
+      "context": "Petrofac, LTIMindtree, Deloitte, Legacy Health",
+      "cover": "assets/images/events/alumni-conclave-panel.jpg",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/1.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 1 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/2.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 2 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/3.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 3 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/4.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 4 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/5.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 5 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/6.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 6 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/7.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 7 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/8.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 8 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/9.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 9 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/10.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 10 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/11.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 11 of 12"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/12.jpg",
+          "caption": "",
+          "alt": "From Campus to Career: An Alumni Conclave: photo 12 of 12"
+        }
+      ],
+      "externalUrl": "",
+      "featured": true,
+      "published": true,
+      "coverAlt": "Alumni panel at From Campus to Career, an alumni conclave",
+      "cardTitle": "From Campus to Career"
+    },
+    {
+      "id": "2026-08-29-career-realities-transition-b-school-to-the-field",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "Career Realities & Transition: B-School to the Field",
+      "speakers": "Mr. S. Ramji Krishnan, Assistant General Manager, Government Sales, JK Paper Limited",
+      "note": "",
+      "organisations": [
+        "JK Paper"
+      ],
+      "summary": "Mr. S. Ramji Krishnan, Assistant General Manager, Government Sales, JK Paper Limited",
+      "context": "JK Paper",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-career-realities-transition-b/1.jpg",
+          "caption": "",
+          "alt": "Career Realities & Transition: B-School to the Field: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-entrepreneurship-why-and-how",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "Entrepreneurship: Why and How?",
+      "speakers": "Mr. Dinesh Mahendran Babu, Growth Enablers",
+      "note": "",
+      "organisations": [
+        "Growth Enablers"
+      ],
+      "summary": "Mr. Dinesh Mahendran Babu, Growth Enablers",
+      "context": "Growth Enablers",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-entrepreneurship-why-and-how/1.jpg",
+          "caption": "",
+          "alt": "Entrepreneurship: Why and How?: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-building-your-analytics-career",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "Building Your Analytics Career",
+      "speakers": "Ms. Priyadharshini S, Data and System Expert, Vestas",
+      "note": "",
+      "organisations": [
+        "Vestas"
+      ],
+      "summary": "Ms. Priyadharshini S, Data and System Expert, Vestas",
+      "context": "Vestas",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-building-your-analytics-caree/1.jpg",
+          "caption": "",
+          "alt": "Building Your Analytics Career: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-entrepreneurship-a-career-beyond-employment",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "Entrepreneurship: A Career Beyond Employment",
+      "speakers": "Mr. Vignesh Thanaselvan, Founder and President, Thamizhar Micro Enterprises Development Association (TAMEDA)",
+      "note": "",
+      "organisations": [
+        "TAMEDA"
+      ],
+      "summary": "Mr. Vignesh Thanaselvan, Founder and President, Thamizhar Micro Enterprises Development Association (TAMEDA)",
+      "context": "TAMEDA",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-entrepreneurship-a-career-bey/1.jpg",
+          "caption": "",
+          "alt": "Entrepreneurship: A Career Beyond Employment: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-the-new-rules-of-hiring-what-recruiters-look-for-today",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "The New Rules of Hiring: What Recruiters Look for Today",
+      "speakers": "Ms. Mahalakshmi R, HRBP, Renault Nissan Technology and Business Centre",
+      "note": "",
+      "organisations": [
+        "Renault"
+      ],
+      "summary": "Ms. Mahalakshmi R, HRBP, Renault Nissan Technology and Business Centre",
+      "context": "Renault",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-the-new-rules-of-hiring-what/1.jpg",
+          "caption": "",
+          "alt": "The New Rules of Hiring: What Recruiters Look for Today: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-beyond-the-degree-building-a-career-ready-professional",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "Beyond the Degree: Building a Career-Ready Professional",
+      "speakers": "Mr. Nithyanandhan S, India CSR Lead, FS, Capgemini",
+      "note": "",
+      "organisations": [
+        "Capgemini"
+      ],
+      "summary": "Mr. Nithyanandhan S, India CSR Lead, FS, Capgemini",
+      "context": "Capgemini",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-beyond-the-degree-building-a/1.jpg",
+          "caption": "",
+          "alt": "Beyond the Degree: Building a Career-Ready Professional: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-go-to-market-strategy",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "Go-to-Market Strategy",
+      "speakers": "Mr. Govinda Biswas, Senior Brand Manager, TTK Healthcare Limited",
+      "note": "",
+      "organisations": [
+        "TTK Healthcare"
+      ],
+      "summary": "Mr. Govinda Biswas, Senior Brand Manager, TTK Healthcare Limited",
+      "context": "TTK Healthcare",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-go-to-market-strategy/1.jpg",
+          "caption": "",
+          "alt": "Go-to-Market Strategy: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-the-unwritten-rules-of-success-from-campus-to-corporate",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "The Unwritten Rules of Success: From Campus to Corporate",
+      "speakers": "Ms. Ananditha S, Accenture",
+      "note": "",
+      "organisations": [
+        "Accenture"
+      ],
+      "summary": "Ms. Ananditha S, Accenture",
+      "context": "Accenture",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-the-unwritten-rules-of-succes/1.jpg",
+          "caption": "",
+          "alt": "The Unwritten Rules of Success: From Campus to Corporate: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-29-from-idea-to-enterprise-lessons-from-building-a-business-fro",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day",
+      "kind": "Seminar",
+      "date": "2026-08-29",
+      "end": "",
+      "title": "From Idea to Enterprise: Lessons from Building a Business from Scratch",
+      "speakers": "Mr. Nilesh Kumar, Co-founder and Head of Academics, Wisdom Academy",
+      "note": "",
+      "organisations": [
+        "Wisdom Academy"
+      ],
+      "summary": "Mr. Nilesh Kumar, Co-founder and Head of Academics, Wisdom Academy",
+      "context": "Wisdom Academy",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-29-from-idea-to-enterprise-lesso/1.jpg",
+          "caption": "",
+          "alt": "From Idea to Enterprise: Lessons from Building a Business from Scratch: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-22-hire-corporate-mock-interview-challenge",
+      "type": "event",
+      "category": "workshop",
+      "tag": "Placement training",
+      "kind": "Placement training",
+      "date": "2026-08-22",
+      "end": "",
+      "title": "HIRE Corporate Mock Interview Challenge",
+      "speakers": "Twenty interviewers from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
+      "note": "",
+      "organisations": [],
+      "summary": "Twenty interviewers from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/1.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 1 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/2.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 2 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/3.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 3 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/4.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 4 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/5.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 5 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/6.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 6 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/7.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 7 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/8.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 8 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/9.jpg",
+          "caption": "",
+          "alt": "HIRE Corporate Mock Interview Challenge: photo 9 of 9"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-22-decoding-the-modern-supply-chain-trends-challenges-strategie",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Business Talk Series",
+      "kind": "Business Talk Series",
+      "date": "2026-08-22",
+      "end": "",
+      "title": "Decoding the Modern Supply Chain: Trends, Challenges & Strategies",
+      "speakers": "Mr. Surya Kiran Ravoory, General Manager, Procurement & SCMP, Murugappa Morgan Thermal Ceramics Ltd",
+      "note": "",
+      "organisations": [
+        "Murugappa Morgan Thermal Ceramics"
+      ],
+      "summary": "Mr. Surya Kiran Ravoory, General Manager, Procurement & SCMP, Murugappa Morgan Thermal Ceramics Ltd",
+      "context": "Murugappa Morgan Thermal Ceramics",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-22-decoding-the-modern-supply-ch/1.jpg",
+          "caption": "",
+          "alt": "Decoding the Modern Supply Chain: Trends, Challenges & Strategies: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-12-awareness-is-the-first-line-of-defence-against-fraud",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Alumni talk",
+      "kind": "Alumni talk",
+      "date": "2026-08-12",
+      "end": "",
+      "title": "Awareness is the First Line of Defence against Fraud",
+      "speakers": "Mrs. Sudha Hari Priya, Deputy Vice President, and Mr. Karthikeyan S (alumnus, 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.",
+      "note": "",
+      "organisations": [
+        "HDFC Bank"
+      ],
+      "summary": "Mrs. Sudha Hari Priya, Deputy Vice President, and Mr. Karthikeyan S (alumnus, 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.",
+      "context": "HDFC Bank",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/1.jpg",
+          "caption": "",
+          "alt": "Awareness is the First Line of Defence against Fraud: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-10-beyond-the-mba-turning-your-degree-into-direction",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Alumni talk",
+      "kind": "Alumni talk",
+      "date": "2026-08-10",
+      "end": "",
+      "title": "Beyond the MBA: Turning Your Degree into Direction",
+      "speakers": "Ms. Swarna Shreya, SEC alumna (B.E. 2016–2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
+      "note": "",
+      "organisations": [],
+      "summary": "Ms. Swarna Shreya, SEC alumna (B.E. 2016–2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/1.jpg",
+          "caption": "",
+          "alt": "Beyond the MBA: Turning Your Degree into Direction: photo 1 of 5"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/2.jpg",
+          "caption": "",
+          "alt": "Beyond the MBA: Turning Your Degree into Direction: photo 2 of 5"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/3.jpg",
+          "caption": "",
+          "alt": "Beyond the MBA: Turning Your Degree into Direction: photo 3 of 5"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/4.jpg",
+          "caption": "",
+          "alt": "Beyond the MBA: Turning Your Degree into Direction: photo 4 of 5"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/5.jpg",
+          "caption": "",
+          "alt": "Beyond the MBA: Turning Your Degree into Direction: photo 5 of 5"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-01-hr-leaders-conference-leadership-starts-early-developing-the",
+      "type": "event",
+      "category": "conference",
+      "tag": "HR conclave",
+      "kind": "HR conclave",
+      "date": "2026-08-01",
+      "end": "",
+      "title": "HR Leaders Conference: “Leadership Starts Early: Developing the Mindset for Success”",
+      "speakers": "Moderator: Mr. Suresh Aade (Head HR, Foodhub). Panellists: Ms. Gowthami T (Senior HR Manager, 4i Apps Solutions), Ms. Pramila Chinappa (Vice President HR, DataTracks), Mr. Baranitharan Krishnamoorthy (Director HR, Celcom Solutions Global), Mr. Vinod Pushppan (VP & Head HR, Centaur Billing)",
+      "note": "",
+      "organisations": [
+        "Foodhub",
+        "4i Apps Solutions",
+        "DataTracks",
+        "Celcom Solutions Global",
+        "Centaur Billing"
+      ],
+      "summary": "Moderator: Mr. Suresh Aade (Head HR, Foodhub). Panellists: Ms. Gowthami T (Senior HR Manager, 4i Apps Solutions), Ms. Pramila Chinappa (Vice President HR, DataTracks), Mr. Baranitharan Krishnamoorthy (Director HR, Celcom Solutions Global), Mr. Vinod Pushppan (VP & Head HR, Centaur Billing)",
+      "context": "Foodhub, 4i Apps Solutions, DataTracks, Celcom Solutions Global, Centaur Billing",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-01-hr-leaders-conference-leaders/1.jpg",
+          "caption": "",
+          "alt": "HR Leaders Conference: “Leadership Starts Early: Developing the Mindset for Success”: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-07-11-publishing-in-high-quality-marketing-journals-the-path-s-to-",
+      "type": "event",
+      "category": "fdp",
+      "tag": "FDP",
+      "kind": "FDP",
+      "date": "2026-07-11",
+      "end": "",
+      "title": "Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance",
+      "speakers": "Prof. Babu (Lourduraj) John-Mariadoss, J.B. Hoskins Professor of Marketing, Rawls College of Business, Texas Tech University",
+      "note": "",
+      "organisations": [],
+      "summary": "An FDP led by Prof. Babu John-Mariadoss of Rawls College of Business, Texas Tech University.",
+      "context": "",
+      "cover": "assets/images/events/event-fdp.jpg",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-07-11-publishing-in-high-quality-ma/1.jpg",
+          "caption": "",
+          "alt": "Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-07-11-publishing-in-high-quality-ma/2.jpg",
+          "caption": "",
+          "alt": "Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-07-11-publishing-in-high-quality-ma/3.jpg",
+          "caption": "",
+          "alt": "Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": true,
+      "published": true,
+      "coverAlt": "Faculty Development Programme participants with the resource person",
+      "cardTitle": "Publishing in high-quality marketing journals"
+    },
+    {
+      "id": "2026-05-15-icepbm-2026-2nd-international-conference-on-emerging-practic",
+      "type": "event",
+      "category": "conference",
+      "tag": "International conference · Hybrid mode",
+      "kind": "International conference",
+      "date": "2026-05-15",
+      "end": "2026-05-16",
+      "title": "ICEPBM 2026: 2nd International Conference on Emerging Practices in Business and Management",
+      "speakers": "Inaugural chief guest: Mr. Racha Aribarg, Consul General of the Royal Kingdom of Thailand, Chennai; guest of honour: Dr. M. Ramasubramaniam, Professor, LIBA. Valedictory: Dr. N. Vivek, Professor, Great Lakes Institute of Management",
+      "note": "Held in the Majestorium Hall. Associated organisations on the invitation: BSmart (Business Standard), Analytics Society of India, Madras Management Association and NISM.",
+      "organisations": [],
+      "summary": "The department’s 2nd International Conference on Emerging Practices in Business and Management, held in hybrid mode.",
+      "context": "",
+      "cover": "assets/images/events/event-icepbm-poster.jpg",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-05-15-icepbm-2026-2nd-international/1.jpg",
+          "caption": "",
+          "alt": "ICEPBM 2026: 2nd International Conference on Emerging Practices in Business and Management: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": true,
+      "published": true,
+      "coverPoster": true,
+      "coverAlt": "ICEPBM 2026 international conference poster",
+      "cardTitle": "ICEPBM 2026"
+    },
+    {
+      "id": "2026-05-09-future-of-work-hr-perspectives-on-industry-5-0",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-05-09",
+      "end": "",
+      "title": "Future of Work: HR Perspectives on Industry 5.0",
+      "speakers": "Ms. Mahalakshmi R, HRBP, Renault",
+      "note": "",
+      "organisations": [
+        "Renault"
+      ],
+      "summary": "Ms. Mahalakshmi R, HRBP, Renault",
+      "context": "Renault",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-05-09-future-of-work-hr-perspective/1.jpg",
+          "caption": "",
+          "alt": "Future of Work: HR Perspectives on Industry 5.0: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-05-09-people-s-circle-inauguration-of-the-hr-club",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Club inauguration",
+      "kind": "Club inauguration",
+      "date": "2026-05-09",
+      "end": "",
+      "title": "People’s Circle: inauguration of the HR Club",
+      "speakers": "Mr. D. Jaishankar, Assistant General Manager, HR, TCS",
+      "note": "",
+      "organisations": [
+        "TCS"
+      ],
+      "summary": "Mr. D. Jaishankar, Assistant General Manager, HR, TCS",
+      "context": "TCS",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-05-09-people-s-circle-inauguration/1.jpg",
+          "caption": "",
+          "alt": "People’s Circle: inauguration of the HR Club: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-04-18-what-to-expect-outside-mba",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-04-18",
+      "end": "",
+      "title": "What to Expect Outside MBA",
+      "speakers": "Mr. Deepak Krishna, Functional Consultant, Deloitte",
+      "note": "",
+      "organisations": [
+        "Deloitte"
+      ],
+      "summary": "Mr. Deepak Krishna, Functional Consultant, Deloitte",
+      "context": "Deloitte",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-04-18-what-to-expect-outside-mba/1.jpg",
+          "caption": "",
+          "alt": "What to Expect Outside MBA: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-04-18-integrating-finance-operations-language-skills-in-the-real-w",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-04-18",
+      "end": "",
+      "title": "Integrating Finance, Operations & Language Skills in the Real World",
+      "speakers": "Mr. Kiran Kumar Y S, Senior Financial Analyst, RR Donnelley",
+      "note": "",
+      "organisations": [
+        "RR Donnelley"
+      ],
+      "summary": "Mr. Kiran Kumar Y S, Senior Financial Analyst, RR Donnelley",
+      "context": "RR Donnelley",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/1.jpg",
+          "caption": "",
+          "alt": "Integrating Finance, Operations & Language Skills in the Real World: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-04-11-from-attention-to-obsession-building-high-converting-emotion",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-04-11",
+      "end": "",
+      "title": "From Attention to Obsession: Building High-Converting Emotional Marketing Funnels",
+      "speakers": "Mr. Nissy Prudhvi Raj, Founder & CEO, Optimex",
+      "note": "",
+      "organisations": [
+        "Optimex"
+      ],
+      "summary": "Mr. Nissy Prudhvi Raj, Founder & CEO, Optimex",
+      "context": "Optimex",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-04-11-from-attention-to-obsession-b/1.jpg",
+          "caption": "",
+          "alt": "From Attention to Obsession: Building High-Converting Emotional Marketing Funnels: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-04-04-clarity-communication-grit-what-actually-builds-a-career",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-04-04",
+      "end": "",
+      "title": "Clarity, Communication, Grit: What Actually Builds a Career",
+      "speakers": "Ms. Ramya Krishnaraj, Advocate and POSH Consultant",
+      "note": "",
+      "organisations": [],
+      "summary": "Ms. Ramya Krishnaraj, Advocate and POSH Consultant",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-04-04-clarity-communication-grit-wh/1.jpg",
+          "caption": "",
+          "alt": "Clarity, Communication, Grit: What Actually Builds a Career: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-03-28-balance-to-lead-mental-well-being-in-mba-life",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-03-28",
+      "end": "",
+      "title": "Balance to Lead: Mental Well-being in MBA Life",
+      "speakers": "Ms. Ankita Choudhury, Senior Psychologist, Maritime Mental Health",
+      "note": "",
+      "organisations": [
+        "Maritime Mental Health"
+      ],
+      "summary": "Ms. Ankita Choudhury, Senior Psychologist, Maritime Mental Health",
+      "context": "Maritime Mental Health",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-03-28-balance-to-lead-mental-well-b/1.jpg",
+          "caption": "",
+          "alt": "Balance to Lead: Mental Well-being in MBA Life: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-transformational-leadership-in-organisational-behaviour",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Transformational Leadership in Organisational Behaviour",
+      "speakers": "Ms. Nithy K and Mrs. Sangeetha, Co-founders, Reboot",
+      "note": "",
+      "organisations": [
+        "Reboot"
+      ],
+      "summary": "Ms. Nithy K and Mrs. Sangeetha, Co-founders, Reboot",
+      "context": "Reboot",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-transformational-leadership-i/1.jpg",
+          "caption": "",
+          "alt": "Transformational Leadership in Organisational Behaviour: photo 1 of 2"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-transformational-leadership-i/2.jpg",
+          "caption": "",
+          "alt": "Transformational Leadership in Organisational Behaviour: photo 2 of 2"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-mental-health-awareness-and-intervention-strategies",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Mental Health Awareness and Intervention Strategies",
+      "speakers": "Mr. Shiv Ganesh Kumar, Training Director",
+      "note": "",
+      "organisations": [],
+      "summary": "Mr. Shiv Ganesh Kumar, Training Director",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/1.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 1 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/2.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 2 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/3.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 3 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/4.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 4 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/5.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 5 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/6.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 6 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/7.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 7 of 8"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/8.jpg",
+          "caption": "",
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 8 of 8"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-harnessing-emerging-technologies-for-assessing-climate-risk-",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Harnessing Emerging Technologies for Assessing Climate Risk and Enabling Sustainable Finance",
+      "speakers": "Mr. Aravind, Founder & Principal, Cygnus Consultancy Services",
+      "note": "",
+      "organisations": [
+        "Cygnus Consultancy Services"
+      ],
+      "summary": "Mr. Aravind, Founder & Principal, Cygnus Consultancy Services",
+      "context": "Cygnus Consultancy Services",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-harnessing-emerging-technolog/1.jpg",
+          "caption": "",
+          "alt": "Harnessing Emerging Technologies for Assessing Climate Risk and Enabling Sustainable Finance: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-organoid-artificial-intelligence",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Organoid Artificial Intelligence",
+      "speakers": "Mr. Pradeep Ramesh PR, Founder",
+      "note": "",
+      "organisations": [],
+      "summary": "Mr. Pradeep Ramesh PR, Founder",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-organoid-artificial-intellige/1.jpg",
+          "caption": "",
+          "alt": "Organoid Artificial Intelligence: photo 1 of 2"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-organoid-artificial-intellige/2.jpg",
+          "caption": "",
+          "alt": "Organoid Artificial Intelligence: photo 2 of 2"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-future-of-work-2026-skills-that-will-make-graduates-unstoppa",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Future of Work 2026: Skills That Will Make Graduates Unstoppable",
+      "speakers": "Mr. Karthick Ravichandran, Talent Manager, TESA",
+      "note": "",
+      "organisations": [
+        "TESA"
+      ],
+      "summary": "Mr. Karthick Ravichandran, Talent Manager, TESA",
+      "context": "TESA",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-future-of-work-2026-skills-th/1.jpg",
+          "caption": "",
+          "alt": "Future of Work 2026: Skills That Will Make Graduates Unstoppable: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-learning-and-development-in-the-age-of-continuous-reinventio",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Learning and Development in the Age of Continuous Reinvention",
+      "speakers": "Mr. Saikat Roy, Digital HR PMO, Renault Technology Business Centre",
+      "note": "",
+      "organisations": [
+        "Renault"
+      ],
+      "summary": "Mr. Saikat Roy, Digital HR PMO, Renault Technology Business Centre",
+      "context": "Renault",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-learning-and-development-in-t/1.jpg",
+          "caption": "",
+          "alt": "Learning and Development in the Age of Continuous Reinvention: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-hire-me-mindset-from-job-seeker-to-value-creator",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Hire Me Mindset: From Job Seeker to Value Creator",
+      "speakers": "Ms. Anne Adhreen S, Founder, Terese Spoken English",
+      "note": "",
+      "organisations": [
+        "Terese Spoken English"
+      ],
+      "summary": "Ms. Anne Adhreen S, Founder, Terese Spoken English",
+      "context": "Terese Spoken English",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-28-hire-me-mindset-from-job-seek/1.jpg",
+          "caption": "",
+          "alt": "Hire Me Mindset: From Job Seeker to Value Creator: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-hire-me-mindset-from-job-seek/2.jpg",
+          "caption": "",
+          "alt": "Hire Me Mindset: From Job Seeker to Value Creator: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-28-hire-me-mindset-from-job-seek/3.jpg",
+          "caption": "",
+          "alt": "Hire Me Mindset: From Job Seeker to Value Creator: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-28-build-your-financial-character-early",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-28",
+      "end": "",
+      "title": "Build Your Financial Character Early",
+      "speakers": "Mr. Ravindran Krishnan, Associate Financial Planner, FPSB",
+      "note": "",
+      "organisations": [
+        "FPSB"
+      ],
+      "summary": "Mr. Ravindran Krishnan, Associate Financial Planner, FPSB",
+      "context": "FPSB",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-23-reimagining-hr-for-the-future-of-work-technology-talent-and-",
+      "type": "event",
+      "category": "fdp",
+      "tag": "Five-day virtual FDP",
+      "kind": "Five-day virtual FDP",
+      "date": "2026-02-23",
+      "end": "2026-02-27",
+      "title": "Reimagining HR for the Future of Work: Technology, Talent and the Human Advantage",
+      "speakers": "Prof. Sri Kandiah (Southampton Business School, University of Southampton), Mr. Srinivasan N (Chief People Officer, Unico Housing Finance), Mr. Vimalesh C R (Executive Director, Sharaf Strategy Consultants), Ms. Dolly Nemii Mittal (Head, Diversity, Tata Consultancy Services), Mr. Devendra Kumar (Head, Retail, Kaleesuwari Refinery)",
+      "note": "",
+      "organisations": [
+        "TCS"
+      ],
+      "summary": "Prof. Sri Kandiah (Southampton Business School, University of Southampton), Mr. Srinivasan N (Chief People Officer, Unico Housing Finance), Mr. Vimalesh C R (Executive Director, Sharaf Strategy Consultants), Ms. Dolly Nemii Mittal (Head, Diversity, Tata Consultancy Services), Mr. Devendra Kumar (Hea",
+      "context": "TCS",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-23-reimagining-hr-for-the-future/1.jpg",
+          "caption": "",
+          "alt": "Reimagining HR for the Future of Work: Technology, Talent and the Human Advantage: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-21-career-readiness-programme",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-21",
+      "end": "",
+      "title": "Career Readiness Programme",
+      "speakers": "Mr. Manikandan A, Lead BPHR, Infosys",
+      "note": "",
+      "organisations": [
+        "Infosys"
+      ],
+      "summary": "Mr. Manikandan A, Lead BPHR, Infosys",
+      "context": "Infosys",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-21-career-readiness-programme/1.jpg",
+          "caption": "",
+          "alt": "Career Readiness Programme: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-21-prospects-in-capital-markets-with-nism-certification",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Webinar",
+      "kind": "Webinar",
+      "date": "2026-02-21",
+      "end": "",
+      "title": "Prospects in Capital Markets with NISM Certification",
+      "speakers": "Mr. Subhayu Das, Assistant General Manager, NISM",
+      "note": "",
+      "organisations": [
+        "NISM"
+      ],
+      "summary": "Mr. Subhayu Das, Assistant General Manager, NISM",
+      "context": "NISM",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-21-prospects-in-capital-markets/1.jpg",
+          "caption": "",
+          "alt": "Prospects in Capital Markets with NISM Certification: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-21-life-after-college",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Alumni talk",
+      "kind": "Alumni talk",
+      "date": "2026-02-21",
+      "end": "",
+      "title": "Life After College",
+      "speakers": "Ms. Mahashree K, SAP Techno-Functional Analyst, Nippon Paints Pvt Ltd",
+      "note": "",
+      "organisations": [
+        "Nippon Paint"
+      ],
+      "summary": "Ms. Mahashree K, SAP Techno-Functional Analyst, Nippon Paints Pvt Ltd",
+      "context": "Nippon Paint",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-21-life-after-college/1.jpg",
+          "caption": "",
+          "alt": "Life After College: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-14-unpacking-budget-2026-insights-for-management-graduates",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-02-14",
+      "end": "",
+      "title": "Unpacking Budget 2026: Insights for Management Graduates",
+      "speakers": "Mr. T. Margabandhu, Founder & Promoter, and Mr. D. Saravanan, Certified Financial Planner, GoStocks Financial Service Pvt Ltd",
+      "note": "",
+      "organisations": [
+        "GoStocks Financial Service"
+      ],
+      "summary": "Mr. T. Margabandhu, Founder & Promoter, and Mr. D. Saravanan, Certified Financial Planner, GoStocks Financial Service Pvt Ltd",
+      "context": "GoStocks Financial Service",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-14-unpacking-budget-2026-insight/1.jpg",
+          "caption": "",
+          "alt": "Unpacking Budget 2026: Insights for Management Graduates: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-09-generative-ai-for-academic-excellence-innovations-in-teachin",
+      "type": "event",
+      "category": "fdp",
+      "tag": "Online FDP",
+      "kind": "Online FDP",
+      "date": "2026-02-09",
+      "end": "2026-02-13",
+      "title": "Generative AI for Academic Excellence: Innovations in Teaching & Research",
+      "speakers": "Convener: Dr. S. Vasantha; co-convener: Dr. Seema Balan",
+      "note": "",
+      "organisations": [],
+      "summary": "Convener: Dr. S. Vasantha; co-convener: Dr. Seema Balan",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-07-budget-2026-pro-business-or-pro-people",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Business Talk Series",
+      "kind": "Business Talk Series",
+      "date": "2026-02-07",
+      "end": "",
+      "title": "Budget 2026: Pro-Business or Pro-People?",
+      "speakers": "Mr. R. Suresh, Vice President, Regional Head, Bajaj Broking Ltd",
+      "note": "",
+      "organisations": [
+        "Bajaj Broking"
+      ],
+      "summary": "Mr. R. Suresh, Vice President, Regional Head, Bajaj Broking Ltd",
+      "context": "Bajaj Broking",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-07-budget-2026-pro-business-or-p/1.jpg",
+          "caption": "",
+          "alt": "Budget 2026: Pro-Business or Pro-People?: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-02-07-campus-to-career-crafting-your-pathway-to-success",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Alumni talk",
+      "kind": "Alumni talk",
+      "date": "2026-02-07",
+      "end": "",
+      "title": "Campus to Career: Crafting Your Pathway to Success",
+      "speakers": "Ms. V. Keerthana, Associate (Reconciliation), State Street",
+      "note": "",
+      "organisations": [
+        "State Street"
+      ],
+      "summary": "Ms. V. Keerthana, Associate (Reconciliation), State Street",
+      "context": "State Street",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/1.jpg",
+          "caption": "",
+          "alt": "Campus to Career: Crafting Your Pathway to Success: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-11-29-xr-technologies-for-manufacturing-institutions-and-the-legal",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2025-11-29",
+      "end": "",
+      "title": "XR Technologies for Manufacturing Institutions and the Legal Components Ensuring Workplace Safety",
+      "speakers": "Mr. Hemachandran Sethu, Business Director, Eternal Sienergy",
+      "note": "",
+      "organisations": [
+        "Eternal Sienergy"
+      ],
+      "summary": "Mr. Hemachandran Sethu, Business Director, Eternal Sienergy",
+      "context": "Eternal Sienergy",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-11-29-xr-technologies-for-manufactu/1.jpg",
+          "caption": "",
+          "alt": "XR Technologies for Manufacturing Institutions and the Legal Components Ensuring Workplace Safety: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-11-29-xr-technologies-for-manufactu/2.jpg",
+          "caption": "",
+          "alt": "XR Technologies for Manufacturing Institutions and the Legal Components Ensuring Workplace Safety: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-11-29-xr-technologies-for-manufactu/3.jpg",
+          "caption": "",
+          "alt": "XR Technologies for Manufacturing Institutions and the Legal Components Ensuring Workplace Safety: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-11-28-inauguration-of-the-bsmart-club-2025-26",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Club inauguration",
+      "kind": "Club inauguration",
+      "date": "2025-11-28",
+      "end": "",
+      "title": "Inauguration of the BSmart Club 2025–26",
+      "speakers": "Mr. S. Jayaraam, Deputy General Manager, Market Development (South and East), Business Standard",
+      "note": "",
+      "organisations": [
+        "Business Standard"
+      ],
+      "summary": "Mr. S. Jayaraam, Deputy General Manager, Market Development (South and East), Business Standard",
+      "context": "Business Standard",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-11-28-inauguration-of-the-bsmart-cl/1.jpg",
+          "caption": "",
+          "alt": "Inauguration of the BSmart Club 2025–26: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-11-03-drestien-25-six-day-management-fest",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Management fest",
+      "kind": "Management fest",
+      "date": "2025-11-03",
+      "end": "2025-11-08",
+      "title": "DRESTIEN ’25: six-day management fest",
+      "speakers": "Design Thinking Workshop (3 Nov), Business Movie Screening (4 Nov), Business Premier League (5 Nov), Stock Market Workshop (6 Nov), Best Manager & Management Games Marathon (7 Nov), Corporate Walk & Shark Tank (8 Nov)",
+      "note": "",
+      "organisations": [],
+      "summary": "Six days of design thinking, the Business Premier League, a stock-market workshop and Shark Tank.",
+      "context": "",
+      "cover": "assets/images/events/event-drestin.jpg",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-11-03-drestien-25-six-day-managemen/1.jpg",
+          "caption": "",
+          "alt": "DRESTIEN ’25: six-day management fest: photo 1 of 2"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-11-03-drestien-25-six-day-managemen/2.jpg",
+          "caption": "",
+          "alt": "DRESTIEN ’25: six-day management fest: photo 2 of 2"
+        }
+      ],
+      "externalUrl": "",
+      "featured": true,
+      "published": true,
+      "coverAlt": "Students on stage at DRESTIEN '25",
+      "cardTitle": "DRESTIEN ’25"
+    },
+    {
+      "id": "2025-10-29-vigilance-awareness-week-vigilance-our-shared-responsibility",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Awareness week",
+      "kind": "Awareness week",
+      "date": "2025-10-29",
+      "end": "",
+      "title": "Vigilance Awareness Week: Vigilance, Our Shared Responsibility",
+      "speakers": "Mr. S. Kannappan, Sr. Manager, Vigilance",
+      "note": "",
+      "organisations": [],
+      "summary": "Mr. S. Kannappan, Sr. Manager, Vigilance",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-25-college-to-corporate-success-a-marketer-s-story",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Business Talk Series",
+      "kind": "Business Talk Series",
+      "date": "2025-10-25",
+      "end": "",
+      "title": "College to Corporate Success: A Marketer’s Story",
+      "speakers": "Mr. K. S. Rajasekar, Director, Marketing, Lister Ventures",
+      "note": "",
+      "organisations": [
+        "Lister Ventures"
+      ],
+      "summary": "Mr. K. S. Rajasekar, Director, Marketing, Lister Ventures",
+      "context": "Lister Ventures",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-25-college-to-corporate-success/1.jpg",
+          "caption": "",
+          "alt": "College to Corporate Success: A Marketer’s Story: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-10-25-college-to-corporate-success/2.jpg",
+          "caption": "",
+          "alt": "College to Corporate Success: A Marketer’s Story: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-10-25-college-to-corporate-success/3.jpg",
+          "caption": "",
+          "alt": "College to Corporate Success: A Marketer’s Story: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-11-the-power-of-early-investing-mutual-funds-for-youth",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day 2",
+      "kind": "Seminar",
+      "date": "2025-10-11",
+      "end": "",
+      "title": "The Power of Early Investing: Mutual Funds for Youth",
+      "speakers": "Mr. Mohan Kumar, SEBI Research Analyst; CEO, Finchatss",
+      "note": "",
+      "organisations": [
+        "Finchatss"
+      ],
+      "summary": "Mr. Mohan Kumar, SEBI Research Analyst; CEO, Finchatss",
+      "context": "Finchatss",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-11-the-power-of-early-investing/1.jpg",
+          "caption": "",
+          "alt": "The Power of Early Investing: Mutual Funds for Youth: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-11-marketing-in-motion-what-it-takes-to-build-brands",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day 2",
+      "kind": "Seminar",
+      "date": "2025-10-11",
+      "end": "",
+      "title": "Marketing in Motion: What It Takes to Build Brands",
+      "speakers": "Ms. Iswarya Sekaran, Marketing & Strategy Specialist, YBE",
+      "note": "",
+      "organisations": [
+        "YBE"
+      ],
+      "summary": "Ms. Iswarya Sekaran, Marketing & Strategy Specialist, YBE",
+      "context": "YBE",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-11-marketing-in-motion-what-it-t/1.jpg",
+          "caption": "",
+          "alt": "Marketing in Motion: What It Takes to Build Brands: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-11-from-campus-to-corner-office-strategies-to-kickstart-a-dynam",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day 2",
+      "kind": "Seminar",
+      "date": "2025-10-11",
+      "end": "",
+      "title": "From Campus to Corner Office: Strategies to Kickstart a Dynamic Career Journey",
+      "speakers": "Mr. Dilipraj G, Life Skills Trainer, Institute of CavinKare",
+      "note": "",
+      "organisations": [
+        "CavinKare"
+      ],
+      "summary": "Mr. Dilipraj G, Life Skills Trainer, Institute of CavinKare",
+      "context": "CavinKare",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-11-from-campus-to-corner-office/1.jpg",
+          "caption": "",
+          "alt": "From Campus to Corner Office: Strategies to Kickstart a Dynamic Career Journey: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-11-mindful-leadership-sustaining-people-and-performance",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day 2",
+      "kind": "Seminar",
+      "date": "2025-10-11",
+      "end": "",
+      "title": "Mindful Leadership: Sustaining People and Performance",
+      "speakers": "Ms. Chaitanya Bai Mohithee, Community Manager, Building Construction Media Company (BCMC)",
+      "note": "",
+      "organisations": [
+        "BCMC"
+      ],
+      "summary": "Ms. Chaitanya Bai Mohithee, Community Manager, Building Construction Media Company (BCMC)",
+      "context": "BCMC",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-11-mindful-leadership-sustaining/1.jpg",
+          "caption": "",
+          "alt": "Mindful Leadership: Sustaining People and Performance: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-11-pulse-of-the-future-youth-tech-the-new-era-of-well-being",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day 2",
+      "kind": "Seminar",
+      "date": "2025-10-11",
+      "end": "",
+      "title": "Pulse of the Future: Youth, Tech & the New Era of Well-being",
+      "speakers": "Dr. V. K. Jayakaran, Consultant Dental Surgeon, Dencity Dental Hospital",
+      "note": "",
+      "organisations": [
+        "Dencity Dental Hospital"
+      ],
+      "summary": "Dr. V. K. Jayakaran, Consultant Dental Surgeon, Dencity Dental Hospital",
+      "context": "Dencity Dental Hospital",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-11-pulse-of-the-future-youth-tec/1.jpg",
+          "caption": "",
+          "alt": "Pulse of the Future: Youth, Tech & the New Era of Well-being: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-07-how-to-crack-an-interview",
+      "type": "event",
+      "category": "workshop",
+      "tag": "Workshop",
+      "kind": "Workshop",
+      "date": "2025-10-07",
+      "end": "",
+      "title": "How to Crack an Interview",
+      "speakers": "Mr. Karthik Purushothaman, Associate Vice President, Delivery, CitiusTech",
+      "note": "",
+      "organisations": [
+        "CitiusTech"
+      ],
+      "summary": "Mr. Karthik Purushothaman, Associate Vice President, Delivery, CitiusTech",
+      "context": "CitiusTech",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-07-how-to-crack-an-interview/1.jpg",
+          "caption": "",
+          "alt": "How to Crack an Interview: photo 1 of 4"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-10-07-how-to-crack-an-interview/2.jpg",
+          "caption": "",
+          "alt": "How to Crack an Interview: photo 2 of 4"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-10-07-how-to-crack-an-interview/3.jpg",
+          "caption": "",
+          "alt": "How to Crack an Interview: photo 3 of 4"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-10-07-how-to-crack-an-interview/4.jpg",
+          "caption": "",
+          "alt": "How to Crack an Interview: photo 4 of 4"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-10-03-applying-research-methods-to-real-world-problems",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2025-10-03",
+      "end": "",
+      "title": "Applying Research Methods to Real-World Problems",
+      "speakers": "Dr. R. Franklin Issac, Assistant Professor, Research Department, Saveetha Engineering College",
+      "note": "",
+      "organisations": [],
+      "summary": "Dr. R. Franklin Issac, Assistant Professor, Research Department, Saveetha Engineering College",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-10-03-applying-research-methods-to/1.jpg",
+          "caption": "",
+          "alt": "Applying Research Methods to Real-World Problems: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-09-30-equity-derivatives-trading-strategies-using-nsmart",
+      "type": "event",
+      "category": "workshop",
+      "tag": "Workshop",
+      "kind": "Workshop",
+      "date": "2025-09-30",
+      "end": "",
+      "title": "Equity & Derivatives Trading Strategies Using Nsmart",
+      "speakers": "Mr. E. Nehruji, empanelled trainer with NSE Academy · FinTech Lab",
+      "note": "",
+      "organisations": [
+        "NSE Academy"
+      ],
+      "summary": "Hands-on trading strategies using Nsmart, led by an NSE Academy empanelled trainer.",
+      "context": "NSE Academy",
+      "cover": "assets/images/events/events-nse-workshop.jpg",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-09-30-equity-derivatives-trading-st/1.jpg",
+          "caption": "",
+          "alt": "Equity & Derivatives Trading Strategies Using Nsmart: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-30-equity-derivatives-trading-st/2.jpg",
+          "caption": "",
+          "alt": "Equity & Derivatives Trading Strategies Using Nsmart: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-30-equity-derivatives-trading-st/3.jpg",
+          "caption": "",
+          "alt": "Equity & Derivatives Trading Strategies Using Nsmart: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": true,
+      "published": true,
+      "coverAlt": "Participants at workstations in the FinTech Lab during the NSE Academy trading workshop",
+      "cardTitle": "Equity & derivatives trading"
+    },
+    {
+      "id": "2025-09-27-wealth-creation-through-smart-investing-tools-and-techniques",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2025-09-27",
+      "end": "",
+      "title": "Wealth Creation Through Smart Investing: Tools and Techniques in SAPM",
+      "speakers": "Mr. V. Nagappan, President, Hindustan Chamber of Commerce",
+      "note": "",
+      "organisations": [
+        "Hindustan Chamber of Commerce"
+      ],
+      "summary": "Mr. V. Nagappan, President, Hindustan Chamber of Commerce",
+      "context": "Hindustan Chamber of Commerce",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-09-27-wealth-creation-through-smart/1.jpg",
+          "caption": "",
+          "alt": "Wealth Creation Through Smart Investing: Tools and Techniques in SAPM: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-27-wealth-creation-through-smart/2.jpg",
+          "caption": "",
+          "alt": "Wealth Creation Through Smart Investing: Tools and Techniques in SAPM: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-27-wealth-creation-through-smart/3.jpg",
+          "caption": "",
+          "alt": "Wealth Creation Through Smart Investing: Tools and Techniques in SAPM: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-09-24-intern-poster-pitch-summer-internship-poster-presentations",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Internships",
+      "kind": "Internships",
+      "date": "2025-09-24",
+      "end": "",
+      "title": "Intern Poster Pitch: summer internship poster presentations",
+      "speakers": "Fourteen industry panellists, from Citibank, Hitachi Energy, Infinite Computer Solutions, MIOT International Hospital, MGM Healthcare and others, reviewed students’ internship posters",
+      "note": "",
+      "organisations": [],
+      "summary": "Fourteen industry panellists, from Citibank, Hitachi Energy, Infinite Computer Solutions, MIOT International Hospital, MGM Healthcare and others, reviewed students’ internship posters",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/1.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 1 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/2.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 2 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/3.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 3 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/4.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 4 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/5.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 5 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/6.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 6 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/7.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 7 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/8.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 8 of 9"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-24-intern-poster-pitch-summer-in/9.jpg",
+          "caption": "",
+          "alt": "Intern Poster Pitch: summer internship poster presentations: photo 9 of 9"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-09-23-decoding-markets-the-role-of-fundamental-analysis-in-investm",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2025-09-23",
+      "end": "",
+      "title": "Decoding Markets: The Role of Fundamental Analysis in Investment Decisions",
+      "speakers": "Mr. Mohan Kumar, SEBI Research Analyst; CEO, Finchatss",
+      "note": "",
+      "organisations": [
+        "Finchatss"
+      ],
+      "summary": "Mr. Mohan Kumar, SEBI Research Analyst; CEO, Finchatss",
+      "context": "Finchatss",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-09-23-decoding-markets-the-role-of/1.jpg",
+          "caption": "",
+          "alt": "Decoding Markets: The Role of Fundamental Analysis in Investment Decisions: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-09-15-discussion-understanding-of-hr-practices-in-corporate",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Voice of Alumni",
+      "kind": "Voice of Alumni",
+      "date": "2025-09-15",
+      "end": "",
+      "title": "Discussion & Understanding of HR Practices in Corporate",
+      "speakers": "Ms. Johanna Shirley P, Junior Executive HR, UBTI",
+      "note": "",
+      "organisations": [
+        "UBTI"
+      ],
+      "summary": "Ms. Johanna Shirley P, Junior Executive HR, UBTI",
+      "context": "UBTI",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/1.jpg",
+          "caption": "",
+          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 1 of 4"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/2.jpg",
+          "caption": "",
+          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 2 of 4"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/3.jpg",
+          "caption": "",
+          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 3 of 4"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/4.jpg",
+          "caption": "",
+          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 4 of 4"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-09-08-decisions-4-0-harnessing-the-power-of-ai-data-science-and-ge",
+      "type": "event",
+      "category": "fdp",
+      "tag": "ATAL Academy online FDP",
+      "kind": "ATAL Academy online FDP",
+      "date": "2025-09-08",
+      "end": "2025-09-13",
+      "title": "Decisions 4.0: Harnessing the Power of AI, Data Science, and Generative Intelligence to Empower the Next Generation of Managerial Leaders",
+      "speakers": "Funded by the AICTE Training and Learning (ATAL) Academy. Coordinator: Dr. G. Ramasundaram",
+      "note": "",
+      "organisations": [],
+      "summary": "Funded by the AICTE Training and Learning (ATAL) Academy. Coordinator: Dr. G. Ramasundaram",
+      "context": "",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-09-03-msmes-the-backbone-of-india-s-economy-opportunities-challeng",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Business Talk Series",
+      "kind": "Business Talk Series",
+      "date": "2025-09-03",
+      "end": "",
+      "title": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens",
+      "speakers": "Mr. Srinivasan Vasudevan, Director, TJ Finance",
+      "note": "",
+      "organisations": [
+        "TJ Finance"
+      ],
+      "summary": "Mr. Srinivasan Vasudevan, Director, TJ Finance",
+      "context": "TJ Finance",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-09-03-msmes-the-backbone-of-india-s/1.jpg",
+          "caption": "",
+          "alt": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-03-msmes-the-backbone-of-india-s/2.jpg",
+          "caption": "",
+          "alt": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-09-03-msmes-the-backbone-of-india-s/3.jpg",
+          "caption": "",
+          "alt": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-29-from-morning-routine-to-late-night-notifications-your-choice",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2025-08-29",
+      "end": "",
+      "title": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced",
+      "speakers": "Mr. Karthik Kumar J, CEO, Drig Digital, Chennai",
+      "note": "",
+      "organisations": [
+        "Drig Digital"
+      ],
+      "summary": "Mr. Karthik Kumar J, CEO, Drig Digital, Chennai",
+      "context": "Drig Digital",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/1.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 1 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/2.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 2 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/3.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 3 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/4.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 4 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/5.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 5 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/6.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 6 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-29-from-morning-routine-to-late/7.jpg",
+          "caption": "",
+          "alt": "From Morning Routine to Late-Night Notifications, Your Choices Are Influenced: photo 7 of 7"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-28-pg-inauguration-2025-2027-batch",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Inauguration",
+      "kind": "Inauguration",
+      "date": "2025-08-28",
+      "end": "",
+      "title": "PG Inauguration (2025–2027 batch)",
+      "speakers": "Chief guest: Mr. K. V. Sanil Kumar, Associate Director, Geojit Financial Services Ltd.",
+      "note": "",
+      "organisations": [
+        "Geojit"
+      ],
+      "summary": "Chief guest Mr. K. V. Sanil Kumar, Associate Director, Geojit Financial Services.",
+      "context": "Geojit",
+      "cover": "assets/images/events/events-pg-inauguration.jpg",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/1.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 1 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/2.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 2 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/3.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 3 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/4.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 4 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/5.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 5 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/6.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 6 of 7"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/7.jpg",
+          "caption": "",
+          "alt": "PG Inauguration (2025–2027 batch): photo 7 of 7"
+        }
+      ],
+      "externalUrl": "",
+      "featured": true,
+      "published": true,
+      "coverAlt": "Lamp lighting and guests on stage at the PG Inauguration",
+      "cardTitle": "PG Inauguration, 2025–2027 batch"
+    },
+    {
+      "id": "2025-08-25-equity-derivatives-trading-strategies-using-nsmart",
+      "type": "event",
+      "category": "fdp",
+      "tag": "Workshop for faculty",
+      "kind": "Workshop for faculty",
+      "date": "2025-08-25",
+      "end": "",
+      "title": "Equity & Derivatives Trading Strategies Using Nsmart",
+      "speakers": "Mr. E. Nehruji, Certified Financial Planner, empanelled trainer with NSE Academy",
+      "note": "",
+      "organisations": [
+        "NSE Academy"
+      ],
+      "summary": "Mr. E. Nehruji, Certified Financial Planner, empanelled trainer with NSE Academy",
+      "context": "NSE Academy",
+      "cover": "",
+      "body": "",
+      "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-23-campus-to-corporate-driving-employability-with-sdg-perspecti",
+      "type": "event",
+      "category": "workshop",
+      "tag": "Workshop · Odd Semester Event Day 1",
+      "kind": "Workshop",
+      "date": "2025-08-23",
+      "end": "",
+      "title": "Campus to Corporate: Driving Employability with SDG Perspectives (SDG 4: Quality Education)",
+      "speakers": "Mr. John Sherlin, HR Specialist, Learning and Development, CavinKare India Pvt. Ltd.",
+      "note": "",
+      "organisations": [
+        "CavinKare"
+      ],
+      "summary": "Mr. John Sherlin, HR Specialist, Learning and Development, CavinKare India Pvt. Ltd.",
+      "context": "CavinKare",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-23-campus-to-corporate-driving-e/1.jpg",
+          "caption": "",
+          "alt": "Campus to Corporate: Driving Employability with SDG Perspectives (SDG 4: Quality Education): photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-campus-to-corporate-driving-e/2.jpg",
+          "caption": "",
+          "alt": "Campus to Corporate: Driving Employability with SDG Perspectives (SDG 4: Quality Education): photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-campus-to-corporate-driving-e/3.jpg",
+          "caption": "",
+          "alt": "Campus to Corporate: Driving Employability with SDG Perspectives (SDG 4: Quality Education): photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-23-freight-forwarding-and-documentation-sdg-9-industry-innovati",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture · Odd Semester Event Day 1",
+      "kind": "Guest lecture",
+      "date": "2025-08-23",
+      "end": "",
+      "title": "Freight Forwarding and Documentation (SDG 9: Industry, Innovation and Infrastructure)",
+      "speakers": "Ms. M. Menaka, Sr. Manager Project Consultant, RCS Logistics Pvt Ltd",
+      "note": "",
+      "organisations": [
+        "RCS Logistics"
+      ],
+      "summary": "Ms. M. Menaka, Sr. Manager Project Consultant, RCS Logistics Pvt Ltd",
+      "context": "RCS Logistics",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-23-freight-forwarding-and-docume/1.jpg",
+          "caption": "",
+          "alt": "Freight Forwarding and Documentation (SDG 9: Industry, Innovation and Infrastructure): photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-23-the-career-buffet-sdg-17-partnerships-for-the-goals",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Seminar · Odd Semester Event Day 1",
+      "kind": "Seminar",
+      "date": "2025-08-23",
+      "end": "",
+      "title": "The Career Buffet (SDG 17: Partnerships for the Goals)",
+      "speakers": "Ms. Poornima, Customer Service Officer, BASF Catalysts India Pvt Ltd",
+      "note": "",
+      "organisations": [
+        "BASF Catalysts"
+      ],
+      "summary": "Ms. Poornima, Customer Service Officer, BASF Catalysts India Pvt Ltd",
+      "context": "BASF Catalysts",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-23-the-career-buffet-sdg-17-part/1.jpg",
+          "caption": "",
+          "alt": "The Career Buffet (SDG 17: Partnerships for the Goals): photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-the-career-buffet-sdg-17-part/2.jpg",
+          "caption": "",
+          "alt": "The Career Buffet (SDG 17: Partnerships for the Goals): photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-the-career-buffet-sdg-17-part/3.jpg",
+          "caption": "",
+          "alt": "The Career Buffet (SDG 17: Partnerships for the Goals): photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-23-export-opportunities-for-young-entrepreneurs-sdg-8-decent-wo",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture · Odd Semester Event Day 1",
+      "kind": "Guest lecture",
+      "date": "2025-08-23",
+      "end": "",
+      "title": "Export Opportunities for Young Entrepreneurs (SDG 8: Decent Work and Economic Growth)",
+      "speakers": "Ms. Rennifer Nachiyar, Founder, Seiko Entrepreneur Institute",
+      "note": "",
+      "organisations": [
+        "Seiko Entrepreneur Institute"
+      ],
+      "summary": "Ms. Rennifer Nachiyar, Founder, Seiko Entrepreneur Institute",
+      "context": "Seiko Entrepreneur Institute",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-23-export-opportunities-for-youn/1.jpg",
+          "caption": "",
+          "alt": "Export Opportunities for Young Entrepreneurs (SDG 8: Decent Work and Economic Growth): photo 1 of 2"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-export-opportunities-for-youn/2.jpg",
+          "caption": "",
+          "alt": "Export Opportunities for Young Entrepreneurs (SDG 8: Decent Work and Economic Growth): photo 2 of 2"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-23-driving-growth-through-the-times-of-uncertainty-sdg-8-decent",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture · Odd Semester Event Day 1",
+      "kind": "Guest lecture",
+      "date": "2025-08-23",
+      "end": "",
+      "title": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth)",
+      "speakers": "Mr. B. S. Sathish Kumar, HR, Learning and Development, Hyundai Wia India Pvt Ltd",
+      "note": "",
+      "organisations": [
+        "Hyundai Wia"
+      ],
+      "summary": "Mr. B. S. Sathish Kumar, HR, Learning and Development, Hyundai Wia India Pvt Ltd",
+      "context": "Hyundai Wia",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-23-driving-growth-through-the-ti/1.jpg",
+          "caption": "",
+          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-driving-growth-through-the-ti/2.jpg",
+          "caption": "",
+          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-23-driving-growth-through-the-ti/3.jpg",
+          "caption": "",
+          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-18-case-study-analysis-sydney-opera-house",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Voice of Alumni",
+      "kind": "Voice of Alumni",
+      "date": "2025-08-18",
+      "end": "",
+      "title": "Case Study Analysis: Sydney Opera House",
+      "speakers": "Mr. Sreejeeth M, HR, TMG, UBTI",
+      "note": "",
+      "organisations": [
+        "UBTI"
+      ],
+      "summary": "Mr. Sreejeeth M, HR, TMG, UBTI",
+      "context": "UBTI",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-18-case-study-analysis-sydney-op/1.jpg",
+          "caption": "",
+          "alt": "Case Study Analysis: Sydney Opera House: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-18-case-study-analysis-sydney-op/2.jpg",
+          "caption": "",
+          "alt": "Case Study Analysis: Sydney Opera House: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-08-18-case-study-analysis-sydney-op/3.jpg",
+          "caption": "",
+          "alt": "Case Study Analysis: Sydney Opera House: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-08-09-mock-interview",
+      "type": "event",
+      "category": "workshop",
+      "tag": "Voice of Alumni",
+      "kind": "Voice of Alumni",
+      "date": "2025-08-09",
+      "end": "",
+      "title": "Mock Interview",
+      "speakers": "Mr. Rohan S, HR Associate, Novac Technology Solutions",
+      "note": "",
+      "organisations": [
+        "Novac Technology Solutions"
+      ],
+      "summary": "Mr. Rohan S, HR Associate, Novac Technology Solutions",
+      "context": "Novac Technology Solutions",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-08-09-mock-interview/1.jpg",
+          "caption": "",
+          "alt": "Mock Interview: photo 1 of 1"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2025-07-30-leveraging-cmie-for-excellence-in-management-research-and-pe",
+      "type": "event",
+      "category": "fdp",
+      "tag": "Workshop for faculty",
+      "kind": "Workshop for faculty",
+      "date": "2025-07-30",
+      "end": "",
+      "title": "Leveraging CMIE for Excellence in Management Research and Pedagogy",
+      "speakers": "Mr. G. Raghavendran, Assistant Vice President, Sales, Centre for Monitoring Indian Economy (CMIE)",
+      "note": "",
+      "organisations": [
+        "CMIE"
+      ],
+      "summary": "Mr. G. Raghavendran, Assistant Vice President, Sales, Centre for Monitoring Indian Economy (CMIE)",
+      "context": "CMIE",
+      "cover": "",
+      "body": "",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-07-30-leveraging-cmie-for-excellenc/1.jpg",
+          "caption": "",
+          "alt": "Leveraging CMIE for Excellence in Management Research and Pedagogy: photo 1 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-07-30-leveraging-cmie-for-excellenc/2.jpg",
+          "caption": "",
+          "alt": "Leveraging CMIE for Excellence in Management Research and Pedagogy: photo 2 of 3"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-07-30-leveraging-cmie-for-excellenc/3.jpg",
+          "caption": "",
+          "alt": "Leveraging CMIE for Excellence in Management Research and Pedagogy: photo 3 of 3"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    }
+  ]
+}

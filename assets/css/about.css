@@ -1,0 +1,124 @@
+/* About page only. Kept out of styles.css so page-level work does not collide. */
+
+/* ---------- On this page ---------- */
+.ab-jump{background:var(--ivory);border-bottom:1px solid var(--line)}
+.ab-jump .container{display:flex;align-items:center;gap:8px 10px;flex-wrap:wrap;padding-block:16px}
+.ab-jump-label{font-family:var(--font-head);font-weight:700;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.ab-jump a{
+  padding:7px 14px;border-radius:var(--r-pill);border:1px solid var(--line);background:var(--white);
+  font-family:var(--font-head);font-weight:600;font-size:.84rem;color:var(--charcoal);text-decoration:none;
+  transition:color .2s var(--ease),border-color .2s var(--ease),background .2s var(--ease)
+}
+.ab-jump a:hover,.ab-jump a:focus-visible{color:#fff;background:var(--indigo);border-color:var(--indigo)}
+
+#introduction,#vision,#mission,#objectives,#approach,#why,#outcomes{scroll-margin-top:calc(var(--nav-h) + 64px)}
+
+/* ---------- Our approach ---------- */
+.ab-approach{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,5vw,76px);align-items:start}
+.ab-approach-side{position:sticky;top:calc(var(--nav-h) + 72px)}
+.ab-approach-side p{color:var(--charcoal);font-size:1.04rem}
+.ab-approach-photo{margin:28px 0 0}
+.ab-approach-photo img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-lg);box-shadow:var(--shadow)}
+.ab-approach-photo figcaption{margin-top:10px;font-size:.82rem;color:var(--muted)}
+.ab-steps{list-style:none;margin:0;padding:0;counter-reset:ab}
+.ab-steps li{
+  counter-increment:ab;display:grid;grid-template-columns:64px minmax(0,1fr);column-gap:20px;
+  padding:26px 0;border-top:1px solid var(--line)
+}
+.ab-steps li:last-child{border-bottom:1px solid var(--line)}
+.ab-steps li::before{
+  content:counter(ab,decimal-leading-zero);grid-row:1 / span 2;
+  font-family:var(--font-display);font-style:italic;font-weight:600;font-size:2rem;line-height:1.1;color:var(--champagne)
+}
+.ab-steps h3{font-size:1.2rem;margin:0 0 6px}
+.ab-steps p{margin:0;color:var(--charcoal);font-size:.97rem}
+
+/* ---------- Why choose ---------- */
+.ab-why{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 40px}
+.ab-why div{padding:24px 0 26px;border-top:1px solid var(--line-strong)}
+.ab-why h3{font-size:1.08rem;margin:0 0 8px}
+.ab-why p{margin:0;color:var(--charcoal);font-size:.95rem}
+
+/* ---------- PEOs / POs / PSOs: POs carry the content, so they get the wide column ---------- */
+.ab-obe{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:stretch}
+.ab-obe #pos{grid-column:1;grid-row:1 / span 2}
+.ab-obe #peos,.ab-obe #psos{grid-column:2}
+.ab-obe #pos .vm-list{gap:16px}
+.ab-obe #pos .vm-list li{font-size:1rem}
+
+@media (max-width:1024px){
+  .ab-approach{grid-template-columns:1fr}
+  .ab-approach-side{position:static}
+  .ab-why{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ab-obe{grid-template-columns:1fr}
+  .ab-obe #pos,.ab-obe #peos,.ab-obe #psos{grid-column:auto;grid-row:auto}
+}
+@media (max-width:640px){
+  .ab-why{grid-template-columns:1fr}
+  .ab-steps li{grid-template-columns:44px minmax(0,1fr);column-gap:14px;padding:20px 0}
+  .ab-steps li::before{font-size:1.5rem}
+  .ab-jump .container{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .ab-jump .container::-webkit-scrollbar{display:none}
+  .ab-jump a,.ab-jump-label{flex:none}
+}
+
+/* ---------- Inside the department ---------- */
+.ab-inside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.ab-inside-card{background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column}
+.ab-inside-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.ab-inside-card div{padding:clamp(22px,2.6vw,32px)}
+.ab-inside-card h3{font-size:1.25rem;margin:0 0 12px}
+.ab-inside-card p{color:var(--charcoal);font-size:.96rem;margin:0 0 12px}
+.ab-inside-card p:last-child{margin-bottom:0}
+
+/* ---------- Facilities + highlights ---------- */
+.ab-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(36px,5vw,80px);align-items:start}
+.ab-two h2{font-size:clamp(1.6rem,2.6vw,2.1rem)}
+.ab-two-lede{color:var(--charcoal)}
+.ab-facilities{list-style:none;margin:22px 0 24px;padding:0}
+.ab-facilities li{position:relative;padding:13px 0 13px 28px;border-top:1px solid var(--line);color:var(--charcoal);font-size:.97rem}
+.ab-facilities li:last-child{border-bottom:1px solid var(--line)}
+.ab-facilities li::before{content:"";position:absolute;left:4px;top:21px;width:8px;height:8px;border-radius:50%;background:var(--champagne)}
+.ab-table{width:100%;border-collapse:collapse;margin:22px 0 24px;font-size:.96rem}
+.ab-table th,.ab-table td{padding:13px 0;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.ab-table tr:last-child th,.ab-table tr:last-child td{border-bottom:1px solid var(--line)}
+.ab-table th{width:38%;padding-right:16px;font-family:var(--font-head);font-weight:700;color:var(--ink)}
+.ab-table td{color:var(--charcoal)}
+.ab-link{font-family:var(--font-head);font-weight:700;font-size:.92rem;color:var(--indigo);text-decoration:none;border-bottom:1.5px solid var(--champagne);padding-bottom:2px}
+.ab-link:hover{color:var(--ember)}
+
+/* ---------- Closing statement: the page's one dark band ---------- */
+.ab-closing{background:var(--indigo);color:#fff;text-align:center}
+.ab-closing .container{max-width:880px}
+.ab-closing .eyebrow{color:var(--champagne);margin-inline:auto}
+.ab-closing-lead{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.35;font-weight:500;margin:18px 0 20px;color:#fff}
+.ab-closing p{color:rgba(255,255,255,.82);font-size:1.04rem}
+.ab-closing .ab-closing-tag{margin-top:28px;font-family:var(--font-head);font-weight:700;letter-spacing:.04em;color:var(--champagne)}
+
+@media (max-width:900px){
+  .ab-inside,.ab-two{grid-template-columns:1fr}
+}
+
+/* The Chancellor band is the page's dark moment, so the closing statement sits on paper. */
+.ab-closing{background:var(--paper);color:var(--ink)}
+.ab-closing .eyebrow{color:var(--ember)}
+.ab-closing-lead{color:var(--ink)}
+.ab-closing p{color:var(--charcoal)}
+.ab-closing .ab-closing-tag{color:var(--indigo)}
+
+/* ---------- UI polish pass (2026-11-17) ---------- */
+/* Closing lead: `.ab-closing p` out-ranked the lead class and shrank it below body size */
+.ab-closing .ab-closing-lead{font-size:clamp(1.5rem,3vw,2.3rem);color:var(--ink)}
+/* Mission and Objectives share the cream surface: don't stack two section paddings */
+.vm + #objectives{padding-top:0}
+/* Five objectives: 3 + 2 centred instead of five cramped columns */
+@media (min-width:1025px){
+  .ab-objectives{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .ab-objectives > .teaser{grid-column:span 2}
+  .ab-objectives > .teaser:nth-child(4):nth-last-child(2){grid-column:2 / span 2}
+}
+/* Chancellor band while the message is pending: smaller square portrait so the band isn't half empty */
+@media (min-width:1025px){
+  #leadership .hod-grid{grid-template-columns:minmax(0,380px) minmax(0,1fr)}
+  #leadership .hod-visual{aspect-ratio:1/1}
+}

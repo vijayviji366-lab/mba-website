@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 64" width="80" height="64" role="img" aria-label="AWS Cloud">
+  <text x="40" y="32" font-family="Manrope, Arial, sans-serif" font-weight="900" font-size="18" fill="#232F3E" text-anchor="middle" letter-spacing="1">aws</text>
+  <path d="M14 46 Q40 60 66 46" stroke="#FF9900" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M64 46 L70 44 L66 52 Z" fill="#FF9900"/>
+</svg>
