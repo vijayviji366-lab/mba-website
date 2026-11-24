@@ -400,6 +400,7 @@ button.chip:hover{border-color:var(--indigo);color:var(--indigo)}
 .pt-avatar:not([style*="background-image"])::before{
   content:attr(data-initials);color:var(--champagne);font-family:var(--font-head);font-weight:800;font-size:.78rem;letter-spacing:.02em;
 }
+img.pt-avatar{object-fit:cover;object-position:center 15%;background:var(--mist)}
 .pt-meta{line-height:1.25}
 .pt-name{font-family:var(--font-head);font-weight:700;font-size:.84rem;color:var(--ink);white-space:nowrap}
 .pt-role{font-size:.74rem;color:var(--muted);white-space:nowrap}
@@ -660,12 +661,32 @@ button.chip:hover{border-color:var(--indigo);color:var(--indigo)}
 .year-badge b{font-family:var(--font-head);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--champagne);font-weight:700;line-height:1.3}
 .year-badge span{font-family:var(--font-display);font-size:1.7rem;font-weight:700;line-height:1.1;white-space:nowrap}.about h2{margin-bottom:22px}
 .about p{color:var(--charcoal)}
-.about-list{list-style:none;padding:0;margin:26px 0 32px;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
-.about-list li{display:flex;align-items:center;gap:10px;font-weight:500;font-size:.95rem}
+.about-list{list-style:none;padding:0;margin:26px 0 32px;display:grid;grid-template-columns:1fr 1fr;gap:14px 28px}
+.about-list li{display:flex;align-items:flex-start;gap:12px;font-weight:500;font-size:.95rem;line-height:1.5;color:var(--ink)}
+/* Tick sits on the first line of text, however many lines the item wraps to */
 .tick{
-  width:22px;height:22px;flex-shrink:0;border-radius:50%;background:var(--indigo-100);color:var(--indigo);
-  display:grid;place-items:center;font-size:.72rem;font-weight:800;
+  position:relative;width:20px;height:20px;flex-shrink:0;border-radius:50%;
+  margin-top:calc((1.5em - 20px) / 2);background:var(--indigo);
 }
+.tick::after{
+  content:"";position:absolute;left:7px;top:4px;width:5px;height:9px;
+  border:solid var(--champagne);border-width:0 2px 2px 0;transform:rotate(45deg);
+}
+/* Specialisations strip (home "Who we are") */
+.spec-strip{
+  margin:28px 0 0;padding:18px 20px 20px;border-radius:16px;
+  background:var(--white);border:1px solid var(--line);border-left:3px solid var(--champagne);
+}
+.spec-strip-label{
+  display:block;margin-bottom:12px;font-family:var(--font-head);font-size:.74rem;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--indigo);
+}
+.spec-chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.spec-chips li{
+  padding:6px 14px;border-radius:999px;background:var(--indigo-100);color:var(--indigo);
+  font-family:var(--font-head);font-size:.86rem;font-weight:600;line-height:1.4;
+}
+.spec-strip + .about-list{margin-top:24px}
 
 /* 8.9 Teaser grid */
 .teaser-band{padding:var(--section-y) 0;background:var(--ivory)}
@@ -1896,6 +1917,10 @@ footer a:hover{color:var(--ember)}
   color:var(--indigo-700);
 }
 .fac-body p{margin:10px 0 12px;font-size:.85rem;line-height:1.5;color:var(--charcoal)}
+/* Qualifications live on each profile page — hide them on the directory cards */
+.faculty-directory .fac-body > p{display:none}
+.faculty-directory .fac-tags{margin-top:12px}
+.faculty-directory .fac-tags:empty{display:none}
 .fac-tags{display:flex;flex-wrap:wrap;gap:6px}
 .fac-tags span{
   display:inline-flex;align-items:center;
@@ -2901,6 +2926,7 @@ body.admin-page{background:var(--ivory);min-height:100vh;font-size:15px}
 .nav-bar{border-top:1px solid var(--line)}
 .nav-2row .menu{margin-left:0;width:100%;justify-content:space-between;height:46px}
 .nav-2row .menu > .has-submenu > .submenu-trigger{padding:8px 3px;font-size:.84rem;gap:2px}
+.nav-2row .menu > a.menu-link{padding:8px 3px;font-size:.84rem}
 .nav-2row .menu .caret{width:9px;height:9px}
 .nav-2row .menu-indicator{height:32px}
 .menu .has-submenu.sm-left .submenu{left:0;transform:translate(0,6px)}
@@ -2917,6 +2943,7 @@ body.admin-page{background:var(--ivory);min-height:100vh;font-size:15px}
   .nav-2row .nav-inner{height:var(--nav-h)}
   .nav-2row .menu{height:auto;justify-content:flex-start}
   .nav-2row .menu > .has-submenu > .submenu-trigger{padding:16px 4px;font-size:1.05rem}
+  .nav-2row .menu > a.menu-link{padding:16px 4px;font-size:1.05rem}
   .menu .has-submenu.sm-left .submenu,.menu .has-submenu.sm-right .submenu{transform:none}
   .menu-util{display:flex;flex-wrap:wrap;gap:8px;padding-top:20px}
   .menu-util a{padding:10px 16px;border:1px solid var(--line);border-radius:var(--r-pill);font-family:var(--font-head);font-weight:600;font-size:.95rem;color:var(--charcoal);background:var(--white)}
@@ -3235,6 +3262,7 @@ body.admin-page{background:var(--ivory);min-height:100vh;font-size:15px}
 /* --- Header: keep the full 12-item menu on 1200–1366px laptops (hamburger now only ≤1180px) --- */
 @media (min-width:1181px) and (max-width:1360px){
   .nav-2row .menu > .has-submenu > .submenu-trigger{font-size:.8rem;padding:8px 2px}
+  .nav-2row .menu > a.menu-link{font-size:.8rem;padding:8px 2px}
   .nav-2row .menu .caret{width:8px;height:8px}
   .nav-util a{padding:8px 10px}
 }
@@ -3329,3 +3357,256 @@ body.pg-magazine #student-contributions .teaser-grid.cols-4{margin-inline:0;max-
 /* --- Contact form: required marker in the accent colour; note under the button --- */
 .contact-form label:has(:required) > span::after{color:var(--ember)}
 .form-hint{grid-column:1/-1;margin:12px 0 0;font-size:.82rem;color:var(--muted)}
+
+/* --- Event register lists (Research page and Life @ DoMS; moved from events.html) --- */
+.evl{list-style:none;margin:0 0 40px;padding:0;border-top:1px solid var(--line-strong)}
+.evl-item{display:grid;grid-template-columns:116px minmax(0,1fr);gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
+.evl-date{font-family:var(--font-head);color:var(--muted);font-size:.8rem;font-weight:600;line-height:1.25}
+.evl-date b{display:block;font-size:1.5rem;font-weight:800;color:var(--indigo);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.evl-tag{display:block;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ember);margin-bottom:4px}
+.evl-body h4{font-size:1.04rem;line-height:1.4;margin:0 0 4px}
+.evl-body p{margin:0;font-size:.92rem;color:var(--charcoal)}
+.evl-body p.evl-note{margin-top:6px;color:var(--muted);font-size:.86rem}
+.evl-fy{display:flex;align-items:baseline;gap:12px;font-size:1.15rem;margin:0 0 12px}
+.evl-fy span{font-size:.78rem;font-weight:600;color:var(--muted)}
+.src-line{font-size:.8rem;color:var(--muted);margin-top:20px}
+/* UI polish 2026-11-17: register titles that open a detail page read as links */
+.evl-body h4 a{color:inherit;text-decoration:underline;text-decoration-color:var(--line-strong);text-decoration-thickness:1.5px;text-underline-offset:4px}
+.evl-body h4 a::after{content:" →";color:var(--ember);text-decoration:none;display:inline-block;margin-left:2px}
+.evl-body h4 a:hover{color:var(--ember);text-decoration-color:currentColor}
+.evl-date-tba b{font-size:1.05rem;letter-spacing:.06em;color:var(--muted)}
+@media (max-width:640px){
+  .evl-item{grid-template-columns:1fr;gap:6px}
+  .evl-date{display:flex;align-items:baseline;gap:6px}
+  .evl-date b{display:inline;font-size:1.05rem}
+}
+
+/* --- Life @ DoMS: date-wise event photo gallery (events.html, drawn by assets/js/life-gallery.js) --- */
+.lg-section{background:var(--ivory);padding-top:40px}
+.lg-bar{display:grid;gap:14px;padding-bottom:24px;margin-bottom:8px;border-bottom:1px solid var(--line-strong)}
+.lg-filters{display:grid;gap:10px}
+.lg-chips{display:flex;flex-wrap:wrap;gap:8px}
+.lg-chip{font:inherit;font-family:var(--font-head);font-size:.84rem;font-weight:600;color:var(--charcoal);background:var(--white);border:1px solid var(--line-strong);border-radius:999px;padding:7px 14px;cursor:pointer;transition:background .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease)}
+.lg-chip span{font-size:.74rem;color:var(--muted);margin-left:2px;font-variant-numeric:tabular-nums}
+.lg-chip:hover{border-color:var(--indigo);color:var(--indigo)}
+.lg-chip[aria-pressed="true"]{background:var(--indigo);border-color:var(--indigo);color:#fff}
+.lg-chip[aria-pressed="true"] span{color:rgba(255,255,255,.75)}
+.lg-chip:focus-visible{outline:2px solid var(--ember);outline-offset:2px}
+.lg-summary{margin:0;font-size:.86rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.lg-empty{padding:48px 0;color:var(--muted)}
+.lg-empty p{margin:0 0 14px}
+.lg-search-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.lg-search{position:relative;flex:1 1 340px;max-width:560px;display:flex;align-items:center}
+.lg-search > svg{position:absolute;left:14px;width:18px;height:18px;color:var(--muted);pointer-events:none}
+.lg-search input{width:100%;font:inherit;font-size:.95rem;color:var(--ink);background:var(--white);border:1px solid var(--line-strong);border-radius:999px;padding:11px 44px 11px 42px;transition:border-color .2s var(--ease),box-shadow .2s var(--ease)}
+.lg-search input::placeholder{color:var(--muted)}
+.lg-search input:focus{outline:none;border-color:var(--indigo);box-shadow:0 0 0 3px rgba(43,58,140,.15)}
+.lg-search input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.lg-clear{position:absolute;right:8px;width:30px;height:30px;display:grid;place-items:center;border:0;border-radius:50%;background:var(--paper);color:var(--charcoal);cursor:pointer;padding:0}
+.lg-clear svg{width:14px;height:14px}
+.lg-clear:hover{background:var(--line)}
+.lg-clear[hidden],.lg-reset[hidden]{display:none}
+.lg-select select{font:inherit;font-family:var(--font-head);font-size:.86rem;font-weight:600;color:var(--charcoal);background:var(--white);border:1px solid var(--line-strong);border-radius:999px;padding:10px 36px 10px 16px;cursor:pointer;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23596070' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-size:14px}
+.lg-select select:focus-visible{outline:2px solid var(--ember);outline-offset:2px}
+.lg-reset{font:inherit;font-family:var(--font-head);font-size:.84rem;font-weight:700;color:var(--ember);background:none;border:0;padding:8px 4px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.lg-chip.is-empty{opacity:.45}
+.lg-info h3 mark{background:rgba(201,162,77,.35);color:inherit;border-radius:3px;padding:0 1px}
+
+/* one row per month: sticky month label on the left, albums on the right */
+.lg-month{display:grid;grid-template-columns:150px minmax(0,1fr);gap:32px;padding:40px 0;border-bottom:1px solid var(--line);scroll-margin-top:150px}
+.lg-when{position:sticky;top:150px;align-self:start;display:flex;flex-direction:column;padding-left:18px;border-left:3px solid var(--ember)}
+.lg-mon{font-family:var(--font-head);font-weight:800;font-size:1.45rem;line-height:1.1;color:var(--ink)}
+.lg-yr{font-family:var(--font-head);font-weight:700;font-size:1rem;color:var(--indigo);margin-top:2px}
+.lg-when .lg-n{font-size:.76rem;color:var(--muted);margin-top:8px}
+.lg-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+
+.lg-album{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;scroll-margin-top:150px;transition:box-shadow .3s var(--ease),border-color .3s var(--ease)}
+.lg-album:hover{box-shadow:var(--shadow);border-color:var(--line-strong)}
+.lg-album:target{border-color:var(--ember);box-shadow:0 0 0 2px var(--ember)}
+.lg-mosaic{display:grid;gap:3px;aspect-ratio:4/3;background:var(--line);grid-template-rows:minmax(0,1fr);grid-auto-rows:minmax(0,1fr);overflow:hidden}
+.lg-mosaic.lg-n2{grid-template-columns:1fr 1fr}
+.lg-mosaic.lg-n3{grid-template-columns:2fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr))}
+.lg-mosaic.lg-n3 .lg-tile:first-child{grid-row:span 2}
+.lg-tile{position:relative;display:block;padding:0;border:0;margin:0;overflow:hidden;cursor:zoom-in;background:var(--mist);min-height:0}
+.lg-tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s var(--ease-out)}
+.lg-tile:hover img{transform:scale(1.05)}
+/* portrait posters: show the whole poster on a soft backdrop instead of cropping it */
+.lg-tile.is-poster{background:radial-gradient(120% 90% at 50% 0%,var(--white),var(--paper))}
+.lg-tile.is-poster img{object-fit:contain;padding:8px}
+.lg-tile.is-poster:hover img{transform:scale(1.02)}
+.lg-tile:focus-visible{outline:3px solid var(--ember);outline-offset:-3px}
+.lg-more{position:absolute;inset:0;display:grid;place-items:center;background:rgba(14,17,22,.55);color:#fff;font-family:var(--font-head);font-weight:800;font-size:1.5rem}
+.lg-info{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.lg-meta{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ember);line-height:1.4}
+.lg-info h3{font-family:var(--font-head);font-size:1rem;line-height:1.35;margin:0;color:var(--ink)}
+.lg-info h3 a{color:inherit}
+.lg-info h3 a:hover{color:var(--indigo);text-decoration:underline;text-underline-offset:3px}
+.lg-count{margin-top:auto;font-size:.78rem;color:var(--muted)}
+.lightbox-caption b{color:#fff;font-weight:700}
+.lightbox-nav[hidden]{display:none}
+
+@media (max-width:1100px){
+  .lg-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lg-month{grid-template-columns:120px minmax(0,1fr);gap:24px}
+}
+@media (max-width:760px){
+  .lg-month{grid-template-columns:1fr;gap:16px;padding:28px 0}
+  .lg-when{position:static;flex-direction:row;align-items:baseline;gap:8px}
+  .lg-when .lg-n{margin:0 0 0 auto}
+  .lg-search{flex-basis:100%;max-width:none}
+  .lg-select{flex:1}
+  .lg-select select{width:100%}
+  .lg-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+  .lg-chips::-webkit-scrollbar{display:none}
+  .lg-chip{flex:none}
+}
+@media (max-width:560px){
+  .lg-grid{grid-template-columns:1fr}
+}
+
+/* text for screen readers only */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Event page: photos sit above the write-up; avoid a double gap when the gallery is shown */
+#evGallerySection:not([style*="display:none"]):not([style*="display: none"]) + #evBodySection{padding-top:0}
+
+/* =========================================================
+   16. Corporate pastel system (2026-11-24, rev. 2)
+   Six muted tints, toned down from the colours of the placement
+   posters, so they sit quietly beside the indigo brand colour.
+   Rules: indigo leads (headings, numbers, buttons); cards stay
+   white; colour appears only as flat section tints, small chips
+   and photo backdrops. No gradients, no rainbow stripes.
+     -50  section tint   -100 chip / photo backdrop
+     -300 hairline accent   -ink chip text (AA on -100)
+   ========================================================= */
+:root{
+  --lavender-50:#F4F4FA; --lavender-100:#E7E8F4; --lavender-300:#A9ADD6; --lavender-ink:#3B3F7A;
+  --mist-50:#F1F5F9;     --mist-100:#E1E9F1;     --mist-300:#9DB4CB;     --mist-ink:#2F4C6A;
+  --sage-50:#F2F6F2;     --sage-100:#E2ECE3;     --sage-300:#9FBAA5;     --sage-ink:#3A5C44;
+  --sand-50:#FAF6EC;     --sand-100:#F2EAD6;     --sand-300:#D6C190;     --sand-ink:#6A5321;
+  --blush-50:#FAF3F3;    --blush-100:#F2E4E5;    --blush-300:#D2AAAF;    --blush-ink:#773E47;
+  --apricot-50:#FCF5EF;  --apricot-100:#F6E5D7;  --apricot-300:#E2AE87;  --apricot-ink:#87431A;
+}
+
+/* ---- 16.1 Repeating items cycle through the six tints (no markup changes) ---- */
+:is(.spec-chips li,.jr-step,.lab-card,.ev-card,.rs-card,.accred-pill,.stat-item,.pt-card,
+    .face-wall .fw,.fac-card,.pl-co,.facility-row .chip,.coe-stat-item,.teaser,.infra-card){
+  --t50:var(--lavender-50);--t100:var(--lavender-100);--t300:var(--lavender-300);--tink:var(--lavender-ink);
+}
+:is(.spec-chips li,.jr-step,.lab-card,.ev-card,.rs-card,.accred-pill,.stat-item,.pt-card,
+    .face-wall .fw,.fac-card,.pl-co,.facility-row .chip,.coe-stat-item,.teaser,.infra-card):nth-child(6n+2){
+  --t50:var(--mist-50);--t100:var(--mist-100);--t300:var(--mist-300);--tink:var(--mist-ink);
+}
+:is(.spec-chips li,.jr-step,.lab-card,.ev-card,.rs-card,.accred-pill,.stat-item,.pt-card,
+    .face-wall .fw,.fac-card,.pl-co,.facility-row .chip,.coe-stat-item,.teaser,.infra-card):nth-child(6n+3){
+  --t50:var(--sage-50);--t100:var(--sage-100);--t300:var(--sage-300);--tink:var(--sage-ink);
+}
+:is(.spec-chips li,.jr-step,.lab-card,.ev-card,.rs-card,.accred-pill,.stat-item,.pt-card,
+    .face-wall .fw,.fac-card,.pl-co,.facility-row .chip,.coe-stat-item,.teaser,.infra-card):nth-child(6n+4){
+  --t50:var(--sand-50);--t100:var(--sand-100);--t300:var(--sand-300);--tink:var(--sand-ink);
+}
+:is(.spec-chips li,.jr-step,.lab-card,.ev-card,.rs-card,.accred-pill,.stat-item,.pt-card,
+    .face-wall .fw,.fac-card,.pl-co,.facility-row .chip,.coe-stat-item,.teaser,.infra-card):nth-child(6n+5){
+  --t50:var(--blush-50);--t100:var(--blush-100);--t300:var(--blush-300);--tink:var(--blush-ink);
+}
+:is(.spec-chips li,.jr-step,.lab-card,.ev-card,.rs-card,.accred-pill,.stat-item,.pt-card,
+    .face-wall .fw,.fac-card,.pl-co,.facility-row .chip,.coe-stat-item,.teaser,.infra-card):nth-child(6n){
+  --t50:var(--apricot-50);--t100:var(--apricot-100);--t300:var(--apricot-300);--tink:var(--apricot-ink);
+}
+
+/* ---- 16.2 Home page section tints (flat; hero untouched) ----
+   accreditation white · welcome ivory · journey LAVENDER · labs ivory
+   corporates SAGE · events ivory · leadership indigo · people SAND
+   research ivory · placements MIST · recruiters white · alumni ivory
+   vision/mission LAVENDER · magazine ivory · FAQ MIST                */
+.accred-strip{background:var(--white);border-bottom:1px solid var(--line)}
+.journey{background:var(--lavender-50)}
+.corporates{background:var(--sage-50)}
+.people{background:var(--sand-50)}
+.research{background:var(--ivory)}
+.placements-home{background:var(--mist-50)}
+.recruiter-marquee,#placements + .recruiter-marquee{background:var(--white)}
+.alumni{background:var(--ivory)}
+.vm{background:var(--lavender-50)}
+.faq{background:var(--mist-50)}
+
+/* Interior pages: sections that used the beige alt tone take a muted tint,
+   cycling down the page (inline style="background:var(--paper)" included). */
+main > section:nth-of-type(6n+1){--paper:var(--lavender-50);--cream:var(--lavender-50)}
+main > section:nth-of-type(6n+2){--paper:var(--mist-50);--cream:var(--mist-50)}
+main > section:nth-of-type(6n+3){--paper:var(--sage-50);--cream:var(--sage-50)}
+main > section:nth-of-type(6n+4){--paper:var(--sand-50);--cream:var(--sand-50)}
+main > section:nth-of-type(6n+5){--paper:var(--blush-50);--cream:var(--blush-50)}
+main > section:nth-of-type(6n){--paper:var(--apricot-50);--cream:var(--apricot-50)}
+
+/* Interior page headers: a quiet lavender-to-ivory field */
+.page-header,.coe-hero{
+  background:
+    radial-gradient(900px 440px at 92% 0%,rgba(169,173,214,.22),transparent 62%),
+    radial-gradient(700px 380px at 0% 100%,rgba(157,180,203,.16),transparent 62%),
+    var(--ivory);
+}
+.ps-blob.b1{background:radial-gradient(circle at 35% 35%,rgba(169,173,214,.40),rgba(169,173,214,.08) 65%,transparent 72%)}
+.ps-blob.b2{background:radial-gradient(circle at 50% 50%,rgba(159,186,165,.32),rgba(159,186,165,.06) 65%,transparent 72%)}
+
+/* ---- 16.3 Components: white cards, colour only in small accents ---- */
+/* Ticker: photo ring picks up a tint */
+img.pt-avatar{box-shadow:0 0 0 2px var(--white),0 0 0 3px var(--t300)}
+
+/* Accreditation */
+.ap-mark{background:var(--t100)}
+
+/* Welcome */
+.spec-chips li{background:var(--t100);color:var(--tink)}
+
+/* Journey: five white cards, numbered in a tinted disc */
+.jr-steps{border-top:0;gap:16px}
+.jr-step{margin-right:0;padding:26px 22px 24px;border-radius:var(--r-lg);background:var(--white);border:1px solid var(--line);transition:box-shadow .3s var(--ease),border-color .3s var(--ease)}
+.jr-step:hover{box-shadow:var(--shadow);border-color:var(--t300)}
+.jr-step::before{display:none}
+.jr-num{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--t100);color:var(--tink);font-size:1.3rem;margin-bottom:16px}
+
+/* Labs & events: tag chips */
+.lab-tag,.ev-meta{display:inline-block;padding:4px 10px;border-radius:var(--r-pill);background:var(--t100);color:var(--tink);letter-spacing:.1em}
+.lab-card:hover,.ev-card:hover{border-color:var(--t300)}
+.lab-media-poster,.ev-media-poster{background-color:var(--t50) !important}
+.facility-row .chip{background:var(--white)}
+
+/* Corporates */
+.corp-stats div{border-top-color:var(--indigo)}
+
+/* Faculty wall: white photo backdrops take a soft tint */
+.face-wall{gap:0;background:var(--white)}
+.face-wall .fw{display:block;background:var(--t100);isolation:isolate;overflow:hidden}
+.face-wall .fw img{mix-blend-mode:multiply;filter:none;background:transparent}
+
+/* Research */
+.rs-card:hover{border-color:var(--t300)}
+
+/* Placement stats: four white tiles, indigo figures, a hairline tint on top */
+.place-stats{border:0;padding:0;gap:16px}
+.place-stats .stat-item,.place-stats .stat-item:first-child{padding:24px 22px;border:1px solid var(--line);border-top:3px solid var(--t300);border-radius:var(--r);background:var(--white)}
+.career-list li::before{background:var(--indigo)}
+
+/* Recruiter tiles */
+.rm-item{background:var(--white)}
+
+/* ---- 16.4 Placements page: the poster photos carry the colour; frames stay neutral ---- */
+body.pg-placements #placed-learners{background:var(--white) !important}
+body.pg-placements .pl-co{background:var(--white);border-color:var(--line)}
+body.pg-placements .pl-co-head span{display:inline-block;margin-top:3px;padding:2px 9px;border-radius:var(--r-pill);background:var(--t100);color:var(--tink);font-weight:600}
+body.pg-placements .pl-people img{box-shadow:0 1px 2px rgba(14,17,22,.06),0 4px 12px rgba(14,17,22,.06)}
+body.pg-placements .story-quote{background:var(--white)}
+
+/* ---- 16.5 Faculty directory & other interior cards ---- */
+.fac-photo{background-color:var(--t100) !important;background-blend-mode:multiply;box-shadow:0 0 0 4px var(--white),0 0 0 5px var(--t300)}
+.coe-stat-icon{background:var(--t100);color:var(--tink)}
+.teaser .ic{background:var(--t100);color:var(--tink)}
+
+@media (max-width:760px){
+  .place-stats{grid-template-columns:1fr 1fr}
+  .place-stats .stat-item,.place-stats .stat-item:nth-child(n){padding:18px 16px;border:1px solid var(--line);border-top:3px solid var(--t300)}
+  .place-stats .stat-item .big{font-size:clamp(1.9rem,8.5vw,2.4rem)}
+  .jr-steps{gap:12px}
+}

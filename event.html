@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="Events & Activities — Department of Management Studies, Saveetha Engineering College.">
@@ -12,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20261117ui">
+<link rel="stylesheet" href="styles.css?v=20261124corp">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -84,16 +83,7 @@
           <a href="advisory-board.html#advisors">Academic &amp; Industry Experts</a>
         </div>
       </div>
-      <div class="has-submenu">
-        <a href="research.html" class="submenu-trigger">Research <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
-        <div class="submenu">
-          <a href="research.html#publications">Publications</a>
-          <a href="research.html#patents">Patents</a>
-          <a href="research.html#books">Books</a>
-          <a href="research.html#conferences">Conferences</a>
-          <a href="research.html#funded-projects">Funded Projects</a>
-        </div>
-      </div>
+      <a href="research.html" class="menu-link">Research Nexus</a>
       <div class="has-submenu">
         <a href="coe.html" class="submenu-trigger">Centres of Excellence <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
         <div class="submenu">
@@ -131,16 +121,7 @@
           <a href="placements.html#success-stories">Alumni Success Stories</a>
         </div>
       </div>
-      <div class="has-submenu">
-        <a href="events.html" class="submenu-trigger" title="Events and Activities">Events <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
-        <div class="submenu">
-          <a href="events.html#conferences">Conferences</a>
-          <a href="events.html#fdps">FDPs</a>
-          <a href="events.html#workshops">Workshops</a>
-          <a href="events.html#guest-lectures">Guest Lectures</a>
-          <a href="events.html#student-activities">Student Activities</a>
-        </div>
-      </div>
+      <a href="events.html" class="menu-link" title="Life at the Department of Management Studies: event photos, date-wise">Life @ DoMS</a>
       <div class="has-submenu sm-right">
         <a href="alumni.html" class="submenu-trigger">Alumni <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
         <div class="submenu">
@@ -172,10 +153,21 @@
 <!-- Hero (populated) -->
 <section class="event-hero" id="evHero">
   <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">›</span><a href="events.html">Events &amp; Activities</a><span class="sep">›</span><span id="crumbTitle">Loading…</span></div>
+    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">›</span><a href="events.html">Life @ DoMS</a><span class="sep">›</span><span id="crumbTitle">Loading…</span></div>
     <div id="evHeroBody" class="event-hero-body">
       <div class="event-hero-stub">Loading event…</div>
     </div>
+  </div>
+</section>
+
+<!-- Photo gallery first (populated if ev.gallery is non-empty), then the write-up -->
+<section class="section event-gallery-section" id="evGallerySection" style="display:none;background:#fff">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:20px">
+      <span class="eyebrow">Photo gallery</span>
+      <h2 style="margin:6px 0 0">Moments from this event.</h2>
+    </div>
+    <div class="event-gallery-grid" id="evGalleryGrid"></div>
   </div>
 </section>
 
@@ -183,17 +175,6 @@
 <section class="section" id="evBodySection" style="background:#fff">
   <div class="container">
     <div class="event-body-grid" id="evBodyGrid"></div>
-  </div>
-</section>
-
-<!-- Photo gallery (populated if ev.gallery is non-empty) -->
-<section class="section event-gallery-section" id="evGallerySection" style="display:none;background:#fff;padding-top:0">
-  <div class="container">
-    <div class="section-head" style="margin-bottom:20px">
-      <span class="eyebrow">Photo gallery</span>
-      <h2 style="margin:6px 0 0">Moments from this event.</h2>
-    </div>
-    <div class="event-gallery-grid" id="evGalleryGrid"></div>
   </div>
 </section>
 
@@ -232,7 +213,7 @@
     <span class="eyebrow" style="margin-inline:auto">Not found</span>
     <h1 style="margin:8px 0 14px;font-size:clamp(1.85rem,3.3vw,2.75rem)">We couldn't find that event.</h1>
     <p style="color:rgba(27,35,88,.7);margin:0 0 24px">It may have been removed, or the link may be out of date.</p>
-    <a href="events.html" class="btn btn-dark">Back to Events &amp; Activities
+    <a href="events.html" class="btn btn-dark">Back to Life @ DoMS
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m0 0l-6-6m6 6l-6 6"/></svg>
     </a>
   </div>
@@ -252,8 +233,8 @@
         </div>
         <p>An autonomous institution affiliated to Anna University — dedicated to developing future business leaders through an AI/ML integrated MBA programme.</p>
       </div>
-      <div><h5>Department</h5><ul><li><a href="about.html">About the Department</a></li><li><a href="programme.html">MBA Programme</a></li><li><a href="faculty.html">Faculty</a></li><li><a href="advisory-board.html">Advisory Board</a></li><li><a href="research.html">Research</a></li><li><a href="coe.html">Centres of Excellence</a></li><li><a href="infrastructure.html">Infrastructure &amp; Facilities</a></li></ul></div>
-      <div><h5>Explore</h5><ul><li><a href="industry-connect.html">Industry Connect</a></li><li><a href="placements.html">Placements</a></li><li><a href="events.html">Events &amp; Activities</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="magazine.html">Department Magazine</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="assets/MBA-Brochure-2026.pdf" download="MBA-Brochure-2026.pdf" target="_blank" rel="noopener">Download Brochure</a></li></ul></div>
+      <div><h5>Department</h5><ul><li><a href="about.html">About the Department</a></li><li><a href="programme.html">MBA Programme</a></li><li><a href="faculty.html">Faculty</a></li><li><a href="advisory-board.html">Advisory Board</a></li><li><a href="research.html">Research Nexus</a></li><li><a href="coe.html">Centres of Excellence</a></li><li><a href="infrastructure.html">Infrastructure &amp; Facilities</a></li></ul></div>
+      <div><h5>Explore</h5><ul><li><a href="industry-connect.html">Industry Connect</a></li><li><a href="placements.html">Placements</a></li><li><a href="events.html">Life @ DoMS</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="magazine.html">Department Magazine</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="assets/MBA-Brochure-2026.pdf" download="MBA-Brochure-2026.pdf" target="_blank" rel="noopener">Download Brochure</a></li></ul></div>
       <div><h5>Contact</h5><ul><li>+91 8939902737</li><li>admission@saveetha.ac.in</li><li>Saveetha Nagar, Thandalam,<br/>Chennai – 602 105</li><li><a href="https://www.saveetha.ac.in" target="_blank" rel="noopener">www.saveetha.ac.in</a></li><li style="margin-top:10px;font-size:.88em;opacity:.85">For <strong>B.E. / B.Tech admissions</strong>, visit <a href="https://www.saveetha.ac.in" target="_blank" rel="noopener">saveetha.ac.in</a></li></ul></div>
     </div>
     <div class="foot-bottom"><div>© 2026 Saveetha Engineering College · Department of Management Studies. All Rights Reserved.</div><div>Autonomous · Affiliated to Anna University</div></div>
@@ -330,7 +311,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         '<dl>' +
           factsRows.map(r => '<dt>' + r.label + '</dt><dd>' + r.value + '</dd>').join('') +
         '</dl>' +
-        '<a href="events.html" class="btn btn-ghost" style="margin-top:18px">← All Events &amp; Activities</a>' +
+        '<a href="events.html" class="btn btn-ghost" style="margin-top:18px">← Back to Life @ DoMS</a>' +
       '</div>' +
     '</aside>';
 

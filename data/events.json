@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-11-17",
+  "updated": "2026-11-24",
   "source": "Department of Management Studies event register FY 2025-26 and FY 2026-27, plus FDP brochures. Dates checked against the weekday column.",
   "events": [
     {
@@ -291,62 +291,47 @@
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/1.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 1 of 12"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/2.jpg",
-          "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 2 of 12"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/3.jpg",
-          "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 3 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 1 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/4.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 4 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 2 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/5.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 5 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 3 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/6.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 6 of 12"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/7.jpg",
-          "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 7 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 4 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/8.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 8 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 5 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/9.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 9 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 6 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/10.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 10 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 7 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/11.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 11 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 8 of 9"
         },
         {
           "url": "assets/images/events/gallery/2026-08-29-from-campus-to-career-an-alum/12.jpg",
           "caption": "",
-          "alt": "From Campus to Career: An Alumni Conclave: photo 12 of 12"
+          "alt": "From Campus to Career: An Alumni Conclave: photo 9 of 9"
         }
       ],
       "externalUrl": "",
@@ -624,14 +609,14 @@
       "kind": "Placement training",
       "date": "2026-08-22",
       "end": "",
-      "title": "HIRE Corporate Mock Interview Challenge",
-      "speakers": "Twenty interviewers from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
-      "note": "",
+      "title": "HIRE – Corporate Mock Interview Challenge 2026",
+      "speakers": "21 interviewers (11 industry experts and 10 alumni) from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
+      "note": "240 MBA learners · Lattice Hall · Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani",
       "organisations": [],
-      "summary": "Twenty interviewers from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
+      "summary": "21 interviewers (11 industry experts and 10 alumni) from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
       "context": "",
       "cover": "",
-      "body": "",
+      "body": "<p>The Department of Management Studies, Saveetha Engineering College (Autonomous), organised “HIRE – Corporate Mock Interview Challenge 2026” on 22 August 2026 at Lattice Hall, Saveetha Engineering College, Chennai. The programme was coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani to provide MBA students with real-time corporate interview experience.</p><p>A total of 240 MBA learners participated in this industry-integrated experiential learning initiative. The event brought together 21 professionals, comprising 11 industry experts and 10 alumni, from diverse sectors. The interview panels represented Human Resources, Marketing, Finance, Operations, Business Analytics, Logistics, Shipping, Technology and Hospital Administration.</p><p>The initiative focused on enhancing students’ communication, confidence, professional etiquette, domain knowledge and interview readiness. It also strengthened industry–academia interaction and alumni engagement while preparing students for future internship and placement opportunities.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/1.jpg",
@@ -670,13 +655,28 @@
         },
         {
           "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/8.jpg",
-          "caption": "",
-          "alt": "HIRE Corporate Mock Interview Challenge: photo 8 of 9"
+          "caption": "Industry experts and alumni professionals interviewed MBA learners at Lattice Hall",
+          "alt": "An MBA learner answering questions from a faculty member and an industry interviewer"
         },
         {
           "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/9.jpg",
           "caption": "",
           "alt": "HIRE Corporate Mock Interview Challenge: photo 9 of 9"
+        },
+        {
+          "url": "assets/images/events/life/hire-2026-team.jpg",
+          "caption": "HIRE 2026: faculty, alumni and industry panel members with the Head of Department",
+          "alt": "Faculty, alumni and industry panel members with the Head of Department after HIRE 2026"
+        },
+        {
+          "url": "assets/images/events/life/hire-2026-panel.jpg",
+          "caption": "The panel of 11 industry experts and 10 alumni represented organisations such as TAFE, DHL Logistics, V.Ships, Wipro, Virtusa, State Street and Valeo",
+          "alt": "A faculty member and an alumna interviewing an MBA learner"
+        },
+        {
+          "url": "assets/images/events/life/hire-2026-felicitation.jpg",
+          "caption": "The department felicitates HIRE panel members",
+          "alt": "The Head of Department presenting a book to a HIRE panel member, with faculty"
         }
       ],
       "externalUrl": "",
@@ -751,12 +751,12 @@
       "end": "",
       "title": "Beyond the MBA: Turning Your Degree into Direction",
       "speakers": "Ms. Swarna Shreya, SEC alumna (B.E. 2016–2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
-      "note": "",
+      "note": "136 participants · Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani",
       "organisations": [],
       "summary": "Ms. Swarna Shreya, SEC alumna (B.E. 2016–2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
       "context": "",
       "cover": "",
-      "body": "",
+      "body": "<p>The Department of Management Studies, Saveetha Engineering College, organised an Alumni Talk titled “Beyond the MBA: Turning Your Degree into Direction” on 10 August 2026, featuring Ms. Swarna Shreya, alumna (B.E. 2016–2020) and Full-Time MBA Candidate at The Ohio State University.</p><p>The session provided valuable insights into career planning, industry expectations, skill development, leadership, communication, KPIs and practical applications of MBA knowledge. Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani, the programme witnessed 136 participants.</p><p>The interactive session helped students understand career opportunities, develop a growth mindset and gain clarity on transforming their MBA qualification into meaningful career directions.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/1.jpg",
@@ -831,12 +831,12 @@
       "end": "",
       "title": "Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance",
       "speakers": "Prof. Babu (Lourduraj) John-Mariadoss, J.B. Hoskins Professor of Marketing, Rawls College of Business, Texas Tech University",
-      "note": "",
+      "note": "FinTech Lab · Marketing Stream · Organised by Dr. S. Catherine Rex",
       "organisations": [],
       "summary": "An FDP led by Prof. Babu John-Mariadoss of Rawls College of Business, Texas Tech University.",
       "context": "",
       "cover": "assets/images/events/event-fdp.jpg",
-      "body": "",
+      "body": "<p>The Department of Management Studies, Saveetha Engineering College, under the Marketing Stream, organised a Faculty Development Programme (FDP) titled “Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance” on 11 July 2026 at the FinTech Lab.</p><p>The programme was organised by Dr. S. Catherine Rex and featured Prof. Babu (Lourduraj) John-Mariadoss, J.B. Hoskins Professor of Marketing, Rawls College of Business, Texas Tech University, as the resource person.</p><p>The session provided valuable insights into research paper development, journal selection, publication strategies and the expectations of high-quality marketing journals. It aimed to strengthen faculty research capabilities and enhance their understanding of successful academic publishing practices.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-07-11-publishing-in-high-quality-ma/1.jpg",
@@ -1143,44 +1143,9 @@
       "body": "",
       "gallery": [
         {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/1.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 1 of 8"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/2.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 2 of 8"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/3.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 3 of 8"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/4.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 4 of 8"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/5.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 5 of 8"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/6.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 6 of 8"
-        },
-        {
-          "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/7.jpg",
-          "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 7 of 8"
-        },
-        {
           "url": "assets/images/events/gallery/2026-02-28-mental-health-awareness-and-i/8.jpg",
           "caption": "",
-          "alt": "Mental Health Awareness and Intervention Strategies: photo 8 of 8"
+          "alt": "Mental Health Awareness and Intervention Strategies: photo 1 of 1"
         }
       ],
       "externalUrl": "",
@@ -1234,14 +1199,9 @@
       "body": "",
       "gallery": [
         {
-          "url": "assets/images/events/gallery/2026-02-28-organoid-artificial-intellige/1.jpg",
-          "caption": "",
-          "alt": "Organoid Artificial Intelligence: photo 1 of 2"
-        },
-        {
           "url": "assets/images/events/gallery/2026-02-28-organoid-artificial-intellige/2.jpg",
           "caption": "",
-          "alt": "Organoid Artificial Intelligence: photo 2 of 2"
+          "alt": "Organoid Artificial Intelligence: photo 1 of 1"
         }
       ],
       "externalUrl": "",
@@ -1580,12 +1540,32 @@
       "summary": "Ms. V. Keerthana, Associate (Reconciliation), State Street",
       "context": "State Street",
       "cover": "",
-      "body": "",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>Campus to Career: Crafting Your Pathway to Success</em> on 7 February 2026 at Lattice Hall. The session, aligned with SDG 4 – Quality Education, drew 230 MBA students and aimed to bridge academic learning and professional expectations.</p><p>Ms. V. Keerthana, a 2022–2024 alumna of the department and now Associate (Reconciliation) at State Street, spoke about moving from campus to corporate life, the early-career challenges she faced and the strategies that helped her overcome them. The talk covered communication, teamwork, analytical thinking, professional ethics and lifelong learning, and students cleared their career-related queries.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/1.jpg",
           "caption": "",
           "alt": "Campus to Career: Crafting Your Pathway to Success: photo 1 of 1"
+        },
+        {
+          "url": "assets/images/events/life/alumni-talk-campus-to-career.jpg",
+          "caption": "Alumni talk: Campus to Career, Lattice Hall, 7 February 2026",
+          "alt": "Alumna Ms. V. Keerthana speaking at the podium to MBA students in Lattice Hall"
+        },
+        {
+          "url": "assets/images/events/life/alumni-talk-keerthana-journey.jpg",
+          "caption": "Ms. V. Keerthana shares her career journey with MBA students",
+          "alt": "MBA students listening to the alumni talk"
+        },
+        {
+          "url": "assets/images/events/life/alumni-talk-interactive-session.jpg",
+          "caption": "Interactive session on employability skills and industry expectations",
+          "alt": "Students in Lattice Hall during the interactive session"
+        },
+        {
+          "url": "assets/images/events/life/alumni-talk-memento.jpg",
+          "caption": "Memento presented to alumna Ms. V. Keerthana",
+          "alt": "Faculty presenting a memento to alumna Ms. V. Keerthana on stage"
         }
       ],
       "externalUrl": "",
@@ -1668,7 +1648,7 @@
       "kind": "Management fest",
       "date": "2025-11-03",
       "end": "2025-11-08",
-      "title": "DRESTIEN ’25: six-day management fest",
+      "title": "DRESTEIN ’25: six-day management fest",
       "speakers": "Design Thinking Workshop (3 Nov), Business Movie Screening (4 Nov), Business Premier League (5 Nov), Stock Market Workshop (6 Nov), Best Manager & Management Games Marathon (7 Nov), Corporate Walk & Shark Tank (8 Nov)",
       "note": "",
       "organisations": [],
@@ -1680,19 +1660,29 @@
         {
           "url": "assets/images/events/gallery/2025-11-03-drestien-25-six-day-managemen/1.jpg",
           "caption": "",
-          "alt": "DRESTIEN ’25: six-day management fest: photo 1 of 2"
+          "alt": "DRESTEIN ’25: six-day management fest: photo 1 of 2"
         },
         {
           "url": "assets/images/events/gallery/2025-11-03-drestien-25-six-day-managemen/2.jpg",
           "caption": "",
-          "alt": "DRESTIEN ’25: six-day management fest: photo 2 of 2"
+          "alt": "DRESTEIN ’25: six-day management fest: photo 2 of 2"
+        },
+        {
+          "url": "assets/images/events/life/best-manager-2025-team.jpg",
+          "caption": "Best Manager, 7 November 2025: Sri Vignesh (VISTAS) won First Prize, followed by Sanjeev Kumar and Thenamudhan of SEC",
+          "alt": "Best Manager participants and student organisers with faculty on stage at Lines Hall"
+        },
+        {
+          "url": "assets/images/events/life/best-manager-2025-dais.jpg",
+          "caption": "Best Manager begins with dignitaries on the dais; resource person Dr. A. Suresh Kumar",
+          "alt": "Faculty and the resource person seated on the dais at Lines Hall"
         }
       ],
       "externalUrl": "",
       "featured": true,
       "published": true,
-      "coverAlt": "Students on stage at DRESTIEN '25",
-      "cardTitle": "DRESTIEN ’25"
+      "coverAlt": "Students on stage at DRESTEIN '25",
+      "cardTitle": "DRESTEIN ’25"
     },
     {
       "id": "2025-10-29-vigilance-awareness-week-vigilance-our-shared-responsibility",
@@ -2168,22 +2158,12 @@
         {
           "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/1.jpg",
           "caption": "",
-          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 1 of 4"
+          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 1 of 2"
         },
         {
           "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/2.jpg",
           "caption": "",
-          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 2 of 4"
-        },
-        {
-          "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/3.jpg",
-          "caption": "",
-          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 3 of 4"
-        },
-        {
-          "url": "assets/images/events/gallery/2025-09-15-discussion-understanding-of-h/4.jpg",
-          "caption": "",
-          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 4 of 4"
+          "alt": "Discussion & Understanding of HR Practices in Corporate: photo 2 of 2"
         }
       ],
       "externalUrl": "",
@@ -2554,19 +2534,9 @@
       "body": "",
       "gallery": [
         {
-          "url": "assets/images/events/gallery/2025-08-23-driving-growth-through-the-ti/1.jpg",
-          "caption": "",
-          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 1 of 3"
-        },
-        {
           "url": "assets/images/events/gallery/2025-08-23-driving-growth-through-the-ti/2.jpg",
           "caption": "",
-          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 2 of 3"
-        },
-        {
-          "url": "assets/images/events/gallery/2025-08-23-driving-growth-through-the-ti/3.jpg",
-          "caption": "",
-          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 3 of 3"
+          "alt": "Driving Growth Through the Times of Uncertainty (SDG 8: Decent Work and Economic Growth): photo 1 of 1"
         }
       ],
       "externalUrl": "",
@@ -2595,17 +2565,12 @@
         {
           "url": "assets/images/events/gallery/2025-08-18-case-study-analysis-sydney-op/1.jpg",
           "caption": "",
-          "alt": "Case Study Analysis: Sydney Opera House: photo 1 of 3"
+          "alt": "Case Study Analysis: Sydney Opera House: photo 1 of 2"
         },
         {
           "url": "assets/images/events/gallery/2025-08-18-case-study-analysis-sydney-op/2.jpg",
           "caption": "",
-          "alt": "Case Study Analysis: Sydney Opera House: photo 2 of 3"
-        },
-        {
-          "url": "assets/images/events/gallery/2025-08-18-case-study-analysis-sydney-op/3.jpg",
-          "caption": "",
-          "alt": "Case Study Analysis: Sydney Opera House: photo 3 of 3"
+          "alt": "Case Study Analysis: Sydney Opera House: photo 2 of 2"
         }
       ],
       "externalUrl": "",
