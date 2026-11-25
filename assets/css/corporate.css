@@ -1,0 +1,117 @@
+/* =========================================================
+   Corporate page system — interior pages (body.sxp)
+   Same language as home.css / research.css: navy leads on white
+   and warm ivory, one ember accent, gold for small details,
+   square corners and hairlines, real photography in the header.
+   Loaded after each page's own <style>, so it wins at equal
+   specificity. Section bar: assets/js/corporate.js.
+   ========================================================= */
+body.sxp{
+  --navy:#1B2358; --navy-deep:#10153A; --accent:#D9541E; --gold:#C9A25B;
+  --sx-line:#E6E2D9; --sx-muted:#6B6F7B; --sx-ivory:#F7F5F0;
+  background:#fff;
+}
+body.sxp img.pt-avatar{box-shadow:none}
+body.sxp footer::before{width:min(28%,320px);height:2px;background:var(--navy)}
+
+/* ---------- Section rhythm: white + warm ivory only ---------- */
+body.sxp main > section:nth-of-type(n){--paper:var(--sx-ivory);--cream:var(--sx-ivory);--ivory:#fff}
+body.sxp .section{padding-block:clamp(64px,7vw,104px)}
+body.sxp .section-head{max-width:820px}
+body.sxp .section-head h2,body.sxp .section h2{letter-spacing:-.03em}
+body.sxp .eyebrow{letter-spacing:.18em}
+body.sxp .eyebrow::before{width:28px;height:2px}
+
+/* ---------- Header: photo-led navy band ---------- */
+.sxp-head{position:relative;overflow:hidden;isolation:isolate;background:var(--navy-deep);color:#fff;
+  padding:clamp(64px,8vw,112px) 0 clamp(64px,7vw,96px);border-bottom:3px solid var(--accent)}
+.sxp-head-photo{position:absolute;inset:0 0 0 42%;z-index:-2;background:center/cover no-repeat}
+.sxp-head::before{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(90deg,var(--navy-deep) 0%,var(--navy-deep) 40%,rgba(16,21,58,.82) 58%,rgba(16,21,58,.3) 100%)}
+.sxp-head .ph-content{max-width:640px}
+.sxp-head .breadcrumb{color:rgba(255,255,255,.6);margin-bottom:28px}
+.sxp-head .breadcrumb a{color:rgba(255,255,255,.82)}
+.sxp-head .breadcrumb a:hover{color:#fff}
+.sxp-head .breadcrumb .sep{color:rgba(255,255,255,.4)}
+.sxp-head .eyebrow,.sxp-head .coe-hero-kicker{color:var(--gold);background:none;border:0;padding:0}
+.sxp-head .coe-hero-kicker .pulse{display:none}
+.sxp-head h1{color:#fff;font-size:clamp(2.4rem,4.8vw,3.9rem);line-height:1.04;letter-spacing:-.035em;margin-bottom:18px}
+.sxp-head h1 em{font-family:var(--font-display);font-style:italic;font-weight:600;color:var(--gold)}
+.sxp-head h1 .lr{color:inherit}
+.sxp-head .lede,.sxp-head p{color:rgba(255,255,255,.76);font-size:1.06rem;line-height:1.7;max-width:56ch}
+.sxp-head .lede strong,.sxp-head p strong{color:#fff}
+.sxp-head .actions{margin-top:28px}
+.sxp-head .btn{border-radius:2px}
+.sxp-head .btn-dark,.sxp-head .btn-primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.sxp-head .btn-dark:hover,.sxp-head .btn-primary:hover{background:#C24715;border-color:#C24715}
+.sxp-head .btn-ghost,.sxp-head .btn-outline{background:transparent;border:1px solid rgba(255,255,255,.45);color:#fff}
+.sxp-head .btn-ghost:hover,.sxp-head .btn-outline:hover{background:#fff;color:var(--navy)}
+.sxp-head .todo-note{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.3)}
+
+/* ---------- Sticky section bar (built by corporate.js) ---------- */
+.sxp-sub{position:sticky;top:var(--sxp-top,0px);z-index:90;background:#fff;border-bottom:1px solid var(--sx-line);box-shadow:0 6px 18px rgba(11,15,43,.04)}
+.sxp-sub-in{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.sxp-sub-in::-webkit-scrollbar{display:none}
+.sxp-sub a{flex:none;padding:18px 14px 16px;font:700 .84rem/1 var(--font-head);color:var(--sx-muted);border-bottom:2px solid transparent;white-space:nowrap;transition:color .2s var(--ease),border-color .2s var(--ease)}
+.sxp-sub a:hover{color:var(--navy)}
+.sxp-sub a.on{color:var(--navy);border-bottom-color:var(--accent)}
+html:has(body.sxp){scroll-padding-top:calc(var(--sxp-top,100px) + 64px)}
+
+/* ---------- Shared components: square, hairline, navy ---------- */
+body.sxp :is(.teaser,.fac-card,.infra-card,.coe-card,.coe-tile,.coe-stat-item,.contact-card,.contact-form,.map-embed,
+  .story-quote,.pl-co,.pl-counts li,.book-card,.fund-col,.ev-card,.lab-card,.rs-card,.vm-card,.ab-obe-card,
+  .fee-table,.fp-card,.fp-panel,.mag-card,.career-card,.rs-table-wrap,.coe-matrix-wrap,.event-facts-card){border-radius:2px}
+body.sxp :is(.teaser,.fac-card,.infra-card,.coe-card,.contact-card,.story-quote,.pl-co,.book-card,.fund-col,.ab-obe-card,.career-card){
+  box-shadow:none;border-color:var(--sx-line)}
+body.sxp :is(.teaser,.fac-card,.infra-card,.coe-card,.contact-card):hover{box-shadow:0 14px 32px rgba(11,15,43,.08);border-color:#D9D4C8}
+body.sxp .teaser{border-top:3px solid var(--navy)}
+body.sxp .teaser::after{display:none}
+body.sxp .teaser .ic,body.sxp .contact-card .ic,body.sxp .coe-stat-icon{background:transparent;border:1px solid var(--sx-line);color:var(--navy);border-radius:2px}
+body.sxp .chip:not(.active){border-radius:2px;background:#fff;border-color:var(--sx-line);color:var(--navy)}
+body.sxp .chip.active,body.sxp button.chip[aria-pressed="true"]{border-radius:2px;background:var(--navy);border-color:var(--navy)}
+body.sxp .btn{border-radius:2px}
+body.sxp .tick{background:var(--navy)}
+body.sxp .tick::after{border-color:var(--gold)}
+body.sxp .spec-chips li{border-radius:2px;background:#fff;border:1px solid var(--sx-line);color:var(--navy)}
+body.sxp .vm-vision{background:var(--navy-deep)}
+body.sxp .hod{background:var(--navy-deep)}
+
+/* faculty directory */
+body.sxp .fac-photo{background-color:#E4E8EE !important;box-shadow:0 0 0 4px #fff,0 0 0 5px var(--sx-line)}
+body.sxp .fac-card{border-top:3px solid var(--navy)}
+body.sxp .fac-role{color:var(--accent)}
+
+/* stats */
+body.sxp .stat-item .big{color:var(--navy)}
+body.sxp .stat-item .big sup{color:var(--accent)}
+body.sxp .place-stats{border-top:1px solid var(--sx-line);border-bottom:1px solid var(--sx-line)}
+body.sxp .stats-band--dark,body.sxp .stats-band[style*="indigo"]{background:var(--navy-deep) !important}
+
+/* placements */
+body.sxp .pl-tabs button{border-radius:2px;background:#fff;border-color:var(--sx-line);color:var(--navy)}
+body.sxp .pl-tabs button.active{background:var(--navy);border-color:var(--navy);color:#fff}
+body.sxp .pl-co{background:#fff;border-top:3px solid var(--navy)}
+body.sxp .pl-co-head span{color:var(--sx-muted)}
+body.sxp .pl-people img{aspect-ratio:1/1;object-position:center top;border-radius:2px;background:#E4E8EE}
+body.sxp .pl-counts li{background:#fff;border-color:var(--sx-line)}
+body.sxp .pl-counts b{color:var(--navy)}
+body.sxp .story-quote{background:#fff;border-top:3px solid var(--navy)}
+body.sxp .story-quote img{border-radius:2px}
+
+/* timelines and tables */
+body.sxp .process-step .n,body.sxp .coe-num,body.sxp .coe-act-date{color:var(--accent)}
+body.sxp .fee-head{background:var(--navy);color:#fff}
+body.sxp .fee-head *{color:#fff}
+
+/* CTA banner kept from the original design, squared off */
+body.sxp .cta-banner{border-radius:4px}
+
+/* ---------- Responsive ---------- */
+@media (max-width:900px){
+  .sxp-head-photo{inset:0;opacity:.3}
+  .sxp-head::before{background:linear-gradient(180deg,rgba(16,21,58,.9),rgba(16,21,58,.96))}
+}
+@media (max-width:640px){
+  .sxp-head h1{font-size:2.3rem}
+  .sxp-sub a{padding:15px 11px 13px;font-size:.8rem}
+}
