@@ -1,8 +1,52 @@
 {
   "version": 2,
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "source": "Department of Management Studies event register FY 2025-26 and FY 2026-27, plus FDP brochures. Dates checked against the weekday column.",
   "events": [
+    {
+      "id": "2026-11-05-management-in-the-maritime-industry",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Guest lecture",
+      "kind": "Guest lecture",
+      "date": "2026-11-05",
+      "end": "",
+      "title": "Management in the Maritime Industry: From Ship Construction and Commercial Shipping to Sustainable Ship Recycling",
+      "speakers": "Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert, Sea Sentinels Pte. Ltd., Singapore",
+      "note": "",
+      "organisations": [
+        "Sea Sentinels"
+      ],
+      "summary": "Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert at Sea Sentinels Pte. Ltd., Singapore, on how ships are built, operated and recycled, and where managers fit in.",
+      "context": "Sea Sentinels",
+      "cover": "",
+      "body": "<p>The Department of Management Studies organised a guest talk titled <em>Management in the Maritime Industry: From Ship Construction and Commercial Shipping to Sustainable Ship Recycling</em> on 5 November 2026 in Room 6412. The guest speaker was Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert at Sea Sentinels Pte. Ltd., Singapore.</p><table><tbody><tr><th>Guest speaker</th><td>Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert, Sea Sentinels Pte. Ltd., Singapore</td></tr><tr><th>Venue</th><td>Room 6412, Department of Management Studies, Saveetha Engineering College</td></tr><tr><th>Audience</th><td>MBA students</td></tr></tbody></table><h3>About the talk</h3><p>The talk gave students a practical view of how the maritime industry operates across a ship’s whole life. Mr. Sri Ram Krishnan covered:</p><ul><li>Ship construction</li><li>Commercial shipping operations</li><li>Hazardous material management</li><li>Sustainable ship recycling</li></ul><p>A recurring theme was the place of management in a technical industry. As one of his slides put it, not everyone working in a shipyard is an engineer: engineers design and build the ship, while management professionals plan and monitor the project, manage cost and budget, arrange people and resources, coordinate with suppliers, clients and stakeholders, and make sure the ship is delivered on time.</p><h3>Outcome</h3><p>The session gave students an industry view of operational practice in the maritime sector, along with the career opportunities it offers management graduates and the growing importance of sustainability in shipping.</p>",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/talk.jpg",
+          "caption": "Mr. P. Sri Ram Krishnan on ship construction as a team effort",
+          "alt": "Mr. P. Sri Ram Krishnan at the podium beside a slide titled Ship Construction – A Team Effort, with MBA students seated in front"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/memento.jpg",
+          "caption": "Faculty of the department present a memento to the guest speaker",
+          "alt": "Mr. P. Sri Ram Krishnan receiving a Saveetha Engineering College memento bag from faculty members in front of the talk’s title slide"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/book.jpg",
+          "caption": "Mr. P. Sri Ram Krishnan receiving a book from the department",
+          "alt": "A faculty member presenting a copy of Sapiens to Mr. P. Sri Ram Krishnan"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/poster.jpg",
+          "caption": "Event poster: Management in the Maritime Industry, 5 November 2026",
+          "alt": "Poster for the guest talk Management in the Maritime Industry with a photo of Mr. P. Sri Ram Krishnan"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
     {
       "id": "2026-10-17-ai-ml-driven-management",
       "type": "event",
@@ -22,6 +66,119 @@
       "cover": "",
       "body": "",
       "gallery": [],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-10-15-first-prize-national-level-business-quiz-anna-university",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "Student achievement",
+      "kind": "Student achievement",
+      "date": "2026-10-15",
+      "end": "",
+      "title": "First Prize at the National Level Business Quiz, Anna University",
+      "speakers": "",
+      "note": "",
+      "organisations": [
+        "Anna University"
+      ],
+      "summary": "MBA learners of the 2026–28 batch won the First Prize at the National Level Business Quiz held at Anna University, Chennai.",
+      "context": "Anna University, Chennai",
+      "cover": "",
+      "body": "<p>Learners from the Department of Management Studies (MBA 2026–28 batch) won the First Prize in the National Level Business Quiz held at Anna University, Chennai, on 15 October 2026.</p><table><tbody><tr><th>Competition</th><td>National Level Business Quiz</td></tr><tr><th>Host</th><td>Anna University, Chennai</td></tr><tr><th>Result</th><td>First Prize</td></tr><tr><th>Team</th><td>MBA learners, 2026–28 batch</td></tr></tbody></table>",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-10-15-national-level-business-quiz/team.jpg",
+          "caption": "The prize-winning MBA team with their Anna University certificates and faculty members",
+          "alt": "Four MBA students holding Anna University certificates, standing with other students and faculty members in the department office"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-10-10-biz-quiz-club-badging-ceremony-and-quiz-winners-award",
+      "type": "event",
+      "category": "student-activity",
+      "tag": "BIZ Quiz Club",
+      "kind": "Club activity",
+      "date": "2026-10-10",
+      "end": "",
+      "title": "BIZ Quiz Club Badging Ceremony and Quiz Winners Award Ceremony",
+      "speakers": "Mr. Hariharan, Vice President, BNY",
+      "note": "",
+      "organisations": [
+        "BNY"
+      ],
+      "summary": "New BIZ Quiz Club members received their badges and last year’s quiz winners were felicitated with books by Mr. Hariharan, Vice President, BNY.",
+      "context": "BIZ Quiz Club",
+      "cover": "",
+      "body": "<p>The BIZ Quiz Club of the Department of Management Studies held its badging ceremony on 10 October 2026, formally conferring badges on newly selected club members and welcoming them into the club. Alongside it, the winners of the quizzes conducted during the last academic year were felicitated with books. About 200 students took part.</p><table><tbody><tr><th>Chief guest</th><td>Mr. Hariharan, Vice President, BNY</td></tr><tr><th>Faculty in-charge</th><td>Dr. V. Vimalnath</td></tr><tr><th>Academic year</th><td>2026–27</td></tr><tr><th>Participants</th><td>200</td></tr></tbody></table><h3>Badging ceremony</h3><p>Newly selected members were called on stage and conferred their club badges by Mr. Hariharan, under the guidance of faculty in-charge Dr. V. Vimalnath.</p><h3>Quiz winners award ceremony</h3><p>Winners of the previous academic year’s quizzes were presented with books in recognition of their performance.</p><h3>Outcome</h3><p>The event recognised student talent, encouraged healthy competition and motivated learners to take an active part in daily quizzing, building general awareness, teamwork and a sense of leadership and responsibility.</p>",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-6.jpg",
+          "caption": "Mr. Hariharan, Vice President, BNY, confers a club badge on a newly selected member",
+          "alt": "Mr. Hariharan presenting a BIZ Quiz Club badge to a student on stage while the student anchors speak at the podium"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-1.jpg",
+          "caption": "Mr. Hariharan, Vice President, BNY, confers a club badge on a newly selected member",
+          "alt": "Mr. Hariharan presenting a BIZ Quiz Club badge to a student on stage while the student anchors speak at the podium"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-2.jpg",
+          "caption": "Mr. Hariharan, Vice President, BNY, confers a club badge on a newly selected member",
+          "alt": "Mr. Hariharan presenting a BIZ Quiz Club badge to a student on stage while the student anchors speak at the podium"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-3.jpg",
+          "caption": "Mr. Hariharan, Vice President, BNY, confers a club badge on a newly selected member",
+          "alt": "Mr. Hariharan presenting a BIZ Quiz Club badge to a student on stage while the student anchors speak at the podium"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-4.jpg",
+          "caption": "Mr. Hariharan, Vice President, BNY, confers a club badge on a newly selected member",
+          "alt": "Mr. Hariharan presenting a BIZ Quiz Club badge to a student on stage while the student anchors speak at the podium"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-5.jpg",
+          "caption": "Mr. Hariharan, Vice President, BNY, confers a club badge on a newly selected member",
+          "alt": "Mr. Hariharan presenting a BIZ Quiz Club badge to a student on stage while the student anchors speak at the podium"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/awards-1.jpg",
+          "caption": "A quiz winner from the last academic year receives a book from Mr. Hariharan",
+          "alt": "Mr. Hariharan presenting a book to a BIZ Quiz Club quiz winner"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/awards-2.jpg",
+          "caption": "A quiz winner from the last academic year receives a book from Mr. Hariharan",
+          "alt": "Mr. Hariharan presenting a book to a BIZ Quiz Club quiz winner"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/awards-3.jpg",
+          "caption": "A quiz winner from the last academic year receives a book from Mr. Hariharan",
+          "alt": "Mr. Hariharan presenting a book to a BIZ Quiz Club quiz winner"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/awards-4.jpg",
+          "caption": "A quiz winner from the last academic year receives a book from Mr. Hariharan",
+          "alt": "Mr. Hariharan presenting a book to a BIZ Quiz Club quiz winner"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/awards-5.jpg",
+          "caption": "A quiz winner from the last academic year receives a book from Mr. Hariharan",
+          "alt": "Mr. Hariharan presenting a book to a BIZ Quiz Club quiz winner"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/awards-6.jpg",
+          "caption": "A quiz winner from the last academic year receives a book from Mr. Hariharan",
+          "alt": "Mr. Hariharan presenting a book to a BIZ Quiz Club quiz winner"
+        }
+      ],
       "externalUrl": "",
       "featured": false,
       "published": true
@@ -91,18 +248,38 @@
       "date": "2026-09-25",
       "end": "",
       "title": "Business Development and the Art of Building Relationships",
-      "speakers": "Ms. Priya Dey, Global Business Development consultant",
+      "speakers": "Ms. Priya Dey, Global Business Development Consultant",
       "note": "",
       "organisations": [],
-      "summary": "Ms. Priya Dey, Global Business Development consultant",
-      "context": "",
+      "summary": "Global Business Development Consultant Ms. Priya Dey on business development, leadership, customer experience and the art of building professional relationships.",
+      "context": "Alumni referral",
       "cover": "",
-      "body": "",
+      "body": "<p>The Department of Management Studies organised an alumni referral industry expert talk titled <em>Business Development and the Art of Building Relationships</em> on Friday, 25 September 2026, from 1.00 pm to 3.00 pm in Room 6411, Saveetha Engineering College. Aligned with SDG 4 – Quality Education, the session brought together the resource person, faculty members and MBA students.</p><table><tbody><tr><th>Resource person</th><td>Ms. Priya Dey, Global Business Development Consultant</td></tr><tr><th>Areas of focus</th><td>Hospitality, business development, leadership and customer experience</td></tr><tr><th>Venue</th><td>Room 6411, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students and faculty</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to familiarise MBA students with the fundamentals and practical side of business development and relationship building: how business opportunities are developed, how professional networks are built and how customer relationships are strengthened, connecting management concepts with real-world practice.</p><h3>About the session</h3><p>Ms. Dey spoke on why developing and sustaining meaningful professional relationships matters in business, and on the links between business development, relationship building and customer experience. She also drew out the role of leadership and relationship management across business settings, including the hospitality sector, and encouraged students to treat relationship-building as a core managerial competency.</p><h3>Highlights</h3><ul><li>Business development and its role in organisational growth</li><li>The art of building and maintaining professional relationships</li><li>Relationship management in hospitality and customer-facing businesses</li><li>Leadership in developing productive business connections</li><li>Customer experience as part of business development</li></ul><h3>Outcome</h3><p>Students gained a clearer sense of why business development matters in a competitive environment, the value of professional networking and relationship-building skills, and how leadership, customer experience and business relationships connect, relating management concepts to practical business and hospitality settings. The programme also strengthened industry–academia interaction.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
-          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/1.jpg",
-          "caption": "",
-          "alt": "Business Development and the Art of Building Relationships: photo 1 of 1"
+          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/memento.jpg",
+          "caption": "Memento presented to resource person Ms. Priya Dey",
+          "alt": "Faculty members presenting a Saveetha Engineering College memento bag to Ms. Priya Dey in front of the session slide"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/faculty-coordinators.jpg",
+          "caption": "Ms. Priya Dey with faculty members and student coordinators",
+          "alt": "Ms. Priya Dey standing with two faculty members and two student coordinators"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/audience.jpg",
+          "caption": "MBA students and faculty during the industry expert talk",
+          "alt": "MBA students seated in rows in Room 6411 with Ms. Priya Dey and faculty in the front row"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/group.jpg",
+          "caption": "Group photograph of participants and faculty members",
+          "alt": "Group photo of MBA students with Ms. Priya Dey and faculty seated at the front"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/poster.jpg",
+          "caption": "Event poster: Business Development and the Art of Building Relationships, 25 September 2026",
+          "alt": "Poster for the alumni referral industry expert talk with a photo of Ms. Priya Dey"
         }
       ],
       "externalUrl": "",
@@ -726,15 +903,84 @@
       "organisations": [
         "HDFC Bank"
       ],
-      "summary": "Mrs. Sudha Hari Priya, Deputy Vice President, and Mr. Karthikeyan S (alumnus, 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.",
+      "summary": "An alumni-led cyber fraud awareness session by Mrs. Sudha Hari Priya, Deputy Vice President, and alumnus Mr. Karthikeyan S (2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.",
       "context": "HDFC Bank",
       "cover": "",
-      "body": "",
+      "body": "<p>The Department of Management Studies organised an alumni-led awareness session titled <em>Awareness is the First Line of Defence against Fraud</em> on Wednesday, 12 August 2026, from 11.00 am to 12.00 noon at Lines Hall, Saveetha Engineering College. Two resource persons from HDFC Bank Ltd., one of them an alumnus of the department, spoke to MBA students on cyber fraud and safe digital behaviour. It followed the alumni talk <a href=\"event.html?id=2026-08-12-the-road-to-corporate-success-an-alumnus-journey-in-banking\"><em>The Road to Corporate Success</em></a> by Mr. Karthikeyan S earlier that morning.</p><table><tbody><tr><th>Resource persons</th><td>Mrs. Sudha Hari Priya, Deputy Vice President (Process Head – Credit Intelligence and Control), HDFC Bank Ltd.<br>Mr. Karthikeyan S, alumnus (MBA 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.</td></tr><tr><th>Venue</th><td>Lines Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students and faculty</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The session set out to make students aware of cyber fraud and the importance of safe digital behaviour: to help them recognise online threats, take care on digital platforms, and see awareness as the first line of defence against fraud.</p><h3>About the session</h3><p>Drawing on their work in credit intelligence and control at HDFC Bank, the resource persons explained why vigilance matters in everyday digital activity and walked students through fraud risks using the bank’s awareness campaign material. The campaign visuals focused on two common traps: careless screen sharing and downloading fake APK apps.</p><h3>Highlights</h3><ul><li>What cyber fraud looks like and why caution matters when using digital services</li><li>Warning signs of suspicious or fraudulent activity</li><li>Being careful with screen sharing and protecting personal information</li><li>Avoiding fake or unverified APK apps</li><li>Building responsible digital habits and passing cyber-safety awareness on to others</li></ul><h3>Outcome</h3><p>Students came away with an industry view of cyber fraud and a clearer sense of how to stay alert to fraud attempts, protect sensitive information, avoid suspicious links and apps, and encourage safe online practice among their peers. The session also strengthened alumni–student engagement in the department.</p><p>The session aligned with SDG 4 – Quality Education and SDG 16 – Peace, Justice and Strong Institutions, and mapped to Programme Outcomes PO1 (business problem solving and decision making), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
-          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/1.jpg",
-          "caption": "",
-          "alt": "Awareness is the First Line of Defence against Fraud: photo 1 of 1"
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/hall.jpg",
+          "caption": "Cyber fraud awareness session at Lines Hall, 12 August 2026",
+          "alt": "MBA students in Lines Hall listening to the cyber fraud awareness session, with the presentation on screen"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/speaker-stage.jpg",
+          "caption": "Mrs. Sudha Hari Priya, HDFC Bank, addressing the students",
+          "alt": "Mrs. Sudha Hari Priya speaking in front of a Cyber Fraud Awareness slide, flanked by HDFC Bank awareness banners"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/speaker-floor.jpg",
+          "caption": "Resource person explaining cyber-safety practices to the audience",
+          "alt": "Mrs. Sudha Hari Priya walking the floor and speaking to students seated at their desks"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/audience.jpg",
+          "caption": "Students and faculty at the session",
+          "alt": "MBA students in white shirts and lanyards seated in rows during the session"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/memento.jpg",
+          "caption": "Mrs. Sudha Hari Priya receiving a memento from the department",
+          "alt": "Mrs. Sudha Hari Priya receiving a Saveetha Engineering College memento bag from a faculty member"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/poster.jpg",
+          "caption": "Event poster: Awareness is the First Line of Defence against Fraud, 12 August 2026",
+          "alt": "Poster for the alumni-led awareness session with photos of Mrs. Sudha Hari Priya and Mr. Karthikeyan S"
+        }
+      ],
+      "externalUrl": "",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "2026-08-12-the-road-to-corporate-success-an-alumnus-journey-in-banking",
+      "type": "event",
+      "category": "guest-lecture",
+      "tag": "Alumni talk",
+      "kind": "Alumni talk",
+      "date": "2026-08-12",
+      "end": "",
+      "title": "The Road to Corporate Success: An Alumnus Journey in Banking",
+      "speakers": "Mr. Karthikeyan S (alumnus, 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.",
+      "note": "",
+      "organisations": [
+        "HDFC Bank"
+      ],
+      "summary": "Alumnus Mr. Karthikeyan S (MBA 2022 batch), Credit Intelligence and Control Manager at HDFC Bank Ltd., on his career in banking and staying safe from cyber fraud.",
+      "context": "HDFC Bank",
+      "cover": "",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>The Road to Corporate Success: An Alumnus Journey in Banking</em> on Wednesday, 12 August 2026, from 10.00 am to 11.00 am at Lines Hall, Saveetha Engineering College. Mr. Karthikeyan S, an alumnus of the department’s MBA 2022 batch, spoke to MBA students about his career in banking, with a focus on cyber fraud awareness. Aligned with SDG 4 – Quality Education, the talk was followed by the session <a href=\"event.html?id=2026-08-12-awareness-is-the-first-line-of-defence-against-fraud\"><em>Awareness is the First Line of Defence against Fraud</em></a> with Mrs. Sudha Hari Priya of HDFC Bank.</p><table><tbody><tr><th>Resource person</th><td>Mr. Karthikeyan S, alumnus (MBA 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.</td></tr><tr><th>Venue</th><td>Lines Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to give students a practical view of the banking sector and the careers it offers in financial services, and to build awareness of cyber fraud, digital banking risks and safe financial practice, bridging classroom learning and working life through the experience of a recent alumnus.</p><h3>About the session</h3><p>Mr. Karthikeyan traced his journey from the MBA programme into banking and his current role in credit intelligence and control at HDFC Bank. Cyber fraud awareness was the centre of the talk: he explained why customers need to stay alert when using digital financial services and online transactions, and how banking professionals protect customers, spot suspicious activity and keep trust in the financial system.</p><h3>Highlights</h3><ul><li>An alumnus’s career path and growth in the banking sector</li><li>Cyber fraud and the common risks in digital finance</li><li>Taking care with digital banking and online transactions</li><li>The work of credit intelligence, control and risk monitoring teams</li><li>Professional responsibility, continuous learning and staying current with the industry</li></ul><h3>Outcome</h3><p>Students came away with a clearer picture of career paths and roles in banking, the importance of cyber safety and responsible digital financial practice, and how credit intelligence and control fit into banking operations. Hearing an alumnus’s own journey helped them connect management and finance concepts to real industry functions, and the talk strengthened alumni–student engagement in the department.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-12-the-road-to-corporate-success/hall.jpg",
+          "caption": "Alumni talk at Lines Hall, 12 August 2026",
+          "alt": "MBA students in Lines Hall facing Mr. Karthikeyan S at the podium, with a Cyber Fraud Awareness slide on screen"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-the-road-to-corporate-success/speaker-podium.jpg",
+          "caption": "Mr. Karthikeyan S, HDFC Bank, addressing MBA students",
+          "alt": "Mr. Karthikeyan S speaking at the podium in front of a whiteboard"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-the-road-to-corporate-success/speaker-wide.jpg",
+          "caption": "The alumnus sharing insights from his career in banking",
+          "alt": "Mr. Karthikeyan S at the podium with students seated in the foreground"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-12-the-road-to-corporate-success/poster.jpg",
+          "caption": "Event poster: The Road to Corporate Success, 12 August 2026",
+          "alt": "Poster for the alumni talk The Road to Corporate Success: An Alumnus Journey in Banking, with a photo of Mr. Karthikeyan S"
         }
       ],
       "externalUrl": "",
@@ -981,8 +1227,8 @@
       "id": "2026-04-18-integrating-finance-operations-language-skills-in-the-real-w",
       "type": "event",
       "category": "guest-lecture",
-      "tag": "Guest lecture",
-      "kind": "Guest lecture",
+      "tag": "Alumni talk",
+      "kind": "Alumni talk",
       "date": "2026-04-18",
       "end": "",
       "title": "Integrating Finance, Operations & Language Skills in the Real World",
@@ -991,15 +1237,35 @@
       "organisations": [
         "RR Donnelley"
       ],
-      "summary": "Mr. Kiran Kumar Y S, Senior Financial Analyst, RR Donnelley",
+      "summary": "Alumnus Mr. Kiran Kumar Y S, Senior Financial Analyst at RR Donnelley, on how finance, operations and language skills come together in global careers.",
       "context": "RR Donnelley",
       "cover": "",
-      "body": "",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>From Classroom to Global Careers: Integrating Finance, Operations &amp; Language Skills in the Real World</em> on Saturday, 18 April 2026, from 1.00 pm to 3.00 pm at Lattice Hall, Saveetha Engineering College. Aligned with SDG 4 – Quality Education, the session was held for MBA students.</p><table><tbody><tr><th>Resource person</th><td>Mr. Kiran Kumar Y S, Senior Financial Analyst, RR Donnelley, Chennai</td></tr><tr><th>Venue</th><td>Lattice Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to give MBA students practical insight into how finance, operations and language skills come together in the corporate workplace, connecting classroom learning with real-world professional requirements and building awareness of the competencies global careers demand.</p><h3>About the session</h3><p>Drawing on his work as a Senior Financial Analyst, Mr. Kiran Kumar showed how finance knowledge, operational understanding and clear communication work together in professional roles. He urged students to look beyond theory to how classroom learning is applied in organisations, and spoke about preparing for global career opportunities by building job-related knowledge, professional communication and the ability to adapt to workplace expectations.</p><h3>Highlights</h3><ul><li>Applying finance concepts in organisational settings</li><li>The role of operations in supporting business processes</li><li>Language proficiency and effective workplace communication</li><li>Combining finance, operations and communication skills for professional effectiveness</li><li>Building the competencies needed for global career opportunities</li></ul><p>The session was interactive, with the resource person addressing students from the dais and engaging with their questions.</p><h3>Outcome</h3><p>Students came away recognising the practical link between finance and operations, the value of communication and language skills at work, and the importance of interdisciplinary competencies for career development, with an industry view of how to prepare for global careers. The talk also strengthened the connection between alumni and students.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
-          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/1.jpg",
-          "caption": "",
-          "alt": "Integrating Finance, Operations & Language Skills in the Real World: photo 1 of 1"
+          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/speaker.jpg",
+          "caption": "Mr. Kiran Kumar Y S addressing the students",
+          "alt": "Mr. Kiran Kumar Y S speaking from the podium in Lattice Hall"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/stage.jpg",
+          "caption": "Resource person and faculty members during the alumni talk",
+          "alt": "Mr. Kiran Kumar Y S seated on stage with faculty members while the event title is shown on the screen"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/memento.jpg",
+          "caption": "Memento presented to the resource person",
+          "alt": "A faculty member presenting a Saveetha Engineering College memento bag to Mr. Kiran Kumar Y S"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/stage-portrait.jpg",
+          "caption": "The programme in progress, with the event title on screen",
+          "alt": "Stage in Lattice Hall with faculty seated and a speaker at the podium below the event poster on screen"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/poster.jpg",
+          "caption": "Event poster: From Classroom to Global Careers, 18 April 2026",
+          "alt": "Poster for the alumni talk Integrating Finance, Operations and Language Skills in the Real World with a photo of Mr. Kiran Kumar Y S"
         }
       ],
       "externalUrl": "",
@@ -1537,15 +1803,15 @@
       "organisations": [
         "State Street"
       ],
-      "summary": "Ms. V. Keerthana, Associate (Reconciliation), State Street",
+      "summary": "Alumna Ms. V. Keerthana (2022–2024 batch), Associate (Reconciliation) at State Street, on moving from campus to corporate life.",
       "context": "State Street",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>Campus to Career: Crafting Your Pathway to Success</em> on 7 February 2026 at Lattice Hall. The session, aligned with SDG 4 – Quality Education, drew 230 MBA students and aimed to bridge academic learning and professional expectations.</p><p>Ms. V. Keerthana, a 2022–2024 alumna of the department and now Associate (Reconciliation) at State Street, spoke about moving from campus to corporate life, the early-career challenges she faced and the strategies that helped her overcome them. The talk covered communication, teamwork, analytical thinking, professional ethics and lifelong learning, and students cleared their career-related queries.</p>",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>Campus to Career: Crafting Your Pathway to Success</em> on Saturday, 7 February 2026, from 1.00 pm to 3.00 pm at Lattice Hall, Saveetha Engineering College. Aligned with SDG 4 – Quality Education, the session drew 230 MBA students.</p><table><tbody><tr><th>Resource person</th><td>Ms. V. Keerthana, alumna (batch 2022–2024), Associate (Reconciliation), State Street</td></tr><tr><th>Venue</th><td>Lattice Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>230 MBA students</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to build students’ career preparedness, employability skills and industry awareness, and to bridge the gap between academic learning and professional expectations through the practical experience of a recent alumna.</p><h3>About the session</h3><p>Ms. Keerthana guided students through the transition from campus to corporate life, stressing that professional competencies must grow alongside academic knowledge. She covered career planning, adaptability and organisational expectations, and shared her own career journey: the challenges of her early working years and the strategies she used to overcome them.</p><h3>Highlights</h3><ul><li>Moving from academic life to corporate culture</li><li>Employability skills: communication, teamwork and analytical thinking</li><li>Industry expectations and professional ethics</li><li>Handling early-career challenges and building skills continuously</li><li>Lifelong learning as a driver of career growth</li></ul><p>The session was interactive, with students joining the discussion and clearing their career-related queries.</p><h3>Programme</h3><table><tbody><tr><th>Welcome address</th><td>Ms. Hellen, MBA student</td></tr><tr><th>Guest introduction</th><td>Ms. Sowmiya, MBA student</td></tr><tr><th>Felicitation of the alumna</th><td>Dr. G. Ramasundaram, Dean; Dr. Joseph Sathish; Dr. A. Vanitha; Dr. K. Selvi</td></tr><tr><th>Alumni talk</th><td>Ms. V. Keerthana, alumna (2022–2024)</td></tr><tr><th>Vote of thanks</th><td>Ms. Sarena Edward, MBA student</td></tr></tbody></table><h3>Outcome</h3><p>Students came away with a clearer picture of corporate work culture and industry expectations, the skills needed for career success, and the opportunities and growth paths open to them, and said they felt more confident and motivated to prepare for professional roles. In the feedback survey, respondents rated the event 4.59 out of 5, with 62.5% giving it the top rating.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/1.jpg",
-          "caption": "",
-          "alt": "Campus to Career: Crafting Your Pathway to Success: photo 1 of 1"
+          "caption": "Event poster: Alumni Talk on Campus to Career, 7 February 2026",
+          "alt": "Poster for the alumni talk Campus to Career: Crafting Your Pathway to Success with Ms. V. Keerthana"
         },
         {
           "url": "assets/images/events/life/alumni-talk-campus-to-career.jpg",
@@ -1566,6 +1832,26 @@
           "url": "assets/images/events/life/alumni-talk-memento.jpg",
           "caption": "Memento presented to alumna Ms. V. Keerthana",
           "alt": "Faculty presenting a memento to alumna Ms. V. Keerthana on stage"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/2.jpg",
+          "caption": "Faculty felicitate alumna Ms. V. Keerthana",
+          "alt": "Faculty members presenting a memento to alumna Ms. V. Keerthana on stage"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/3.jpg",
+          "caption": "Faculty address during the alumni talk",
+          "alt": "Faculty member speaking at the podium in Lattice Hall"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/4.jpg",
+          "caption": "Student address to the audience in Lattice Hall",
+          "alt": "MBA student speaking at the podium with students seated behind"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/5.jpg",
+          "caption": "MBA student at the podium during the programme",
+          "alt": "MBA student speaking at the podium"
         }
       ],
       "externalUrl": "",

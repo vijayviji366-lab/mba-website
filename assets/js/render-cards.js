@@ -16,12 +16,15 @@
     const href = S.hrefFor(ev);
     const targetAttr = (ev.externalUrl && /^https?:/.test(ev.externalUrl)) ? ' target="_blank" rel="noopener"' : '';
     const tagHTML = ev.tag ? '<span class="news-tag">' + S.escapeHTML(ev.tag) + '</span>' : '';
-    const hasCover = !!(ev.cover && String(ev.cover).trim());
+    // Fall back to the first gallery photo when the event has no cover image
+    const firstPhoto = (Array.isArray(ev.gallery) && ev.gallery[0] && ev.gallery[0].url) || '';
+    const coverUrl = (ev.cover && String(ev.cover).trim()) || firstPhoto;
+    const hasCover = !!coverUrl;
     const coverClass = hasCover ? ' has-cover' : '';
     const mediaHTML = hasCover
       ? (
           '<a class="news-card-media" href="' + href + '"' + targetAttr + ' aria-hidden="true" tabindex="-1">' +
-            '<img src="' + S.escapeHTML(ev.cover) + '" alt="" loading="lazy">' +
+            '<img src="' + S.escapeHTML(coverUrl) + '" alt="" loading="lazy">' +
             '<span class="news-kind overlay">' + kind + '</span>' +
           '</a>'
         )
