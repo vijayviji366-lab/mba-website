@@ -70,7 +70,7 @@
       var spread = book.getOrientation && book.getOrientation() === 'landscape' &&
                    idx > 0 && idx < total - 1;
       label.textContent = spread
-        ? 'Pages ' + shown + '–' + Math.min(shown + 1, total) + ' of ' + total
+        ? 'Pages ' + shown + '-' + Math.min(shown + 1, total) + ' of ' + total
         : 'Page ' + shown + ' of ' + total;
       prev.disabled = idx <= 0;
       next.disabled = idx >= total - (spread ? 2 : 1);

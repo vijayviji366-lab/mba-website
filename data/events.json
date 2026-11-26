@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated": "2026-11-25",
-  "source": "Department of Management Studies event register FY 2025-26 and FY 2026-27, plus FDP brochures. Dates checked against the weekday column.",
+  "updated": "2026-11-26",
+  "source": "Department of Management Studies event register FY 2025-26 and FY 2026-27, plus FDP brochures. Dates checked against the weekday column. Industry Connect items (industrial visits, MoUs, campus drives) from the department's Industry Connect folder, November 2026.",
   "events": [
     {
       "id": "2026-11-05-management-in-the-maritime-industry",
@@ -12,6 +12,7 @@
       "date": "2026-11-05",
       "end": "",
       "title": "Management in the Maritime Industry: From Ship Construction and Commercial Shipping to Sustainable Ship Recycling",
+      "cardTitle": "Management in the Maritime Industry",
       "speakers": "Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert, Sea Sentinels Pte. Ltd., Singapore",
       "note": "",
       "organisations": [
@@ -20,17 +21,17 @@
       "summary": "Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert at Sea Sentinels Pte. Ltd., Singapore, on how ships are built, operated and recycled, and where managers fit in.",
       "context": "Sea Sentinels",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised a guest talk titled <em>Management in the Maritime Industry: From Ship Construction and Commercial Shipping to Sustainable Ship Recycling</em> on 5 November 2026 in Room 6412. The guest speaker was Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert at Sea Sentinels Pte. Ltd., Singapore.</p><table><tbody><tr><th>Guest speaker</th><td>Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert, Sea Sentinels Pte. Ltd., Singapore</td></tr><tr><th>Venue</th><td>Room 6412, Department of Management Studies, Saveetha Engineering College</td></tr><tr><th>Audience</th><td>MBA students</td></tr></tbody></table><h3>About the talk</h3><p>The talk gave students a practical view of how the maritime industry operates across a ship’s whole life. Mr. Sri Ram Krishnan covered:</p><ul><li>Ship construction</li><li>Commercial shipping operations</li><li>Hazardous material management</li><li>Sustainable ship recycling</li></ul><p>A recurring theme was the place of management in a technical industry. As one of his slides put it, not everyone working in a shipyard is an engineer: engineers design and build the ship, while management professionals plan and monitor the project, manage cost and budget, arrange people and resources, coordinate with suppliers, clients and stakeholders, and make sure the ship is delivered on time.</p><h3>Outcome</h3><p>The session gave students an industry view of operational practice in the maritime sector, along with the career opportunities it offers management graduates and the growing importance of sustainability in shipping.</p>",
+      "body": "<p>The Department of Management Studies organised a guest talk titled <em>Management in the Maritime Industry: From Ship Construction and Commercial Shipping to Sustainable Ship Recycling</em> on 5 November 2026 in Room 6412. The guest speaker was Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert at Sea Sentinels Pte. Ltd., Singapore.</p><table><tbody><tr><th>Guest speaker</th><td>Mr. P. Sri Ram Krishnan, Operations Manager and Hazmat Expert, Sea Sentinels Pte. Ltd., Singapore</td></tr><tr><th>Venue</th><td>Room 6412, Department of Management Studies, Saveetha Engineering College</td></tr><tr><th>Audience</th><td>MBA students</td></tr></tbody></table><h3>About the talk</h3><p>The talk gave students a practical view of how the maritime industry operates across a ship's whole life. Mr. Sri Ram Krishnan covered:</p><ul><li>Ship construction</li><li>Commercial shipping operations</li><li>Hazardous material management</li><li>Sustainable ship recycling</li></ul><p>A recurring theme was the place of management in a technical industry. As one of his slides put it, not everyone working in a shipyard is an engineer: engineers design and build the ship, while management professionals plan and monitor the project, manage cost and budget, arrange people and resources, coordinate with suppliers, clients and stakeholders, and make sure the ship is delivered on time.</p><h3>Outcome</h3><p>The session gave students an industry view of operational practice in the maritime sector, along with the career opportunities it offers management graduates and the growing importance of sustainability in shipping.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/talk.jpg",
           "caption": "Mr. P. Sri Ram Krishnan on ship construction as a team effort",
-          "alt": "Mr. P. Sri Ram Krishnan at the podium beside a slide titled Ship Construction – A Team Effort, with MBA students seated in front"
+          "alt": "Mr. P. Sri Ram Krishnan at the podium beside a slide titled Ship Construction - A Team Effort, with MBA students seated in front"
         },
         {
           "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/memento.jpg",
           "caption": "Faculty of the department present a memento to the guest speaker",
-          "alt": "Mr. P. Sri Ram Krishnan receiving a Saveetha Engineering College memento bag from faculty members in front of the talk’s title slide"
+          "alt": "Mr. P. Sri Ram Krishnan receiving a Saveetha Engineering College memento bag from faculty members in front of the talk's title slide"
         },
         {
           "url": "assets/images/events/gallery/2026-11-05-management-in-the-maritime-in/book.jpg",
@@ -45,7 +46,52 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "expert-sessions"
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [],
+      "speakers": "",
+      "audience": "MBA students",
+      "id": "2026-10-31-summer-internship-2026-poster-presentations",
+      "date": "2026-10-31",
+      "category": "student-activity",
+      "kind": "Internships",
+      "industry": "internships",
+      "title": "Summer Internship 2026: Poster Presentations",
+      "summary": "MBA students presented their summer internship work as posters, with reviewers moving from poster to poster.",
+      "body": "<p>216 MBA learners completed summer internships in 2026 across more than 130 organisations, from IQMath Technologies, Rane Madras and BHEL to Zee Tamil, Rainbow Children's Hospital and Chennai Metro Rail. Students then presented their internship work as posters, which reviewers examined and discussed with each student.</p>",
+      "tag": "Internships",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-10-31-summer-internship-2026-poster/team-1.jpg",
+          "alt": "MBA students in formal wear standing in front of their internship posters",
+          "caption": "Students with their internship posters"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-31-summer-internship-2026-poster/review.jpg",
+          "alt": "A reviewer and a student discussing an internship poster in the exhibition corridor",
+          "caption": "A poster under review"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-31-summer-internship-2026-poster/team-2.jpg",
+          "alt": "A group of MBA students and a faculty member in front of the poster wall",
+          "caption": "Presenters and faculty"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-10-31-summer-internship-2026-poster/corridor.jpg",
+          "alt": "MBA students lined up along the poster corridor",
+          "caption": "The poster corridor"
+        }
+      ]
     },
     {
       "id": "2026-10-17-ai-ml-driven-management",
@@ -84,10 +130,10 @@
       "organisations": [
         "Anna University"
       ],
-      "summary": "MBA learners of the 2026–28 batch won the First Prize at the National Level Business Quiz held at Anna University, Chennai.",
+      "summary": "MBA learners of the 2026-28 batch won the First Prize at the National Level Business Quiz held at Anna University, Chennai.",
       "context": "Anna University, Chennai",
       "cover": "",
-      "body": "<p>Learners from the Department of Management Studies (MBA 2026–28 batch) won the First Prize in the National Level Business Quiz held at Anna University, Chennai, on 15 October 2026.</p><table><tbody><tr><th>Competition</th><td>National Level Business Quiz</td></tr><tr><th>Host</th><td>Anna University, Chennai</td></tr><tr><th>Result</th><td>First Prize</td></tr><tr><th>Team</th><td>MBA learners, 2026–28 batch</td></tr></tbody></table>",
+      "body": "<p>Learners from the Department of Management Studies (MBA 2026-28 batch) won the First Prize in the National Level Business Quiz held at Anna University, Chennai, on 15 October 2026.</p><table><tbody><tr><th>Competition</th><td>National Level Business Quiz</td></tr><tr><th>Host</th><td>Anna University, Chennai</td></tr><tr><th>Result</th><td>First Prize</td></tr><tr><th>Team</th><td>MBA learners, 2026-28 batch</td></tr></tbody></table>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-10-15-national-level-business-quiz/team.jpg",
@@ -113,10 +159,10 @@
       "organisations": [
         "BNY"
       ],
-      "summary": "New BIZ Quiz Club members received their badges and last year’s quiz winners were felicitated with books by Mr. Hariharan, Vice President, BNY.",
+      "summary": "New BIZ Quiz Club members received their badges and last year's quiz winners were felicitated with books by Mr. Hariharan, Vice President, BNY.",
       "context": "BIZ Quiz Club",
       "cover": "",
-      "body": "<p>The BIZ Quiz Club of the Department of Management Studies held its badging ceremony on 10 October 2026, formally conferring badges on newly selected club members and welcoming them into the club. Alongside it, the winners of the quizzes conducted during the last academic year were felicitated with books. About 200 students took part.</p><table><tbody><tr><th>Chief guest</th><td>Mr. Hariharan, Vice President, BNY</td></tr><tr><th>Faculty in-charge</th><td>Dr. V. Vimalnath</td></tr><tr><th>Academic year</th><td>2026–27</td></tr><tr><th>Participants</th><td>200</td></tr></tbody></table><h3>Badging ceremony</h3><p>Newly selected members were called on stage and conferred their club badges by Mr. Hariharan, under the guidance of faculty in-charge Dr. V. Vimalnath.</p><h3>Quiz winners award ceremony</h3><p>Winners of the previous academic year’s quizzes were presented with books in recognition of their performance.</p><h3>Outcome</h3><p>The event recognised student talent, encouraged healthy competition and motivated learners to take an active part in daily quizzing, building general awareness, teamwork and a sense of leadership and responsibility.</p>",
+      "body": "<p>The BIZ Quiz Club of the Department of Management Studies held its badging ceremony on 10 October 2026, formally conferring badges on newly selected club members and welcoming them into the club. Alongside it, the winners of the quizzes conducted during the last academic year were felicitated with books. About 200 students took part.</p><table><tbody><tr><th>Chief guest</th><td>Mr. Hariharan, Vice President, BNY</td></tr><tr><th>Faculty in-charge</th><td>Dr. V. Vimalnath</td></tr><tr><th>Academic year</th><td>2026-27</td></tr><tr><th>Participants</th><td>200</td></tr></tbody></table><h3>Badging ceremony</h3><p>Newly selected members were called on stage and conferred their club badges by Mr. Hariharan, under the guidance of faculty in-charge Dr. V. Vimalnath.</p><h3>Quiz winners award ceremony</h3><p>Winners of the previous academic year's quizzes were presented with books in recognition of their performance.</p><h3>Outcome</h3><p>The event recognised student talent, encouraged healthy competition and motivated learners to take an active part in daily quizzing, building general awareness, teamwork and a sense of leadership and responsibility.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-10-10-biz-quiz-club-badging-cerem/badging-6.jpg",
@@ -254,7 +300,7 @@
       "summary": "Global Business Development Consultant Ms. Priya Dey on business development, leadership, customer experience and the art of building professional relationships.",
       "context": "Alumni referral",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised an alumni referral industry expert talk titled <em>Business Development and the Art of Building Relationships</em> on Friday, 25 September 2026, from 1.00 pm to 3.00 pm in Room 6411, Saveetha Engineering College. Aligned with SDG 4 – Quality Education, the session brought together the resource person, faculty members and MBA students.</p><table><tbody><tr><th>Resource person</th><td>Ms. Priya Dey, Global Business Development Consultant</td></tr><tr><th>Areas of focus</th><td>Hospitality, business development, leadership and customer experience</td></tr><tr><th>Venue</th><td>Room 6411, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students and faculty</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to familiarise MBA students with the fundamentals and practical side of business development and relationship building: how business opportunities are developed, how professional networks are built and how customer relationships are strengthened, connecting management concepts with real-world practice.</p><h3>About the session</h3><p>Ms. Dey spoke on why developing and sustaining meaningful professional relationships matters in business, and on the links between business development, relationship building and customer experience. She also drew out the role of leadership and relationship management across business settings, including the hospitality sector, and encouraged students to treat relationship-building as a core managerial competency.</p><h3>Highlights</h3><ul><li>Business development and its role in organisational growth</li><li>The art of building and maintaining professional relationships</li><li>Relationship management in hospitality and customer-facing businesses</li><li>Leadership in developing productive business connections</li><li>Customer experience as part of business development</li></ul><h3>Outcome</h3><p>Students gained a clearer sense of why business development matters in a competitive environment, the value of professional networking and relationship-building skills, and how leadership, customer experience and business relationships connect, relating management concepts to practical business and hospitality settings. The programme also strengthened industry–academia interaction.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
+      "body": "<p>The Department of Management Studies organised an alumni referral industry expert talk titled <em>Business Development and the Art of Building Relationships</em> on Friday, 25 September 2026, from 1.00 pm to 3.00 pm in Room 6411, Saveetha Engineering College. Aligned with SDG 4 - Quality Education, the session brought together the resource person, faculty members and MBA students.</p><table><tbody><tr><th>Resource person</th><td>Ms. Priya Dey, Global Business Development Consultant</td></tr><tr><th>Areas of focus</th><td>Hospitality, business development, leadership and customer experience</td></tr><tr><th>Venue</th><td>Room 6411, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students and faculty</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to familiarise MBA students with the fundamentals and practical side of business development and relationship building: how business opportunities are developed, how professional networks are built and how customer relationships are strengthened, connecting management concepts with real-world practice.</p><h3>About the session</h3><p>Ms. Dey spoke on why developing and sustaining meaningful professional relationships matters in business, and on the links between business development, relationship building and customer experience. She also drew out the role of leadership and relationship management across business settings, including the hospitality sector, and encouraged students to treat relationship-building as a core managerial competency.</p><h3>Highlights</h3><ul><li>Business development and its role in organisational growth</li><li>The art of building and maintaining professional relationships</li><li>Relationship management in hospitality and customer-facing businesses</li><li>Leadership in developing productive business connections</li><li>Customer experience as part of business development</li></ul><h3>Outcome</h3><p>Students gained a clearer sense of why business development matters in a competitive environment, the value of professional networking and relationship-building skills, and how leadership, customer experience and business relationships connect, relating management concepts to practical business and hospitality settings. The programme also strengthened industry-academia interaction.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-09-25-business-development-and-the/memento.jpg",
@@ -284,7 +330,54 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "awareness"
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "LOTTE India"
+      ],
+      "speakers": "",
+      "audience": "MBA students",
+      "id": "2026-09-16-industrial-visit-lotte-india",
+      "date": "2026-09-16",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: LOTTE India",
+      "summary": "MBA students saw production management, quality standards and workforce coordination at a leading manufacturer.",
+      "body": "<p>The Department of Management Studies organised an industrial visit to LOTTE India on 16 September 2026, giving students practical exposure to the working of a leading manufacturing organisation.</p><h3>About the visit</h3><p>Students experienced the corporate environment and saw the role of organisational operations, production management, quality standards, workforce coordination and industrial practice. The visit helped them connect classroom learning with business operations and showed the importance of teamwork, discipline, efficiency and professional conduct.</p><h3>Outcome</h3><p>A clearer understanding of industrial operations and of how management concepts are applied, contributing to experiential learning and career readiness.</p>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-09-16-industrial-visit-lotte-india/group-1.jpg",
+          "alt": "MBA students in front of the LOTTE India building",
+          "caption": "Students at LOTTE India"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-16-industrial-visit-lotte-india/group-2.jpg",
+          "alt": "A second group of MBA students on the steps of LOTTE India",
+          "caption": "The second group"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-16-industrial-visit-lotte-india/group-3.jpg",
+          "alt": "Wide view of MBA students and faculty outside LOTTE India",
+          "caption": "Students and faculty outside LOTTE India"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-09-16-industrial-visit-lotte-india/group-4.jpg",
+          "alt": "MBA students lined up on the steps of the LOTTE India entrance",
+          "caption": "At the LOTTE India entrance"
+        }
+      ]
     },
     {
       "id": "2026-09-10-drestein-three-day-management-fest",
@@ -362,7 +455,7 @@
       "kind": "Orientation",
       "date": "2026-09-08",
       "end": "",
-      "title": "From Pitch to Portfolio: Bridging the Founder–Investor Mindset",
+      "title": "From Pitch to Portfolio: Bridging the Founder-Investor Mindset",
       "speakers": "Mr. Aravind Suresh, Managing Partner, Mudhal VC, and Mr. Richie Richard, Co-founder, Meensatti",
       "note": "",
       "organisations": [
@@ -515,7 +608,8 @@
       "featured": true,
       "published": true,
       "coverAlt": "Alumni panel at From Campus to Career, an alumni conclave",
-      "cardTitle": "From Campus to Career"
+      "cardTitle": "From Campus to Career",
+      "industry": "alumni"
     },
     {
       "id": "2026-08-29-career-realities-transition-b-school-to-the-field",
@@ -555,7 +649,7 @@
       "date": "2026-08-29",
       "end": "",
       "title": "Entrepreneurship: Why and How?",
-      "speakers": "Mr. Dinesh Mahendran Babu, Growth Enablers",
+      "speakers": "Mr. Dinesh Mahendra Babu, Founder and CEO, Implementers and GrowthEnablers",
       "note": "",
       "organisations": [
         "Growth Enablers"
@@ -569,11 +663,22 @@
           "url": "assets/images/events/gallery/2026-08-29-entrepreneurship-why-and-how/1.jpg",
           "caption": "",
           "alt": "Entrepreneurship: Why and How?: photo 1 of 1"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-entrepreneurship-why-and-how/audience.jpg",
+          "alt": "MBA students in a lecture hall listening to Mr. Dinesh Mahendra Babu",
+          "caption": "MBA students at the seminar"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-entrepreneurship-why-and-how/collage.jpg",
+          "alt": "Collage: Mr. Dinesh Mahendra Babu speaking, and a group photo with faculty and student coordinators",
+          "caption": "The speaker with faculty and student coordinators"
         }
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "expert-sessions"
     },
     {
       "id": "2026-08-29-building-your-analytics-career",
@@ -685,11 +790,22 @@
           "url": "assets/images/events/gallery/2026-08-29-beyond-the-degree-building-a/1.jpg",
           "caption": "",
           "alt": "Beyond the Degree: Building a Career-Ready Professional: photo 1 of 1"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-beyond-the-degree-building-a/collage-1.jpg",
+          "alt": "Collage: Mr. Nithyanandhan S speaking to students in the finance lab, and a panel seated on stage",
+          "caption": "Mr. Nithyanandhan S with students"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-beyond-the-degree-building-a/collage-2.jpg",
+          "alt": "Collage: group photo of Mr. Nithyanandhan S with faculty and students, and the seminar in progress",
+          "caption": "Group photo and the seminar in progress"
         }
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "expert-sessions"
     },
     {
       "id": "2026-08-29-go-to-market-strategy",
@@ -714,11 +830,17 @@
           "url": "assets/images/events/gallery/2026-08-29-go-to-market-strategy/1.jpg",
           "caption": "",
           "alt": "Go-to-Market Strategy: photo 1 of 1"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-29-go-to-market-strategy/memento.jpg",
+          "alt": "Mr. Govinda Biswas receiving a memento from faculty members",
+          "caption": "Memento presented to Mr. Govinda Biswas"
         }
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "expert-sessions"
     },
     {
       "id": "2026-08-29-the-unwritten-rules-of-success-from-campus-to-corporate",
@@ -786,14 +908,14 @@
       "kind": "Placement training",
       "date": "2026-08-22",
       "end": "",
-      "title": "HIRE – Corporate Mock Interview Challenge 2026",
+      "title": "HIRE - Corporate Mock Interview Challenge 2026",
       "speakers": "21 interviewers (11 industry experts and 10 alumni) from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
       "note": "240 MBA learners · Lattice Hall · Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani",
       "organisations": [],
       "summary": "21 interviewers (11 industry experts and 10 alumni) from TAFE, MPloyChek, Momentive Performance Materials, CareerTree HR Solutions, UBTI, APL Logistics, DHL Logistics, X-Press Feeders, V.Ships, MIOT International Hospital, Vestas, Bird Farm Digital Marketing, State Street, Wipro and Valeo",
       "context": "",
       "cover": "",
-      "body": "<p>The Department of Management Studies, Saveetha Engineering College (Autonomous), organised “HIRE – Corporate Mock Interview Challenge 2026” on 22 August 2026 at Lattice Hall, Saveetha Engineering College, Chennai. The programme was coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani to provide MBA students with real-time corporate interview experience.</p><p>A total of 240 MBA learners participated in this industry-integrated experiential learning initiative. The event brought together 21 professionals, comprising 11 industry experts and 10 alumni, from diverse sectors. The interview panels represented Human Resources, Marketing, Finance, Operations, Business Analytics, Logistics, Shipping, Technology and Hospital Administration.</p><p>The initiative focused on enhancing students’ communication, confidence, professional etiquette, domain knowledge and interview readiness. It also strengthened industry–academia interaction and alumni engagement while preparing students for future internship and placement opportunities.</p>",
+      "body": "<p>The Department of Management Studies, Saveetha Engineering College (Autonomous), organised \"HIRE - Corporate Mock Interview Challenge 2026\" on 22 August 2026 at Lattice Hall, Saveetha Engineering College, Chennai. The programme was coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani to provide MBA students with real-time corporate interview experience.</p><p>A total of 240 MBA learners participated in this industry-integrated experiential learning initiative. The event brought together 21 professionals, comprising 11 industry experts and 10 alumni, from diverse sectors. The interview panels represented Human Resources, Marketing, Finance, Operations, Business Analytics, Logistics, Shipping, Technology and Hospital Administration.</p><p>The initiative focused on enhancing students' communication, confidence, professional etiquette, domain knowledge and interview readiness. It also strengthened industry-academia interaction and alumni engagement while preparing students for future internship and placement opportunities.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-08-22-hire-corporate-mock-interview/1.jpg",
@@ -858,7 +980,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "alumni"
     },
     {
       "id": "2026-08-22-decoding-the-modern-supply-chain-trends-challenges-strategie",
@@ -890,6 +1013,67 @@
       "published": true
     },
     {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "CoLTE"
+      ],
+      "speakers": "",
+      "audience": "MBA students",
+      "id": "2026-08-21-industrial-visit-centre-of-logistics-training-for-excellence-colte",
+      "date": "2026-08-21",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industry Visit: Centre of Logistics Training for Excellence (CoLTE), Chennai",
+      "summary": "An expert briefing, interactive sessions and hands-on demonstrations of logistics training equipment at CoLTE, Teynampet.",
+      "body": "<p>MBA students visited the Centre of Logistics Training for Excellence (CoLTE), Anna Salai, Teynampet, Chennai, on 21 August 2026. The centre's partners include the Logistics Sector Skill Council, Redington and ProConnect.</p><h3>About the visit</h3><p>The programme included an expert briefing, interactive learning sessions and demonstrations of technology-enabled equipment, including simulators and virtual-reality headsets used in logistics training. Students saw how technology is changing professional work in logistics and asked questions of the resource persons.</p><h3>Learning outcomes</h3><ul><li>How logistics organisations work day to day</li><li>Emerging technology and automation in logistics</li><li>Industry expectations, professional skills and career paths</li><li>Connecting classroom concepts with practice</li></ul>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/group.jpg",
+          "alt": "MBA students and faculty in a group photo at the Centre of Logistics Training for Excellence",
+          "caption": "Group photograph at CoLTE, Teynampet"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/simulator.jpg",
+          "alt": "A student at a logistics equipment simulator while classmates watch",
+          "caption": "Trying the equipment simulator"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/vr.jpg",
+          "alt": "A student wearing a virtual-reality headset during a demonstration",
+          "caption": "Virtual-reality demonstration"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/briefing.jpg",
+          "alt": "A resource person briefing students seated in a training room",
+          "caption": "Expert briefing"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/session.jpg",
+          "alt": "Students taking part in an interactive session at CoLTE",
+          "caption": "Interactive session"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/demo.jpg",
+          "alt": "Students watching a demonstration of training equipment",
+          "caption": "Equipment demonstration"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-08-21-industrial-visit-centre-of-lo/batch.jpg",
+          "alt": "The full group of MBA students inside the CoLTE training centre",
+          "caption": "The visiting batch"
+        }
+      ]
+    },
+    {
       "id": "2026-08-12-awareness-is-the-first-line-of-defence-against-fraud",
       "type": "event",
       "category": "guest-lecture",
@@ -906,7 +1090,7 @@
       "summary": "An alumni-led cyber fraud awareness session by Mrs. Sudha Hari Priya, Deputy Vice President, and alumnus Mr. Karthikeyan S (2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.",
       "context": "HDFC Bank",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised an alumni-led awareness session titled <em>Awareness is the First Line of Defence against Fraud</em> on Wednesday, 12 August 2026, from 11.00 am to 12.00 noon at Lines Hall, Saveetha Engineering College. Two resource persons from HDFC Bank Ltd., one of them an alumnus of the department, spoke to MBA students on cyber fraud and safe digital behaviour. It followed the alumni talk <a href=\"event.html?id=2026-08-12-the-road-to-corporate-success-an-alumnus-journey-in-banking\"><em>The Road to Corporate Success</em></a> by Mr. Karthikeyan S earlier that morning.</p><table><tbody><tr><th>Resource persons</th><td>Mrs. Sudha Hari Priya, Deputy Vice President (Process Head – Credit Intelligence and Control), HDFC Bank Ltd.<br>Mr. Karthikeyan S, alumnus (MBA 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.</td></tr><tr><th>Venue</th><td>Lines Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students and faculty</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The session set out to make students aware of cyber fraud and the importance of safe digital behaviour: to help them recognise online threats, take care on digital platforms, and see awareness as the first line of defence against fraud.</p><h3>About the session</h3><p>Drawing on their work in credit intelligence and control at HDFC Bank, the resource persons explained why vigilance matters in everyday digital activity and walked students through fraud risks using the bank’s awareness campaign material. The campaign visuals focused on two common traps: careless screen sharing and downloading fake APK apps.</p><h3>Highlights</h3><ul><li>What cyber fraud looks like and why caution matters when using digital services</li><li>Warning signs of suspicious or fraudulent activity</li><li>Being careful with screen sharing and protecting personal information</li><li>Avoiding fake or unverified APK apps</li><li>Building responsible digital habits and passing cyber-safety awareness on to others</li></ul><h3>Outcome</h3><p>Students came away with an industry view of cyber fraud and a clearer sense of how to stay alert to fraud attempts, protect sensitive information, avoid suspicious links and apps, and encourage safe online practice among their peers. The session also strengthened alumni–student engagement in the department.</p><p>The session aligned with SDG 4 – Quality Education and SDG 16 – Peace, Justice and Strong Institutions, and mapped to Programme Outcomes PO1 (business problem solving and decision making), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
+      "body": "<p>The Department of Management Studies organised an alumni-led awareness session titled <em>Awareness is the First Line of Defence against Fraud</em> on Wednesday, 12 August 2026, from 11.00 am to 12.00 noon at Lines Hall, Saveetha Engineering College. Two resource persons from HDFC Bank Ltd., one of them an alumnus of the department, spoke to MBA students on cyber fraud and safe digital behaviour. It followed the alumni talk <a href=\"event.html?id=2026-08-12-the-road-to-corporate-success-an-alumnus-journey-in-banking\"><em>The Road to Corporate Success</em></a> by Mr. Karthikeyan S earlier that morning.</p><table><tbody><tr><th>Resource persons</th><td>Mrs. Sudha Hari Priya, Deputy Vice President (Process Head - Credit Intelligence and Control), HDFC Bank Ltd.<br>Mr. Karthikeyan S, alumnus (MBA 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.</td></tr><tr><th>Venue</th><td>Lines Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students and faculty</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The session set out to make students aware of cyber fraud and the importance of safe digital behaviour: to help them recognise online threats, take care on digital platforms, and see awareness as the first line of defence against fraud.</p><h3>About the session</h3><p>Drawing on their work in credit intelligence and control at HDFC Bank, the resource persons explained why vigilance matters in everyday digital activity and walked students through fraud risks using the bank's awareness campaign material. The campaign visuals focused on two common traps: careless screen sharing and downloading fake APK apps.</p><h3>Highlights</h3><ul><li>What cyber fraud looks like and why caution matters when using digital services</li><li>Warning signs of suspicious or fraudulent activity</li><li>Being careful with screen sharing and protecting personal information</li><li>Avoiding fake or unverified APK apps</li><li>Building responsible digital habits and passing cyber-safety awareness on to others</li></ul><h3>Outcome</h3><p>Students came away with an industry view of cyber fraud and a clearer sense of how to stay alert to fraud attempts, protect sensitive information, avoid suspicious links and apps, and encourage safe online practice among their peers. The session also strengthened alumni-student engagement in the department.</p><p>The session aligned with SDG 4 - Quality Education and SDG 16 - Peace, Justice and Strong Institutions, and mapped to Programme Outcomes PO1 (business problem solving and decision making), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-08-12-awareness-is-the-first-line-o/hall.jpg",
@@ -941,7 +1125,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "awareness"
     },
     {
       "id": "2026-08-12-the-road-to-corporate-success-an-alumnus-journey-in-banking",
@@ -960,7 +1145,7 @@
       "summary": "Alumnus Mr. Karthikeyan S (MBA 2022 batch), Credit Intelligence and Control Manager at HDFC Bank Ltd., on his career in banking and staying safe from cyber fraud.",
       "context": "HDFC Bank",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>The Road to Corporate Success: An Alumnus Journey in Banking</em> on Wednesday, 12 August 2026, from 10.00 am to 11.00 am at Lines Hall, Saveetha Engineering College. Mr. Karthikeyan S, an alumnus of the department’s MBA 2022 batch, spoke to MBA students about his career in banking, with a focus on cyber fraud awareness. Aligned with SDG 4 – Quality Education, the talk was followed by the session <a href=\"event.html?id=2026-08-12-awareness-is-the-first-line-of-defence-against-fraud\"><em>Awareness is the First Line of Defence against Fraud</em></a> with Mrs. Sudha Hari Priya of HDFC Bank.</p><table><tbody><tr><th>Resource person</th><td>Mr. Karthikeyan S, alumnus (MBA 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.</td></tr><tr><th>Venue</th><td>Lines Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to give students a practical view of the banking sector and the careers it offers in financial services, and to build awareness of cyber fraud, digital banking risks and safe financial practice, bridging classroom learning and working life through the experience of a recent alumnus.</p><h3>About the session</h3><p>Mr. Karthikeyan traced his journey from the MBA programme into banking and his current role in credit intelligence and control at HDFC Bank. Cyber fraud awareness was the centre of the talk: he explained why customers need to stay alert when using digital financial services and online transactions, and how banking professionals protect customers, spot suspicious activity and keep trust in the financial system.</p><h3>Highlights</h3><ul><li>An alumnus’s career path and growth in the banking sector</li><li>Cyber fraud and the common risks in digital finance</li><li>Taking care with digital banking and online transactions</li><li>The work of credit intelligence, control and risk monitoring teams</li><li>Professional responsibility, continuous learning and staying current with the industry</li></ul><h3>Outcome</h3><p>Students came away with a clearer picture of career paths and roles in banking, the importance of cyber safety and responsible digital financial practice, and how credit intelligence and control fit into banking operations. Hearing an alumnus’s own journey helped them connect management and finance concepts to real industry functions, and the talk strengthened alumni–student engagement in the department.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>The Road to Corporate Success: An Alumnus Journey in Banking</em> on Wednesday, 12 August 2026, from 10.00 am to 11.00 am at Lines Hall, Saveetha Engineering College. Mr. Karthikeyan S, an alumnus of the department's MBA 2022 batch, spoke to MBA students about his career in banking, with a focus on cyber fraud awareness. Aligned with SDG 4 - Quality Education, the talk was followed by the session <a href=\"event.html?id=2026-08-12-awareness-is-the-first-line-of-defence-against-fraud\"><em>Awareness is the First Line of Defence against Fraud</em></a> with Mrs. Sudha Hari Priya of HDFC Bank.</p><table><tbody><tr><th>Resource person</th><td>Mr. Karthikeyan S, alumnus (MBA 2022 batch), Credit Intelligence and Control Manager, HDFC Bank Ltd.</td></tr><tr><th>Venue</th><td>Lines Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to give students a practical view of the banking sector and the careers it offers in financial services, and to build awareness of cyber fraud, digital banking risks and safe financial practice, bridging classroom learning and working life through the experience of a recent alumnus.</p><h3>About the session</h3><p>Mr. Karthikeyan traced his journey from the MBA programme into banking and his current role in credit intelligence and control at HDFC Bank. Cyber fraud awareness was the centre of the talk: he explained why customers need to stay alert when using digital financial services and online transactions, and how banking professionals protect customers, spot suspicious activity and keep trust in the financial system.</p><h3>Highlights</h3><ul><li>An alumnus's career path and growth in the banking sector</li><li>Cyber fraud and the common risks in digital finance</li><li>Taking care with digital banking and online transactions</li><li>The work of credit intelligence, control and risk monitoring teams</li><li>Professional responsibility, continuous learning and staying current with the industry</li></ul><h3>Outcome</h3><p>Students came away with a clearer picture of career paths and roles in banking, the importance of cyber safety and responsible digital financial practice, and how credit intelligence and control fit into banking operations. Hearing an alumnus's own journey helped them connect management and finance concepts to real industry functions, and the talk strengthened alumni-student engagement in the department.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-08-12-the-road-to-corporate-success/hall.jpg",
@@ -985,7 +1170,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "alumni"
     },
     {
       "id": "2026-08-10-beyond-the-mba-turning-your-degree-into-direction",
@@ -996,13 +1182,13 @@
       "date": "2026-08-10",
       "end": "",
       "title": "Beyond the MBA: Turning Your Degree into Direction",
-      "speakers": "Ms. Swarna Shreya, SEC alumna (B.E. 2016–2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
+      "speakers": "Ms. Swarna Shreya, SEC alumna (B.E. 2016-2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
       "note": "136 participants · Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani",
       "organisations": [],
-      "summary": "Ms. Swarna Shreya, SEC alumna (B.E. 2016–2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
+      "summary": "Ms. Swarna Shreya, SEC alumna (B.E. 2016-2020), full-time MBA candidate, Fisher College of Business, The Ohio State University",
       "context": "",
       "cover": "",
-      "body": "<p>The Department of Management Studies, Saveetha Engineering College, organised an Alumni Talk titled “Beyond the MBA: Turning Your Degree into Direction” on 10 August 2026, featuring Ms. Swarna Shreya, alumna (B.E. 2016–2020) and Full-Time MBA Candidate at The Ohio State University.</p><p>The session provided valuable insights into career planning, industry expectations, skill development, leadership, communication, KPIs and practical applications of MBA knowledge. Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani, the programme witnessed 136 participants.</p><p>The interactive session helped students understand career opportunities, develop a growth mindset and gain clarity on transforming their MBA qualification into meaningful career directions.</p>",
+      "body": "<p>The Department of Management Studies, Saveetha Engineering College, organised an Alumni Talk titled \"Beyond the MBA: Turning Your Degree into Direction\" on 10 August 2026, featuring Ms. Swarna Shreya, alumna (B.E. 2016-2020) and Full-Time MBA Candidate at The Ohio State University.</p><p>The session provided valuable insights into career planning, industry expectations, skill development, leadership, communication, KPIs and practical applications of MBA knowledge. Coordinated by Dr. R. Divya Ranjani and Dr. S. Poorani, the programme witnessed 136 participants.</p><p>The interactive session helped students understand career opportunities, develop a growth mindset and gain clarity on transforming their MBA qualification into meaningful career directions.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-08-10-beyond-the-mba-turning-your-d/1.jpg",
@@ -1042,7 +1228,7 @@
       "kind": "HR conclave",
       "date": "2026-08-01",
       "end": "",
-      "title": "HR Leaders Conference: “Leadership Starts Early: Developing the Mindset for Success”",
+      "title": "HR Leaders Conference: \"Leadership Starts Early: Developing the Mindset for Success\"",
       "speakers": "Moderator: Mr. Suresh Aade (Head HR, Foodhub). Panellists: Ms. Gowthami T (Senior HR Manager, 4i Apps Solutions), Ms. Pramila Chinappa (Vice President HR, DataTracks), Mr. Baranitharan Krishnamoorthy (Director HR, Celcom Solutions Global), Mr. Vinod Pushppan (VP & Head HR, Centaur Billing)",
       "note": "",
       "organisations": [
@@ -1060,12 +1246,13 @@
         {
           "url": "assets/images/events/gallery/2026-08-01-hr-leaders-conference-leaders/1.jpg",
           "caption": "",
-          "alt": "HR Leaders Conference: “Leadership Starts Early: Developing the Mindset for Success”: photo 1 of 1"
+          "alt": "HR Leaders Conference: \"Leadership Starts Early: Developing the Mindset for Success\": photo 1 of 1"
         }
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "conclaves"
     },
     {
       "id": "2026-07-11-publishing-in-high-quality-marketing-journals-the-path-s-to-",
@@ -1082,7 +1269,7 @@
       "summary": "An FDP led by Prof. Babu John-Mariadoss of Rawls College of Business, Texas Tech University.",
       "context": "",
       "cover": "assets/images/events/event-fdp.jpg",
-      "body": "<p>The Department of Management Studies, Saveetha Engineering College, under the Marketing Stream, organised a Faculty Development Programme (FDP) titled “Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance” on 11 July 2026 at the FinTech Lab.</p><p>The programme was organised by Dr. S. Catherine Rex and featured Prof. Babu (Lourduraj) John-Mariadoss, J.B. Hoskins Professor of Marketing, Rawls College of Business, Texas Tech University, as the resource person.</p><p>The session provided valuable insights into research paper development, journal selection, publication strategies and the expectations of high-quality marketing journals. It aimed to strengthen faculty research capabilities and enhance their understanding of successful academic publishing practices.</p>",
+      "body": "<p>The Department of Management Studies, Saveetha Engineering College, under the Marketing Stream, organised a Faculty Development Programme (FDP) titled \"Publishing in High-Quality Marketing Journals: The Path(s) to Acceptance\" on 11 July 2026 at the FinTech Lab.</p><p>The programme was organised by Dr. S. Catherine Rex and featured Prof. Babu (Lourduraj) John-Mariadoss, J.B. Hoskins Professor of Marketing, Rawls College of Business, Texas Tech University, as the resource person.</p><p>The session provided valuable insights into research paper development, journal selection, publication strategies and the expectations of high-quality marketing journals. It aimed to strengthen faculty research capabilities and enhance their understanding of successful academic publishing practices.</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-07-11-publishing-in-high-quality-ma/1.jpg",
@@ -1107,6 +1294,98 @@
       "cardTitle": "Publishing in high-quality marketing journals"
     },
     {
+      "type": "event",
+      "end": "2026-06-26",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Imarticus Learning"
+      ],
+      "speakers": "Trainers from Imarticus Learning",
+      "audience": "MBA students",
+      "id": "2026-06-22-excel-and-power-bi-using-copilot-imarticus-learning",
+      "date": "2026-06-22",
+      "category": "workshop",
+      "kind": "Five-day training",
+      "industry": "conclaves",
+      "title": "Upskill with AI-Powered Analytics: Excel & Power BI using Copilot",
+      "summary": "A five-day hands-on training with Imarticus Learning on data analysis in Excel, Power BI dashboards and Microsoft Copilot.",
+      "body": "<p>The Department of Management Studies, with Imarticus Learning, conducted a five-day training on <em>Excel &amp; Power BI using Copilot</em> from 22 to 26 June 2026, 8.00 AM to 3.00 PM, on the 6th floor.</p><h3>What students learned</h3><ul><li>Data analysis and visualisation with Excel</li><li>Building interactive dashboards in Power BI</li><li>Using Microsoft Copilot to automate tasks and generate insights faster</li><li>Practical, industry-relevant skills for placements and careers</li></ul>",
+      "tag": "Five-day training",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-06-22-excel-and-power-bi-using-copi/poster.jpg",
+          "alt": "Poster for the Excel and Power BI using Copilot training with Imarticus Learning, 22 to 26 June",
+          "caption": "Training poster"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-06-22-excel-and-power-bi-using-copi/class.jpg",
+          "alt": "A trainer addressing MBA students seated with laptops",
+          "caption": "Training in progress"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-06-22-excel-and-power-bi-using-copi/lab.jpg",
+          "alt": "MBA students working on laptops in a lecture hall during the training",
+          "caption": "Hands-on practice"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Adyar Ananda Bhavan"
+      ],
+      "speakers": "Mr. Rajasekharan Mathuram, Technology Head, Adyar Ananda Bhavan",
+      "audience": "MBA students",
+      "id": "2026-05-23-digital-transformation-in-traditional-retail-the-a2b-journey",
+      "date": "2026-05-23",
+      "category": "guest-lecture",
+      "kind": "Industry expert session",
+      "industry": "expert-sessions",
+      "title": "Digital Transformation in Traditional Retail: The A2B Journey",
+      "summary": "Mr. Rajasekharan Mathuram, Technology Head at Adyar Ananda Bhavan, on how digital technology is reshaping a traditional retail business.",
+      "body": "<p>The Department of Management Studies, with the SEC Alumni Association and the Internal Quality Assurance Cell (IQAC), organised an industry expert session titled <em>Digital Transformation in Traditional Retail: The A2B Journey</em> on 23 May 2026. The speaker was Mr. Rajasekharan Mathuram, Technology Head, Adyar Ananda Bhavan.</p><table><tbody><tr><th>Resource person</th><td>Mr. Rajasekharan Mathuram, Technology Head, Adyar Ananda Bhavan</td></tr><tr><th>Date and time</th><td>23 May 2026, 8.00 AM to 10.00 AM</td></tr><tr><th>Organisers</th><td>Department of Management Studies, SEC Alumni Association and IQAC, Saveetha Engineering College</td></tr></tbody></table><h3>About the session</h3><p>Mr. Mathuram explained how technology-driven practices are reshaping retail operations, with particular attention to supply chain digitisation, purchase indent automation, digital procurement and operational efficiency. He showed how a traditional business can adopt technology to improve visibility, streamline processes and respond to changing market needs.</p><h3>Key learning areas</h3><ul><li>Digital transformation</li><li>Retail technology</li><li>Supply chain digitisation</li><li>Purchase indent automation</li><li>Operational efficiency</li></ul>",
+      "tag": "Industry expert session",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-05-23-digital-transformation-in-tra/poster.jpg",
+          "alt": "Poster for the expert session Digital Transformation in Traditional Retail: The A2B Journey, with a photo of Mr. Rajasekharan Mathuram",
+          "caption": "Event poster, 23 May 2026"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-23-digital-transformation-in-tra/speaker.jpg",
+          "alt": "Mr. Rajasekharan Mathuram speaking with a microphone in the department's finance lab",
+          "caption": "Mr. Rajasekharan Mathuram during the session"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-23-digital-transformation-in-tra/audience.jpg",
+          "alt": "MBA students seated at tables in the finance lab during the session",
+          "caption": "MBA students at the session"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-23-digital-transformation-in-tra/welcome.jpg",
+          "alt": "A faculty member addressing students before the session",
+          "caption": "Welcome and introduction"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-23-digital-transformation-in-tra/memento.jpg",
+          "alt": "Faculty members presenting a memento to Mr. Rajasekharan Mathuram",
+          "caption": "Memento presented to the speaker"
+        }
+      ]
+    },
+    {
       "id": "2026-05-15-icepbm-2026-2nd-international-conference-on-emerging-practic",
       "type": "event",
       "category": "conference",
@@ -1118,7 +1397,7 @@
       "speakers": "Inaugural chief guest: Mr. Racha Aribarg, Consul General of the Royal Kingdom of Thailand, Chennai; guest of honour: Dr. M. Ramasubramaniam, Professor, LIBA. Valedictory: Dr. N. Vivek, Professor, Great Lakes Institute of Management",
       "note": "Held in the Majestorium Hall. Associated organisations on the invitation: BSmart (Business Standard), Analytics Society of India, Madras Management Association and NISM.",
       "organisations": [],
-      "summary": "The department’s 2nd International Conference on Emerging Practices in Business and Management, held in hybrid mode.",
+      "summary": "The department's 2nd International Conference on Emerging Practices in Business and Management, held in hybrid mode.",
       "context": "",
       "cover": "assets/images/events/event-icepbm-poster.jpg",
       "body": "",
@@ -1135,6 +1414,47 @@
       "coverPoster": true,
       "coverAlt": "ICEPBM 2026 international conference poster",
       "cardTitle": "ICEPBM 2026"
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Zoho"
+      ],
+      "speakers": "Mr. Suhail M I, Associate Director, TA Global HR Operations; Mr. Dhinesh Khanna Ramalingam, Global Head, Customer Success, Zoho",
+      "audience": "",
+      "id": "2026-05-12-mou-signing-zoho-spark-education-program",
+      "date": "2026-05-12",
+      "category": "partnership",
+      "kind": "MoU signing",
+      "industry": "partnerships",
+      "title": "MoU Signing: Zoho Corporation (Zoho Spark Education Program)",
+      "summary": "An MoU for the Zoho Spark Education Program, giving learners practical exposure to Zoho CRM, People, Recruit and Projects.",
+      "body": "<p>On 12 May 2026, Saveetha Engineering College and Zoho Corporation signed a Memorandum of Understanding for the Zoho Spark Education Program, a step towards closer industry-academia integration.</p><p>The collaboration aims to give students practical exposure, digital competencies and real-world problem-solving skills through Zoho's ecosystem, including Zoho CRM, Zoho People, Zoho Recruit and Zoho Projects.</p><table><tbody><tr><th>Guests from Zoho</th><td>Mr. Suhail M I, Associate Director, TA Global HR Operations; Mr. Dhinesh Khanna Ramalingam, Global Head, Customer Success</td></tr></tbody></table>",
+      "tag": "MoU signing",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-05-12-mou-signing-zoho-spark-educat/exchange.jpg",
+          "alt": "College and Zoho representatives holding the signed MoU folders",
+          "caption": "Exchanging the signed MoU"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-12-mou-signing-zoho-spark-educat/meeting.jpg",
+          "alt": "Zoho guests and college representatives meeting around a boardroom table",
+          "caption": "Meeting before the signing"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-12-mou-signing-zoho-spark-educat/lab.jpg",
+          "alt": "Zoho guests and faculty in the department's finance lab",
+          "caption": "Visit to the finance lab"
+        }
+      ]
     },
     {
       "id": "2026-05-09-future-of-work-hr-perspectives-on-industry-5-0",
@@ -1173,7 +1493,7 @@
       "kind": "Club inauguration",
       "date": "2026-05-09",
       "end": "",
-      "title": "People’s Circle: inauguration of the HR Club",
+      "title": "People's Circle: inauguration of the HR Club",
       "speakers": "Mr. D. Jaishankar, Assistant General Manager, HR, TCS",
       "note": "",
       "organisations": [
@@ -1187,12 +1507,48 @@
         {
           "url": "assets/images/events/gallery/2026-05-09-people-s-circle-inauguration/1.jpg",
           "caption": "",
-          "alt": "People’s Circle: inauguration of the HR Club: photo 1 of 1"
+          "alt": "People's Circle: inauguration of the HR Club: photo 1 of 1"
         }
       ],
       "externalUrl": "",
       "featured": false,
       "published": true
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "TJ Finance"
+      ],
+      "speakers": "Mr. Srinivasan Vasudevan, Managing Director; Mr. Shankar, Human Capital Advisor; Mr. Gautam Raju, Business Head, TJ Finance",
+      "audience": "MBA learners",
+      "id": "2026-05-07-campus-drive-tj-financial-consultancy-and-investments",
+      "date": "2026-05-07",
+      "category": "placement",
+      "kind": "Campus drive",
+      "industry": "recruitment",
+      "title": "Campus Drive: TJ Financial Consultancy and Investments (Management Trainee)",
+      "summary": "TJ Finance's leadership team recruited for Management Trainee roles at the Placement Cell.",
+      "body": "<p>The Department of Management Studies organised a campus recruitment drive with TJ Financial Consultancy and Investments Private Limited (TJ Finance) on 7 May 2026, for the role of Management Trainee. The drive began at 8.00 AM at the Placement Cell, where learners met the company's leadership team and competed for a place in its trainee programme.</p><table><tbody><tr><th>Role</th><td>Management Trainee</td></tr><tr><th>Venue</th><td>Placement Cell, Saveetha Engineering College</td></tr><tr><th>Recruitment panel</th><td>Mr. Srinivasan Vasudevan, Managing Director; Mr. Shankar, Human Capital Advisor; Mr. Gautam Raju, Business Head</td></tr></tbody></table><h3>About the role</h3><p>The Management Trainee position is an entry-level role for fresh graduates who want a career in financial consultancy and investments, working across the firm's business, client and people functions, with structured on-the-job training and direct exposure to senior leadership.</p>",
+      "tag": "Campus drive",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-05-07-campus-drive-tj-financial-con/poster.jpg",
+          "alt": "Poster for the TJ Financial Consultancy campus drive on 7 May 2026 with photos of the three recruiters",
+          "caption": "Campus drive poster"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-05-07-campus-drive-tj-financial-con/collage.jpg",
+          "alt": "Collage of the TJ Finance campus drive: the managing director presenting, and learners in the hall",
+          "caption": "The recruitment presentation"
+        }
+      ]
     },
     {
       "id": "2026-04-18-what-to-expect-outside-mba",
@@ -1240,7 +1596,7 @@
       "summary": "Alumnus Mr. Kiran Kumar Y S, Senior Financial Analyst at RR Donnelley, on how finance, operations and language skills come together in global careers.",
       "context": "RR Donnelley",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>From Classroom to Global Careers: Integrating Finance, Operations &amp; Language Skills in the Real World</em> on Saturday, 18 April 2026, from 1.00 pm to 3.00 pm at Lattice Hall, Saveetha Engineering College. Aligned with SDG 4 – Quality Education, the session was held for MBA students.</p><table><tbody><tr><th>Resource person</th><td>Mr. Kiran Kumar Y S, Senior Financial Analyst, RR Donnelley, Chennai</td></tr><tr><th>Venue</th><td>Lattice Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to give MBA students practical insight into how finance, operations and language skills come together in the corporate workplace, connecting classroom learning with real-world professional requirements and building awareness of the competencies global careers demand.</p><h3>About the session</h3><p>Drawing on his work as a Senior Financial Analyst, Mr. Kiran Kumar showed how finance knowledge, operational understanding and clear communication work together in professional roles. He urged students to look beyond theory to how classroom learning is applied in organisations, and spoke about preparing for global career opportunities by building job-related knowledge, professional communication and the ability to adapt to workplace expectations.</p><h3>Highlights</h3><ul><li>Applying finance concepts in organisational settings</li><li>The role of operations in supporting business processes</li><li>Language proficiency and effective workplace communication</li><li>Combining finance, operations and communication skills for professional effectiveness</li><li>Building the competencies needed for global career opportunities</li></ul><p>The session was interactive, with the resource person addressing students from the dais and engaging with their questions.</p><h3>Outcome</h3><p>Students came away recognising the practical link between finance and operations, the value of communication and language skills at work, and the importance of interdisciplinary competencies for career development, with an industry view of how to prepare for global careers. The talk also strengthened the connection between alumni and students.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>From Classroom to Global Careers: Integrating Finance, Operations &amp; Language Skills in the Real World</em> on Saturday, 18 April 2026, from 1.00 pm to 3.00 pm at Lattice Hall, Saveetha Engineering College. Aligned with SDG 4 - Quality Education, the session was held for MBA students.</p><table><tbody><tr><th>Resource person</th><td>Mr. Kiran Kumar Y S, Senior Financial Analyst, RR Donnelley, Chennai</td></tr><tr><th>Venue</th><td>Lattice Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>MBA students</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to give MBA students practical insight into how finance, operations and language skills come together in the corporate workplace, connecting classroom learning with real-world professional requirements and building awareness of the competencies global careers demand.</p><h3>About the session</h3><p>Drawing on his work as a Senior Financial Analyst, Mr. Kiran Kumar showed how finance knowledge, operational understanding and clear communication work together in professional roles. He urged students to look beyond theory to how classroom learning is applied in organisations, and spoke about preparing for global career opportunities by building job-related knowledge, professional communication and the ability to adapt to workplace expectations.</p><h3>Highlights</h3><ul><li>Applying finance concepts in organisational settings</li><li>The role of operations in supporting business processes</li><li>Language proficiency and effective workplace communication</li><li>Combining finance, operations and communication skills for professional effectiveness</li><li>Building the competencies needed for global career opportunities</li></ul><p>The session was interactive, with the resource person addressing students from the dais and engaging with their questions.</p><h3>Outcome</h3><p>Students came away recognising the practical link between finance and operations, the value of communication and language skills at work, and the importance of interdisciplinary competencies for career development, with an industry view of how to prepare for global careers. The talk also strengthened the connection between alumni and students.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-04-18-integrating-finance-operation/speaker.jpg",
@@ -1270,7 +1626,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "alumni"
     },
     {
       "id": "2026-04-11-from-attention-to-obsession-building-high-converting-emotion",
@@ -1300,6 +1657,47 @@
       "externalUrl": "",
       "featured": false,
       "published": true
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Pou Chen Group"
+      ],
+      "speakers": "Ms. Felicia Wang, HR Director; Mr. Stephen Huang, HR Executive Manager; Mr. Tony Chou, Assistant General Manager HR, Pou Chen India; Mr. Nandeesh Kumar (alumnus), Team Lead Public Affairs",
+      "audience": "",
+      "id": "2026-04-10-international-delegates-visit-pou-chen-group",
+      "date": "2026-04-10",
+      "category": "partnership",
+      "kind": "International delegation",
+      "industry": "partnerships",
+      "title": "International Delegates Visit: Pou Chen Group",
+      "summary": "A Pou Chen Group HR delegation toured the Centres of Excellence and met the department in an industry-academia collaborative initiative.",
+      "body": "<p>A delegation from the Pou Chen Group visited Saveetha Engineering College on 10 April 2026 and toured its Centres of Excellence. The delegation was led by Ms. Felicia Wang (HR Director), Mr. Stephen Huang (HR Executive Manager), Mr. Tony Chou (Assistant General Manager HR, India) and the college's alumnus Mr. Nandeesh Kumar (Team Lead, Public Affairs, Pou Chen Group).</p><h3>What the delegation saw</h3><ul><li>A culture of innovation, where ideas are developed into real-world solutions</li><li>Industry-aligned curricula and labs designed around the needs of a global workforce</li><li>Skill development that gives learners technical depth and practical exposure</li></ul><p>The visit was a conversation about what education can offer and what industry needs, and reinforced a shared aim of bridging academia and the global professional world.</p>",
+      "tag": "International delegation",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-04-10-international-delegates-visit/poster.jpg",
+          "alt": "Poster for the International Delegates visit on 10 April with photos of Ms. Felicia Wang, Mr. Stephen Huang and Mr. Tony Chou",
+          "caption": "Visit poster"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-04-10-international-delegates-visit/boardroom.jpg",
+          "alt": "The Pou Chen delegation in discussion with college representatives around a boardroom table",
+          "caption": "Boardroom discussion"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-04-10-international-delegates-visit/group.jpg",
+          "alt": "The Pou Chen delegation with faculty members, holding a gift",
+          "caption": "The delegation with faculty"
+        }
+      ]
     },
     {
       "id": "2026-04-04-clarity-communication-grit-what-actually-builds-a-career",
@@ -1356,6 +1754,62 @@
       "externalUrl": "",
       "featured": false,
       "published": true
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Diamond Group"
+      ],
+      "speakers": "",
+      "audience": "MBA students and faculty",
+      "id": "2026-03-18-industrial-visit-diamond-group",
+      "date": "2026-03-18",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Diamond Group",
+      "summary": "Heavy steel fabrication, welding, machining and shop-floor safety at Diamond Group (\"Anything in Steel\"), Chennai.",
+      "body": "<p>On 18 March 2026, students and faculty members of the Department of Management Studies visited the manufacturing facility of Diamond Group, a Chennai steel fabrication company whose motto is \"Anything in Steel\". The visit gave students a close look at heavy steel fabrication, welding, material handling and machining, and at how a large engineering shop floor is planned and run.</p><h3>Objectives</h3><ul><li>Observe how steel structures and components are fabricated, welded and machined on an industrial scale</li><li>Understand material handling, shop-floor layout and workplace safety in a heavy engineering unit</li><li>Relate operations management and production planning to real practice</li><li>Interact with engineers and technicians and learn about careers in the fabrication industry</li></ul><h3>About the organisation</h3><p>Diamond Group operates through Diamond Engineering (Chennai) Private Limited (DECPL), which was taken over in 1987 and grew into a fabricator of heavy steel structures and equipment for customers in India and abroad.</p><h3>Safety briefing</h3><p>Before entering the shop floor, students were briefed on safety rules: protective equipment, marked walkways, and keeping clear of moving loads and welding areas. Workers on the floor wore protective overalls, and visitors stayed with their guides throughout.</p><h3>Fabrication and welding shop</h3><p>The fabrication bay is a large hall served by overhead cranes. Heavy steel sections move along roller conveyors to the welding station, where welders join the parts while a large fixture holds them in position. Students watched the welding from a safe distance and saw how handling, alignment and welding are arranged as one flow to keep heavy work accurate and safe.</p><h3>Machine shop</h3><p>In the machine shop, students saw lathes, milling and shaping machines, with machined components stacked beside them. A shop-floor technician explained how each machine is set up and how components are finished to the required size, and faculty members joined the students in asking questions about the process.</p><h3>Interaction with industry staff</h3><p>In the interaction session, students asked about fabrication methods, quality checks, safety practices and the skills the industry looks for in young professionals.</p><h3>Key takeaways</h3><ul><li>Heavy fabrication relies on careful planning of material flow, handling equipment and workstations</li><li>Welding and machining quality depends on skilled operators, correct set-up and regular inspection</li><li>Safety rules are an essential part of everyday work on a heavy engineering shop floor</li><li>Seeing real equipment in operation makes operations concepts far clearer than textbooks alone</li></ul><p>The department thanks the management, engineers and technicians of Diamond Group for hosting the visit and guiding the students.</p>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-03-18-industrial-visit-diamond-grou/welding-line.jpg",
+          "alt": "Students watching a heavy steel section being welded on the roller conveyor line at Diamond Group",
+          "caption": "Welding on the roller conveyor line"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-03-18-industrial-visit-diamond-grou/machine-shop.jpg",
+          "alt": "A technician explaining machine operation to students and faculty in the Diamond Group machine shop",
+          "caption": "In the machine shop"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-03-18-industrial-visit-diamond-grou/shop-floor.jpg",
+          "alt": "MBA students standing on the shop floor at Diamond Group",
+          "caption": "On the shop floor"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-03-18-industrial-visit-diamond-grou/fabrication.jpg",
+          "alt": "Students gathered around large steel fabrication equipment at Diamond Group",
+          "caption": "At the fabrication bay"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-03-18-industrial-visit-diamond-grou/briefing.jpg",
+          "alt": "Students seated in a hall during a briefing by Diamond Group",
+          "caption": "Briefing session"
+        },
+        {
+          "url": "assets/images/events/gallery/2026-03-18-industrial-visit-diamond-grou/group.jpg",
+          "alt": "Group photograph of MBA students and faculty at Diamond Group",
+          "caption": "Group photograph, 18 March 2026"
+        }
+      ]
     },
     {
       "id": "2026-02-28-transformational-leadership-in-organisational-behaviour",
@@ -1711,6 +2165,37 @@
       "published": true
     },
     {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Hatsun Agro Product"
+      ],
+      "speakers": "Faculty coordinators: Dr. L. Anitha and Dr. P. Periasamy",
+      "audience": "35 first-year MBA students and two faculty members",
+      "id": "2026-02-19-industrial-visit-hatsun-agro-product-redhills",
+      "date": "2026-02-19",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Hatsun Agro Product Ltd, Redhills",
+      "summary": "First-year MBA students saw quality testing, pasteurisation, automated packaging and cold-chain dispatch at Hatsun Agro's Redhills dairy plant.",
+      "body": "<p>First-year MBA students visited the Redhills plant of Hatsun Agro Product Ltd, near Chennai, on 19 February 2026. Hatsun, established in 1970, is one of India's leading private dairy companies, with brands such as Arokya, Arun Ice Cream, Hatsun Curd and IBACO.</p><table><tbody><tr><th>Venue</th><td>Hatsun Agro Product Ltd, Redhills plant</td></tr><tr><th>Participants</th><td>35 first-year MBA students and two faculty members</td></tr><tr><th>Faculty coordinators</th><td>Dr. L. Anitha and Dr. P. Periasamy</td></tr></tbody></table><h3>About the visit</h3><p>Plant officials explained the company's history, growth and operating structure. Students were taken through milk reception, the quality testing laboratory, pasteurisation and homogenisation, automated packaging lines, cold storage and dispatch, and saw the hygiene protocols and automation the plant relies on. An interactive discussion on production capacity, quality standards and supply chain management closed the visit.</p><h3>Learning outcomes</h3><ul><li>Quality control and food safety standards</li><li>Supply chain and cold-chain management</li><li>Automation and workflow coordination in manufacturing</li><li>Career opportunities in FMCG and dairy</li></ul>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-19-industrial-visit-hatsun-agro-/group.jpg",
+          "alt": "MBA students and faculty in a group photo outside the Hatsun Agro plant",
+          "caption": "Students and faculty at Hatsun Agro, Redhills"
+        }
+      ]
+    },
+    {
       "id": "2026-02-14-unpacking-budget-2026-insights-for-management-graduates",
       "type": "event",
       "category": "guest-lecture",
@@ -1738,6 +2223,68 @@
       "externalUrl": "",
       "featured": false,
       "published": true
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Aavin"
+      ],
+      "speakers": "Faculty coordinators: Dr. L. Anitha and Dr. V. Vimalnath",
+      "audience": "55 first-year MBA students and two faculty members",
+      "id": "2026-02-11-industrial-visit-aavin-milk-processing-plant-madhavaram",
+      "date": "2026-02-11",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Aavin Milk Processing Plant, Madhavaram",
+      "summary": "First-year MBA students followed milk from procurement and quality testing through pasteurisation, automated packaging and cold-chain distribution at Aavin, Madhavaram.",
+      "body": "<p>The Department of Management Studies organised an industrial visit to the Aavin Milk Processing Plant, Madhavaram, Chennai, on 11 February 2026. The plant runs under the Tamil Nadu Co-operative Milk Producers' Federation Limited (Aavin).</p><table><tbody><tr><th>Venue</th><td>Aavin Milk Processing Plant, Madhavaram, Chennai</td></tr><tr><th>Participants</th><td>55 first-year MBA students and two faculty members</td></tr><tr><th>Faculty coordinators</th><td>Dr. L. Anitha and Dr. V. Vimalnath</td></tr><tr><th>Focus areas</th><td>Operations management, quality control, supply chain management</td></tr></tbody></table><h3>About the visit</h3><p>Plant officials introduced the history and working of Aavin under Tamil Nadu's three-tier dairy co-operative system. Students then followed the full milk processing cycle: milk reception, quality testing (fat and SNF analysis, adulteration checks), pasteurisation, homogenisation, automated sachet packaging, cold storage and distribution. The automated packaging line was a highlight. The visit ended with a question-and-answer session on production capacity, safety practices and careers in the dairy sector.</p><h3>Learning outcomes</h3><ul><li>Practical exposure to large-scale dairy production</li><li>Quality assurance and food safety standards in practice</li><li>Cold-chain management and distribution logistics</li><li>How a co-operative business model supports farmers and consumers</li><li>Career opportunities in dairy, manufacturing and FMCG</li></ul>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-11-industrial-visit-aavin-milk-p/plant.jpg",
+          "alt": "MBA students in hair caps listening to a guide inside the Aavin plant, Madhavaram",
+          "caption": "Students inside the Aavin plant, Madhavaram"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "High Glory Footwear"
+      ],
+      "speakers": "",
+      "audience": "",
+      "id": "2026-02-10-mou-signing-high-glory-footwear-india",
+      "date": "2026-02-10",
+      "category": "partnership",
+      "kind": "MoU signing",
+      "industry": "partnerships",
+      "title": "MoU Signing: High Glory Footwear India Pvt Ltd",
+      "summary": "An MoU with the India arm of the Pou Chen Group for industry exposure, skill enhancement and career pathways.",
+      "body": "<p>High Glory Footwear India Pvt Ltd and Saveetha Engineering College signed a Memorandum of Understanding on 10 February 2026. High Glory Footwear is the India-based arm of the Pou Chen Group, the Taiwan-headquartered manufacturer of branded athletic and casual footwear for many of the world's leading sports and lifestyle brands.</p><p>The partnership aims to create opportunities for learners through industry exposure, skill enhancement and future career pathways.</p>",
+      "tag": "MoU signing",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2026-02-10-mou-signing-high-glory-footwe/signing.jpg",
+          "alt": "Two panels: college representatives signing the MoU at a desk, and a High Glory Footwear representative signing at his desk",
+          "caption": "Signing the MoU"
+        }
+      ]
     },
     {
       "id": "2026-02-09-generative-ai-for-academic-excellence-innovations-in-teachin",
@@ -1803,10 +2350,10 @@
       "organisations": [
         "State Street"
       ],
-      "summary": "Alumna Ms. V. Keerthana (2022–2024 batch), Associate (Reconciliation) at State Street, on moving from campus to corporate life.",
+      "summary": "Alumna Ms. V. Keerthana (2022-2024 batch), Associate (Reconciliation) at State Street, on moving from campus to corporate life.",
       "context": "State Street",
       "cover": "",
-      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>Campus to Career: Crafting Your Pathway to Success</em> on Saturday, 7 February 2026, from 1.00 pm to 3.00 pm at Lattice Hall, Saveetha Engineering College. Aligned with SDG 4 – Quality Education, the session drew 230 MBA students.</p><table><tbody><tr><th>Resource person</th><td>Ms. V. Keerthana, alumna (batch 2022–2024), Associate (Reconciliation), State Street</td></tr><tr><th>Venue</th><td>Lattice Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>230 MBA students</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to build students’ career preparedness, employability skills and industry awareness, and to bridge the gap between academic learning and professional expectations through the practical experience of a recent alumna.</p><h3>About the session</h3><p>Ms. Keerthana guided students through the transition from campus to corporate life, stressing that professional competencies must grow alongside academic knowledge. She covered career planning, adaptability and organisational expectations, and shared her own career journey: the challenges of her early working years and the strategies she used to overcome them.</p><h3>Highlights</h3><ul><li>Moving from academic life to corporate culture</li><li>Employability skills: communication, teamwork and analytical thinking</li><li>Industry expectations and professional ethics</li><li>Handling early-career challenges and building skills continuously</li><li>Lifelong learning as a driver of career growth</li></ul><p>The session was interactive, with students joining the discussion and clearing their career-related queries.</p><h3>Programme</h3><table><tbody><tr><th>Welcome address</th><td>Ms. Hellen, MBA student</td></tr><tr><th>Guest introduction</th><td>Ms. Sowmiya, MBA student</td></tr><tr><th>Felicitation of the alumna</th><td>Dr. G. Ramasundaram, Dean; Dr. Joseph Sathish; Dr. A. Vanitha; Dr. K. Selvi</td></tr><tr><th>Alumni talk</th><td>Ms. V. Keerthana, alumna (2022–2024)</td></tr><tr><th>Vote of thanks</th><td>Ms. Sarena Edward, MBA student</td></tr></tbody></table><h3>Outcome</h3><p>Students came away with a clearer picture of corporate work culture and industry expectations, the skills needed for career success, and the opportunities and growth paths open to them, and said they felt more confident and motivated to prepare for professional roles. In the feedback survey, respondents rated the event 4.59 out of 5, with 62.5% giving it the top rating.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
+      "body": "<p>The Department of Management Studies organised an alumni talk titled <em>Campus to Career: Crafting Your Pathway to Success</em> on Saturday, 7 February 2026, from 1.00 pm to 3.00 pm at Lattice Hall, Saveetha Engineering College. Aligned with SDG 4 - Quality Education, the session drew 230 MBA students.</p><table><tbody><tr><th>Resource person</th><td>Ms. V. Keerthana, alumna (batch 2022-2024), Associate (Reconciliation), State Street</td></tr><tr><th>Venue</th><td>Lattice Hall, Saveetha Engineering College</td></tr><tr><th>Participants</th><td>230 MBA students</td></tr><tr><th>Alumni coordinators</th><td>Dr. R. Divya Ranjani and Dr. S. Poorani, Assistant Professors</td></tr></tbody></table><h3>Objective</h3><p>The talk set out to build students' career preparedness, employability skills and industry awareness, and to bridge the gap between academic learning and professional expectations through the practical experience of a recent alumna.</p><h3>About the session</h3><p>Ms. Keerthana guided students through the transition from campus to corporate life, stressing that professional competencies must grow alongside academic knowledge. She covered career planning, adaptability and organisational expectations, and shared her own career journey: the challenges of her early working years and the strategies she used to overcome them.</p><h3>Highlights</h3><ul><li>Moving from academic life to corporate culture</li><li>Employability skills: communication, teamwork and analytical thinking</li><li>Industry expectations and professional ethics</li><li>Handling early-career challenges and building skills continuously</li><li>Lifelong learning as a driver of career growth</li></ul><p>The session was interactive, with students joining the discussion and clearing their career-related queries.</p><h3>Programme</h3><table><tbody><tr><th>Welcome address</th><td>Ms. Hellen, MBA student</td></tr><tr><th>Guest introduction</th><td>Ms. Sowmiya, MBA student</td></tr><tr><th>Felicitation of the alumna</th><td>Dr. G. Ramasundaram, Dean; Dr. Joseph Sathish; Dr. A. Vanitha; Dr. K. Selvi</td></tr><tr><th>Alumni talk</th><td>Ms. V. Keerthana, alumna (2022-2024)</td></tr><tr><th>Vote of thanks</th><td>Ms. Sarena Edward, MBA student</td></tr></tbody></table><h3>Outcome</h3><p>Students came away with a clearer picture of corporate work culture and industry expectations, the skills needed for career success, and the opportunities and growth paths open to them, and said they felt more confident and motivated to prepare for professional roles. In the feedback survey, respondents rated the event 4.59 out of 5, with 62.5% giving it the top rating.</p><p>The talk mapped to Programme Outcomes PO1 (business problem solving and decision making), PO2 (leadership and team management), PO4 (professional communication and collaboration) and PO6 (global outlook, entrepreneurial thinking and lifelong learning).</p>",
       "gallery": [
         {
           "url": "assets/images/events/gallery/2026-02-07-campus-to-career-crafting-you/1.jpg",
@@ -1856,7 +2403,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "alumni"
     },
     {
       "id": "2025-11-29-xr-technologies-for-manufacturing-institutions-and-the-legal",
@@ -1905,7 +2453,7 @@
       "kind": "Club inauguration",
       "date": "2025-11-28",
       "end": "",
-      "title": "Inauguration of the BSmart Club 2025–26",
+      "title": "Inauguration of the BSmart Club 2025-26",
       "speakers": "Mr. S. Jayaraam, Deputy General Manager, Market Development (South and East), Business Standard",
       "note": "",
       "organisations": [
@@ -1919,7 +2467,7 @@
         {
           "url": "assets/images/events/gallery/2025-11-28-inauguration-of-the-bsmart-cl/1.jpg",
           "caption": "",
-          "alt": "Inauguration of the BSmart Club 2025–26: photo 1 of 1"
+          "alt": "Inauguration of the BSmart Club 2025-26: photo 1 of 1"
         }
       ],
       "externalUrl": "",
@@ -1934,7 +2482,7 @@
       "kind": "Management fest",
       "date": "2025-11-03",
       "end": "2025-11-08",
-      "title": "DRESTEIN ’25: six-day management fest",
+      "title": "DRESTEIN '25: six-day management fest",
       "speakers": "Design Thinking Workshop (3 Nov), Business Movie Screening (4 Nov), Business Premier League (5 Nov), Stock Market Workshop (6 Nov), Best Manager & Management Games Marathon (7 Nov), Corporate Walk & Shark Tank (8 Nov)",
       "note": "",
       "organisations": [],
@@ -1946,12 +2494,12 @@
         {
           "url": "assets/images/events/gallery/2025-11-03-drestien-25-six-day-managemen/1.jpg",
           "caption": "",
-          "alt": "DRESTEIN ’25: six-day management fest: photo 1 of 2"
+          "alt": "DRESTEIN '25: six-day management fest: photo 1 of 2"
         },
         {
           "url": "assets/images/events/gallery/2025-11-03-drestien-25-six-day-managemen/2.jpg",
           "caption": "",
-          "alt": "DRESTEIN ’25: six-day management fest: photo 2 of 2"
+          "alt": "DRESTEIN '25: six-day management fest: photo 2 of 2"
         },
         {
           "url": "assets/images/events/life/best-manager-2025-team.jpg",
@@ -1968,7 +2516,8 @@
       "featured": true,
       "published": true,
       "coverAlt": "Students on stage at DRESTEIN '25",
-      "cardTitle": "DRESTEIN ’25"
+      "cardTitle": "DRESTEIN '25",
+      "industry": "conclaves"
     },
     {
       "id": "2025-10-29-vigilance-awareness-week-vigilance-our-shared-responsibility",
@@ -1999,7 +2548,7 @@
       "kind": "Business Talk Series",
       "date": "2025-10-25",
       "end": "",
-      "title": "College to Corporate Success: A Marketer’s Story",
+      "title": "College to Corporate Success: A Marketer's Story",
       "speakers": "Mr. K. S. Rajasekar, Director, Marketing, Lister Ventures",
       "note": "",
       "organisations": [
@@ -2013,17 +2562,17 @@
         {
           "url": "assets/images/events/gallery/2025-10-25-college-to-corporate-success/1.jpg",
           "caption": "",
-          "alt": "College to Corporate Success: A Marketer’s Story: photo 1 of 3"
+          "alt": "College to Corporate Success: A Marketer's Story: photo 1 of 3"
         },
         {
           "url": "assets/images/events/gallery/2025-10-25-college-to-corporate-success/2.jpg",
           "caption": "",
-          "alt": "College to Corporate Success: A Marketer’s Story: photo 2 of 3"
+          "alt": "College to Corporate Success: A Marketer's Story: photo 2 of 3"
         },
         {
           "url": "assets/images/events/gallery/2025-10-25-college-to-corporate-success/3.jpg",
           "caption": "",
-          "alt": "College to Corporate Success: A Marketer’s Story: photo 3 of 3"
+          "alt": "College to Corporate Success: A Marketer's Story: photo 3 of 3"
         }
       ],
       "externalUrl": "",
@@ -2335,10 +2884,10 @@
       "date": "2025-09-24",
       "end": "",
       "title": "Intern Poster Pitch: summer internship poster presentations",
-      "speakers": "Fourteen industry panellists, from Citibank, Hitachi Energy, Infinite Computer Solutions, MIOT International Hospital, MGM Healthcare and others, reviewed students’ internship posters",
+      "speakers": "Fourteen industry panellists, from Citibank, Hitachi Energy, Infinite Computer Solutions, MIOT International Hospital, MGM Healthcare and others, reviewed students' internship posters",
       "note": "",
       "organisations": [],
-      "summary": "Fourteen industry panellists, from Citibank, Hitachi Energy, Infinite Computer Solutions, MIOT International Hospital, MGM Healthcare and others, reviewed students’ internship posters",
+      "summary": "Fourteen industry panellists, from Citibank, Hitachi Energy, Infinite Computer Solutions, MIOT International Hospital, MGM Healthcare and others, reviewed students' internship posters",
       "context": "",
       "cover": "",
       "body": "",
@@ -2391,7 +2940,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "internships"
     },
     {
       "id": "2025-09-23-decoding-markets-the-role-of-fundamental-analysis-in-investm",
@@ -2485,7 +3035,7 @@
       "kind": "Business Talk Series",
       "date": "2025-09-03",
       "end": "",
-      "title": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens",
+      "title": "MSMEs: The Backbone of India's Economy: Opportunities & Challenges from an NBFC Lens",
       "speakers": "Mr. Srinivasan Vasudevan, Director, TJ Finance",
       "note": "",
       "organisations": [
@@ -2499,17 +3049,17 @@
         {
           "url": "assets/images/events/gallery/2025-09-03-msmes-the-backbone-of-india-s/1.jpg",
           "caption": "",
-          "alt": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens: photo 1 of 3"
+          "alt": "MSMEs: The Backbone of India's Economy: Opportunities & Challenges from an NBFC Lens: photo 1 of 3"
         },
         {
           "url": "assets/images/events/gallery/2025-09-03-msmes-the-backbone-of-india-s/2.jpg",
           "caption": "",
-          "alt": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens: photo 2 of 3"
+          "alt": "MSMEs: The Backbone of India's Economy: Opportunities & Challenges from an NBFC Lens: photo 2 of 3"
         },
         {
           "url": "assets/images/events/gallery/2025-09-03-msmes-the-backbone-of-india-s/3.jpg",
           "caption": "",
-          "alt": "MSMEs: The Backbone of India’s Economy: Opportunities & Challenges from an NBFC Lens: photo 3 of 3"
+          "alt": "MSMEs: The Backbone of India's Economy: Opportunities & Challenges from an NBFC Lens: photo 3 of 3"
         }
       ],
       "externalUrl": "",
@@ -2583,7 +3133,7 @@
       "kind": "Inauguration",
       "date": "2025-08-28",
       "end": "",
-      "title": "PG Inauguration (2025–2027 batch)",
+      "title": "PG Inauguration (2025-2027 batch)",
       "speakers": "Chief guest: Mr. K. V. Sanil Kumar, Associate Director, Geojit Financial Services Ltd.",
       "note": "",
       "organisations": [
@@ -2597,44 +3147,44 @@
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/1.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 1 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 1 of 7"
         },
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/2.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 2 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 2 of 7"
         },
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/3.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 3 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 3 of 7"
         },
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/4.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 4 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 4 of 7"
         },
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/5.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 5 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 5 of 7"
         },
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/6.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 6 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 6 of 7"
         },
         {
           "url": "assets/images/events/gallery/2025-08-28-pg-inauguration-2025-2027-bat/7.jpg",
           "caption": "",
-          "alt": "PG Inauguration (2025–2027 batch): photo 7 of 7"
+          "alt": "PG Inauguration (2025-2027 batch): photo 7 of 7"
         }
       ],
       "externalUrl": "",
       "featured": true,
       "published": true,
       "coverAlt": "Lamp lighting and guests on stage at the PG Inauguration",
-      "cardTitle": "PG Inauguration, 2025–2027 batch"
+      "cardTitle": "PG Inauguration, 2025-2027 batch"
     },
     {
       "id": "2025-08-25-equity-derivatives-trading-strategies-using-nsmart",
@@ -2764,7 +3314,8 @@
       ],
       "externalUrl": "",
       "featured": false,
-      "published": true
+      "published": true,
+      "industry": "expert-sessions"
     },
     {
       "id": "2025-08-23-export-opportunities-for-young-entrepreneurs-sdg-8-decent-wo",
@@ -2930,6 +3481,263 @@
       "externalUrl": "",
       "featured": false,
       "published": true
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Pegasus"
+      ],
+      "speakers": "",
+      "audience": "MBA students",
+      "id": "2025-03-19-outbound-training-programme-at-pegasus",
+      "date": "2025-03-19",
+      "category": "student-activity",
+      "kind": "Outbound training",
+      "industry": "industrial-visits",
+      "title": "Outbound Training Programme at Pegasus",
+      "summary": "A day of outdoor team challenges, discussions and reflection on leadership, teamwork and decision-making.",
+      "body": "<p>The Department of Management Studies organised an Outbound Training (OBT) Programme at Pegasus to build managerial and interpersonal skills through experiential learning.</p><h3>About the programme</h3><p>Students took part in outdoor activities and team challenges that asked them to coordinate, communicate, think strategically and solve problems together. Group discussions, presentations and reflection sessions helped them see the value of individual contribution and collective responsibility.</p><h3>Key learning outcomes</h3><ul><li><b>Leadership:</b> taking initiative in team situations</li><li><b>Teamwork:</b> collaboration, coordination and trust</li><li><b>Communication:</b> sharing ideas clearly</li><li><b>Problem-solving and decision-making</b> under time pressure</li><li><b>Adaptability</b> in new situations</li></ul>",
+      "tag": "Outbound training",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/beach-circle.jpg",
+          "alt": "MBA students in caps and bibs standing in a circle on a sandy ground among palm trees",
+          "caption": "Opening circle"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/team-task.jpg",
+          "alt": "Students working on a team task with ropes under the trees",
+          "caption": "A team challenge"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/number-grid.jpg",
+          "alt": "Students in a pavilion working through a numbered floor-grid challenge",
+          "caption": "The number-grid challenge"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/pavilion.jpg",
+          "alt": "Students in numbered bibs standing round the pavilion",
+          "caption": "Debrief in the pavilion"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/presentation.jpg",
+          "alt": "A student presenting a chart to the group",
+          "caption": "Participant presentation"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/reflection.jpg",
+          "alt": "Students seated on a bench during a reflection session",
+          "caption": "Reflection session"
+        },
+        {
+          "url": "assets/images/events/gallery/2025-03-19-outbound-training-programme-a/outdoor.jpg",
+          "alt": "Students at an outdoor balance-beam activity",
+          "caption": "Outdoor activity"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Adani Ports"
+      ],
+      "speakers": "",
+      "audience": "MBA students",
+      "id": "2024-12-23-industrial-visit-adani-port-kattupalli",
+      "date": "2024-12-23",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Adani Port, Kattupalli",
+      "summary": "A briefing by port representatives on port operations, logistics, safety and resource management at Kattupalli.",
+      "body": "<p>The Department of Management Studies organised an industrial visit to Adani Port, Kattupalli, Tamil Nadu, on 23 December 2024 to give students practical exposure to port operations and logistics management.</p><h3>About the visit</h3><p>Students attended an introductory briefing by port representatives and saw the organisational environment, operating facilities, safety practices and learning systems within the port. The interaction showed the importance of coordination, operational efficiency, safety management, teamwork and resource use in ports and logistics, and the role of port infrastructure in trade and economic development.</p><h3>Learning outcomes</h3><ul><li>How the port and logistics industry works</li><li>Operational coordination and resource management</li><li>Workplace safety and industrial practice</li><li>The role of ports in trade and the economy</li></ul>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2024-12-23-industrial-visit-adani-port-k/briefing.jpg",
+          "alt": "MBA students seated in a hall during the briefing at Adani Port, Kattupalli",
+          "caption": "Briefing by port representatives"
+        },
+        {
+          "url": "assets/images/events/gallery/2024-12-23-industrial-visit-adani-port-k/port.jpg",
+          "alt": "The road and buildings at Adani Port, Kattupalli",
+          "caption": "Adani Port, Kattupalli"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Modern Bakers"
+      ],
+      "speakers": "",
+      "audience": "MBA students and faculty",
+      "id": "2023-09-09-industrial-visit-modern-bakers-madhavaram",
+      "date": "2023-09-09",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Modern Bakers, Madhavaram",
+      "summary": "MBA students saw bakery production, quality control, packaging and operations at Modern Bakers, Madhavaram.",
+      "body": "<p>MBA students visited Modern Bakers Pvt. Ltd., Madhavaram, Chennai, on 9 September 2023 to gain practical exposure to bakery manufacturing. The visit covered production activities, quality control, packaging and operational management, and helped students connect classroom concepts with food manufacturing practice.</p>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2023-09-09-industrial-visit-modern-baker/group.jpg",
+          "alt": "MBA students and faculty outside the Modern Bakers Madras plant, Madhavaram",
+          "caption": "Students and faculty at Modern Bakers, Madhavaram"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "2023-03-04",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Aavin"
+      ],
+      "speakers": "",
+      "audience": "MBA students and faculty",
+      "id": "2023-03-03-industrial-visit-aavin-dairy-ambattur",
+      "date": "2023-03-03",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Aavin Dairy, Ambattur",
+      "summary": "MBA students visited Aavin's HACCP-certified dairy at Ambattur.",
+      "body": "<p>MBA students of the Department of Management Studies visited Aavin's HACCP-certified dairy at Ambattur, Chennai, on 3 and 4 March 2023.</p>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2023-03-03-industrial-visit-aavin-dairy-/group.jpg",
+          "alt": "MBA students and faculty under the HACCP Certified Dairy sign at Aavin, Ambattur",
+          "caption": "At Aavin's Ambattur dairy, March 2023"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "NLC India Limited"
+      ],
+      "speakers": "",
+      "audience": "MBA students and faculty",
+      "id": "2023-01-20-industrial-visit-nlc-india-mine-ia",
+      "date": "2023-01-20",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: NLC India Limited, Mine-IA, Neyveli",
+      "summary": "Open-cast lignite mining, safety discipline and large-scale operations management at NLC India's Mine-IA, Neyveli.",
+      "body": "<p>As part of the MBA curriculum, the Department of Management Studies organised an industrial visit to the Mine-IA unit of NLC India Limited (formerly Neyveli Lignite Corporation), Neyveli, on 20 January 2023. Students and faculty members took part in the visit, which gave first-hand exposure to large-scale mining operations, plant management and public sector organisational culture.</p><h3>Objectives</h3><ul><li>Understand the working of a large public sector enterprise in the energy and mining sector</li><li>Observe how operations, logistics, safety and human resources are managed on a large scale</li><li>Relate operations management, supply chain, HRM and CSR concepts to real practice</li><li>Interact with industry professionals and gain career awareness</li></ul><h3>About the organisation</h3><p>NLC India Limited is a Government of India enterprise under the Ministry of Coal and one of the country's leading lignite mining and power generation companies. Headquartered in Chennai, with its principal operations at Neyveli in Cuddalore district, it mines lignite and uses it to generate electricity in its thermal power stations. Its Neyveli mines (Mine-I, Mine-IA and Mine-II) are among the best-known open-cast lignite mines in India, and the company has also expanded into renewable energy.</p><h3>Orientation and safety briefing</h3><p>The visit began with an introduction by the Public Relations department, covering the company's history, its role in the nation's energy supply and its operating units. Students were briefed on personal protective practices, restricted zones and conduct inside the mine area.</p><h3>Mine operations</h3><p>Students observed the open-cast mining process, in which overburden is removed to expose the lignite seam, and the lignite is then excavated and moved by large machinery and conveyor systems to the consuming plants. The coordination between mining, transport and power generation showed how complex operations planning and logistics are in a continuous-process industry.</p><h3>Management insights</h3><ul><li><strong>Operations management:</strong> continuous production, capacity utilisation, equipment maintenance and scheduling</li><li><strong>Supply chain:</strong> movement of lignite from the mine to the power stations with minimal storage and delay</li><li><strong>Human resource management:</strong> shift-based work, skill-based roles, training and employee welfare in a large public sector workforce</li><li><strong>Health, safety and environment:</strong> safety protocols, dust and water management, land reclamation and plantation around the mine area</li><li><strong>Corporate social responsibility:</strong> community development activities for people in the surrounding region</li></ul><h3>Interaction with officials</h3><p>Officials answered students' questions about operations, career paths, recruitment in public sector undertakings and the future of the energy sector, including the shift towards renewable energy.</p><h3>Key takeaways</h3><ul><li>Large industrial operations depend on precise planning, coordination and discipline</li><li>Safety and environmental responsibility are integral to business success</li><li>Public sector enterprises play a vital role in national development and employment</li><li>Practical exposure helps students connect management theory with real decisions</li></ul>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2023-01-20-industrial-visit-nlc-india-mi/group.jpg",
+          "alt": "Large group of MBA students and faculty outside the Public Relations office at NLC India",
+          "caption": "MBA students and faculty at the NLC India Public Relations entrance, Mine-IA"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Hatsun Agro Product"
+      ],
+      "speakers": "",
+      "audience": "MBA students and faculty",
+      "id": "2022-11-28-industrial-visit-hatsun-agro-product",
+      "date": "2022-11-28",
+      "category": "industrial-visit",
+      "kind": "Industrial visit",
+      "industry": "industrial-visits",
+      "title": "Industrial Visit: Hatsun Agro Product Ltd",
+      "summary": "MBA students visited a Hatsun Agro Product plant near Kanchipuram.",
+      "body": "<p>MBA students of the Department of Management Studies visited Hatsun Agro Product Ltd, Injambakkam, near Kanchipuram, from 28 November 2022.</p>",
+      "tag": "Industrial visit",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/2022-11-28-industrial-visit-hatsun-agro-/group.jpg",
+          "alt": "MBA students and faculty outside the Hatsun Agro Product plant",
+          "caption": "At Hatsun Agro Product, November 2022"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "end": "",
+      "note": "Date to be confirmed by the department.",
+      "context": "",
+      "cover": "",
+      "externalUrl": "",
+      "featured": false,
+      "published": true,
+      "organisations": [
+        "Feng Tay Group"
+      ],
+      "speakers": "",
+      "audience": "Students",
+      "id": "undated-campus-drive-feng-tay-group",
+      "date": "",
+      "category": "placement",
+      "kind": "Campus drive",
+      "industry": "recruitment",
+      "title": "Campus Drive: Feng Tay Group (Oracle Developers)",
+      "summary": "Feng Tay Group's first campus recruitment drive at the college, for Oracle developers.",
+      "body": "<p>Feng Tay Group held its first campus recruitment drive at Saveetha Engineering College, recruiting Oracle developers. A global leader in footwear manufacturing, Feng Tay established its presence in India in 2006 and has more than 30,000 employees. The department thanks Mr. Mani Maran, General Manager, Feng Tay Group India, for his approach to identifying young talent from campuses.</p>",
+      "tag": "Campus drive",
+      "gallery": [
+        {
+          "url": "assets/images/events/gallery/undated-campus-drive-feng-tay-group/hall.jpg",
+          "alt": "Students seated in the auditorium for the Feng Tay campus drive",
+          "caption": "Students at the drive"
+        },
+        {
+          "url": "assets/images/events/gallery/undated-campus-drive-feng-tay-group/presentation.jpg",
+          "alt": "Feng Tay representatives presenting to students from the stage",
+          "caption": "Company presentation"
+        }
+      ]
     }
   ]
 }

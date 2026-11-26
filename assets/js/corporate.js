@@ -17,7 +17,7 @@
     var e = s.querySelector('.eyebrow'); var h = s.querySelector('h2');
     var t = (e && e.textContent.trim()) || (h && h.textContent.trim()) || s.id;
     t = t.replace(/\s+/g, ' ');
-    return t.length > 28 ? t.slice(0, 26).replace(/\s+\S*$/, '') + '…' : t;
+    return t.length > 28 ? t.slice(0, 26).replace(/\s+\S*$/, '') + '...' : t;
   }
   secs = secs.filter(function (s) { return s.querySelector('h2'); });
   if (secs.length < 3) return;

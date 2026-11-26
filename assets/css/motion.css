@@ -1,0 +1,101 @@
+/* =========================================================
+   Motion layer (2026-11-26) — pairs with assets/js/motion.js
+   Navy / ember corporate system: calm easing, short distances.
+   ========================================================= */
+:root{--mo-ease:cubic-bezier(.2,.7,.2,1);--mo-gap:20px}
+
+/* ---------- 1. Page-header entrance (CSS only: runs on first paint) ---------- */
+@keyframes moRise{from{opacity:0;transform:translate3d(0,18px,0)}to{opacity:1;transform:none}}
+@keyframes moSettle{from{transform:scale(1.07)}to{transform:scale(1)}}
+@keyframes moLine{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.sxp-head .ph-content > :not(h1),
+.sxr-head-in >:not(h1){animation:moRise .9s var(--mo-ease) both}
+.sxp-head .ph-content > :nth-child(1),.sxr-head-in >:nth-child(1){animation-delay:.05s}
+.sxp-head .ph-content > :nth-child(2),.sxr-head-in >:nth-child(2){animation-delay:.15s}
+.sxp-head .ph-content > :nth-child(4),.sxr-head-in >:nth-child(4){animation-delay:.45s}
+.sxp-head .ph-content > :nth-child(5),.sxr-head-in >:nth-child(5){animation-delay:.6s}
+.sxp-head .ph-content > :nth-child(n+6),.sxr-head-in >:nth-child(n+6){animation-delay:.75s}
+.sxr-figs > div{animation:moRise .9s var(--mo-ease) both}
+.sxr-figs > div:nth-child(1){animation-delay:.7s}.sxr-figs > div:nth-child(2){animation-delay:.8s}
+.sxr-figs > div:nth-child(3){animation-delay:.9s}.sxr-figs > div:nth-child(4){animation-delay:1s}
+.sxp-head-photo,.sxr-head-photo{animation:moSettle 2.4s var(--mo-ease) both}
+.sxp-head .eyebrow::before,.sx-kicker::before{transform-origin:left center;animation:moLine .9s .3s var(--mo-ease) both}
+
+/* ---------- 2. Scroll reveal ---------- */
+html.mo-on .mo{opacity:0;transform:translate3d(0,28px,0);
+  transition:opacity .8s var(--mo-ease) var(--mo-d,0ms),transform 1s var(--mo-ease) var(--mo-d,0ms)}
+html.mo-on .mo.mo-card{transform:translate3d(0,40px,0) scale(.985)}
+html.mo-on .mo.is-in{opacity:1;transform:none}
+/* Photos open out from the centre */
+html.mo-on .mo-photo{clip-path:inset(9% 9% 9% 9%);opacity:0;
+  transition:clip-path 1.2s var(--mo-ease),opacity .8s var(--mo-ease)}
+html.mo-on .mo-photo.is-in{clip-path:inset(0 0 0 0);opacity:1}
+
+/* ---------- 3. Sliders ---------- */
+.mo-slider{position:relative}
+.mo-ctrl{display:none;align-items:center;gap:16px;margin-top:22px}
+.mo-slider.is-active > .mo-ctrl{display:flex}
+.mo-arrow{flex:none;width:44px;height:44px;display:grid;place-items:center;border-radius:50%;
+  border:1px solid var(--sx-line,#D9DCE5);background:#fff;color:var(--navy,#1B2358);cursor:pointer;
+  transition:background .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease),opacity .2s}
+.mo-arrow svg{width:18px;height:18px;transition:transform .25s var(--ease)}
+.mo-arrow:hover:not(:disabled){background:var(--navy,#1B2358);border-color:var(--navy,#1B2358);color:#fff}
+.mo-prev:hover:not(:disabled) svg{transform:translateX(-2px)}
+.mo-next:hover:not(:disabled) svg{transform:translateX(2px)}
+.mo-arrow:disabled{opacity:.35;cursor:default}
+.mo-arrow:focus-visible,.mo-track:focus-visible{outline:2px solid var(--ember,#D2502A);outline-offset:3px}
+.mo-bar{flex:1;height:2px;background:var(--sx-line,#D9DCE5);overflow:hidden;position:relative}
+.mo-bar span{position:absolute;left:0;top:0;bottom:0;width:20%;background:var(--navy,#1B2358);transition:transform .25s linear,width .25s}
+.mo-count{flex:none;font:700 .82rem/1 var(--font-head,inherit);letter-spacing:.06em;color:var(--sx-muted,#5B6275);min-width:54px;text-align:center}
+.mo-count b{color:var(--navy,#1B2358)}
+.mo-slider--always > .mo-track{cursor:grab}
+.mo-track.is-dragging{cursor:grabbing;scroll-snap-type:none!important;user-select:none}
+.mo-track.is-dragging *{pointer-events:none}
+
+/* track layout: "always" sliders, and mobile-only sliders under their breakpoint */
+.mo-slider{--per:var(--p1,1)}
+@media (max-width:1100px){.mo-slider{--per:var(--p2,1)}}
+@media (max-width:760px){.mo-slider{--per:var(--p3,1.15);--mo-gap:14px}}
+.mo-slider--always > .mo-track{
+  display:flex!important;flex-wrap:nowrap!important;grid-template-columns:none!important;gap:var(--mo-gap)!important;
+  overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;
+  padding:8px 2px 26px;margin:-8px -2px -26px}
+.mo-slider--always > .mo-track::-webkit-scrollbar{display:none}
+.mo-slider--always > .mo-track > .mo-slide{flex:0 0 calc((100% - (var(--per) - 1) * var(--mo-gap)) / var(--per));min-width:0;scroll-snap-align:start;margin:0}
+@media (max-width:900px){
+  .mo-slider--m900 > .mo-track{display:flex!important;flex-wrap:nowrap!important;grid-template-columns:none!important;gap:var(--mo-gap)!important;
+    overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;padding:8px 2px 20px;margin:-8px -2px -20px}
+  .mo-slider--m900 > .mo-track::-webkit-scrollbar{display:none}
+  .mo-slider--m900 > .mo-track > .mo-slide{flex:0 0 calc((100% - (var(--per) - 1) * var(--mo-gap)) / var(--per));min-width:0;scroll-snap-align:start;margin:0}
+}
+@media (max-width:760px){
+  .mo-slider--m760 > .mo-track{display:flex!important;flex-wrap:nowrap!important;grid-template-columns:none!important;gap:var(--mo-gap)!important;
+    overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;padding:8px 2px 20px;margin:-8px -2px -20px}
+  .mo-slider--m760 > .mo-track::-webkit-scrollbar{display:none}
+  .mo-slider--m760 > .mo-track > .mo-slide{flex:0 0 calc((100% - (var(--per) - 1) * var(--mo-gap)) / var(--per));min-width:0;scroll-snap-align:start;margin:0}
+  .mo-ctrl{gap:12px;margin-top:16px}
+  /* keep both arrows on the left, clear of the floating contact buttons */
+  .mo-prev{order:-2}.mo-next{order:-1}
+  .mo-arrow{width:40px;height:40px}
+}
+/* dark sections */
+.sx-navy .mo-arrow,.sx-numbers .mo-arrow{background:transparent;border-color:rgba(255,255,255,.35);color:#fff}
+.sx-navy .mo-bar,.sx-numbers .mo-bar{background:rgba(255,255,255,.2)}
+.sx-navy .mo-bar span,.sx-numbers .mo-bar span{background:var(--gold,#C9A55B)}
+
+/* ---------- 4. Back-to-top progress ring ---------- */
+.to-top::before{content:"";position:absolute;inset:-4px;border-radius:50%;pointer-events:none;
+  background:conic-gradient(var(--ember,#D2502A) calc(var(--mo-p,0) * 360deg),rgba(27,35,88,.12) 0);
+  -webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 2.5px));
+          mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 2.5px))}
+
+/* ---------- 5. Reduced motion / print ---------- */
+@media (prefers-reduced-motion:reduce){
+  .sxp-head .ph-content > *,.sxr-head-in >*,.sxp-head-photo,.sxr-head-photo,
+  .sxp-head .eyebrow::before,.sx-kicker::before,.sxr-figs > div{animation:none!important}
+  .mo-track{scroll-behavior:auto}
+}
+@media print{
+  html.mo-on .mo,html.mo-on .mo-photo{opacity:1!important;transform:none!important;clip-path:none!important}
+  .mo-ctrl{display:none!important}
+}

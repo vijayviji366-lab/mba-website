@@ -2,20 +2,29 @@
    SAVEETHA MBA — LIVE EDITOR
    =========================================================
    How it works:
-   - Visit yoursite.com/index.html?edit=1 (or ?edit=1 on any page)
-   - Enter the admin password (default: saveetha2026 — change below)
+   - Visit yoursite.com/index.html?edit=1 (or ?edit=1 on any page);
+     common.js loads this file only when ?edit=1 is in the address
+   - Enter the editor password (see ADMIN-GUIDE.md; only its SHA-256 hash is kept here)
    - A green toolbar appears at the top of the page
    - Click any orange-dashed text to edit, click any image to replace
-   - Click "Save All" to persist your changes
+   - Click "Save All" to keep your changes IN THIS BROWSER ONLY
    - Click "Exit" to leave edit mode
-   - Visitors to the site see your latest saved edits automatically
+   - Saved edits are NOT published: visitors still see the page as it is in the
+     HTML files. Use "Export" and copy the text into the HTML to make it public.
    ========================================================= */
 
 (function(){
   'use strict';
 
   // ============ CONFIG ============
-  const ADMIN_PASSWORD = 'saveetha2026';   // change this to your own password
+  // SHA-256 of the editor password. To change it, run in the browser console:
+  //   crypto.subtle.digest('SHA-256', new TextEncoder().encode('NEW-PASSWORD'))
+  //     .then(h => console.log([...new Uint8Array(h)].map(b => b.toString(16).padStart(2,'0')).join('')))
+  const ADMIN_HASH = '9e994d5dcfd6549003c999de03481769732aa426ac03b1e7a8c37add611c0930';
+  async function sha256hex(str){
+    const h = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(h)).map(b => b.toString(16).padStart(2,'0')).join('');
+  }
   const STORAGE_KEY = 'saveetha_mba_edits_v1';
   const IMAGE_KEY = 'saveetha_mba_images_v1';
 
@@ -65,18 +74,21 @@
   }
 
   // ============ EDIT MODE UI ============
-  function initEditMode(){
-    // Password gate
-    const stored = sessionStorage.getItem('saveetha_auth');
-    let pw = stored;
-    if(stored !== ADMIN_PASSWORD){
-      pw = prompt('Enter admin password to edit:');
-      if(pw !== ADMIN_PASSWORD){
+  async function initEditMode(){
+    // Password gate (checks a hash; the password itself is not in this file)
+    if(sessionStorage.getItem('saveetha_auth') !== ADMIN_HASH){
+      if(!(window.crypto && crypto.subtle)){
+        alert('Edit mode needs a secure address (https:// or localhost).');
+        location.href = location.pathname;
+        return;
+      }
+      const pw = prompt('Enter editor password:');
+      if(pw === null || await sha256hex(pw) !== ADMIN_HASH){
         alert('Incorrect password. Redirecting to view mode.');
         location.href = location.pathname;
         return;
       }
-      sessionStorage.setItem('saveetha_auth', pw);
+      sessionStorage.setItem('saveetha_auth', ADMIN_HASH);
     }
 
     // Build toolbar
@@ -150,7 +162,7 @@
       <b>How to edit:</b><br>
       • Click any <b>orange-dashed text</b> to type<br>
       • Click any <b>blue-dashed image</b> to upload new<br>
-      • Hit <b>Save All</b> when done<br>
+      • Hit <b>Save All</b> when done (saved in this browser only)<br>
       • Add <b>?edit=1</b> to any page URL to edit it
     `;
     document.body.appendChild(help);

@@ -5,14 +5,28 @@
 (function(){
   'use strict';
 
+  // ============ Live editor: loaded only when ?edit=1 is in the address (audit fix 2026-11-26) ============
+  if(/[?&]edit=1(&|$)/.test(location.search) && !document.querySelector('script[src^="editor.js"]')){
+    const ed = document.createElement('script');
+    ed.src = 'editor.js?v=20261126low';
+    document.head.appendChild(ed);
+  }
+
   // ============ Mobile menu toggle ============
   const mt = document.getElementById('mt');
   const menu = document.getElementById('menu');
   if(mt && menu){
-    mt.addEventListener('click', ()=> menu.classList.toggle('open'));
+    // tell screen readers what the button controls and whether the menu is open (audit fix 2026-11-26)
+    mt.setAttribute('aria-controls', 'menu');
+    const syncMt = () => mt.setAttribute('aria-expanded', String(menu.classList.contains('open')));
+    syncMt();
+    mt.addEventListener('click', ()=> { menu.classList.toggle('open'); syncMt(); });
     // Close the mobile menu on leaf-link clicks (not on parent submenu triggers, which expand)
     menu.querySelectorAll('a:not(.submenu-trigger)').forEach(a => {
-      a.addEventListener('click', ()=> menu.classList.remove('open'));
+      a.addEventListener('click', ()=> { menu.classList.remove('open'); syncMt(); });
+    });
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && menu.classList.contains('open')){ menu.classList.remove('open'); syncMt(); mt.focus(); }
     });
   }
 
@@ -20,22 +34,34 @@
   (function(){
     const subMenus = document.querySelectorAll('.has-submenu');
     const isMobile = () => window.matchMedia('(max-width:1180px)').matches; // matches the hamburger breakpoint in styles.css
+    // aria-expanded mirrors whether each dropdown is showing (open class, hover or keyboard focus)
+    const syncSub = (sm, on) => {
+      const t = sm.querySelector('.submenu-trigger');
+      if(t) t.setAttribute('aria-expanded', String(on === undefined ? sm.classList.contains('open') : on));
+    };
     subMenus.forEach(sm => {
       const trigger = sm.querySelector('.submenu-trigger');
       if(!trigger) return;
+      trigger.setAttribute('aria-haspopup', 'true');
+      syncSub(sm, false);
       trigger.addEventListener('click', (e) => {
         if(isMobile()){
           e.preventDefault();
           // Toggle this one; close siblings
-          subMenus.forEach(other => { if(other !== sm) other.classList.remove('open'); });
+          subMenus.forEach(other => { if(other !== sm){ other.classList.remove('open'); syncSub(other); } });
           sm.classList.toggle('open');
+          syncSub(sm);
         }
       });
+      sm.addEventListener('mouseenter', () => { if(!isMobile()) syncSub(sm, true); });
+      sm.addEventListener('mouseleave', () => { if(!isMobile()) syncSub(sm); });
+      sm.addEventListener('focusin', () => { if(!isMobile()) syncSub(sm, true); });
+      sm.addEventListener('focusout', (e) => { if(!isMobile() && !sm.contains(e.relatedTarget)) syncSub(sm); });
     });
     // Click outside closes open submenus (desktop safety for touch-hover mismatch)
     document.addEventListener('click', (e) => {
       if(!e.target.closest('.has-submenu')){
-        subMenus.forEach(s => s.classList.remove('open'));
+        subMenus.forEach(s => { s.classList.remove('open'); syncSub(s); });
       }
     });
   })();
@@ -72,11 +98,15 @@
       '.stats-band .big, .p-stats .n, .p-stat .n, .stats-row .n, .sstat b, .ssb-stat b, .stat-item .big, .fi-n, [data-countup]'
     );
 
+    // Only the text node holding the number is animated, so unit markup
+    // (<sup>+</sup>, <small> LPA</small>) is left untouched.
     const parse = (el) => {
-      // Capture the raw HTML (includes <sup>) so we can preserve suffix markup
-      const raw = el.textContent.trim();
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      let node;
+      while((node = walker.nextNode()) && !/\d/.test(node.nodeValue)) {}
+      if(!node) return null;
       // Match optional prefix (₹, $), number (with optional decimal), and trailing non-numeric
-      const m = raw.match(/^([^\d.,-]*)([\d.,]+)(.*)$/);
+      const m = node.nodeValue.match(/^(\s*[^\d.,-]*)([\d.,]+)(.*)$/s);
       if(!m) return null;
       const prefix = m[1] || '';
       const numStr = m[2].replace(/,/g,'');
@@ -84,7 +114,7 @@
       const value = parseFloat(numStr);
       if(isNaN(value)) return null;
       const decimals = (numStr.split('.')[1] || '').length;
-      return { prefix, value, suffix, decimals, originalHTML: el.innerHTML };
+      return { node, prefix, value, suffix, decimals, original: node.nodeValue };
     };
 
     const animate = (el, parsed) => {
@@ -93,11 +123,12 @@
       const step = (t) => {
         const p = Math.min(1, (t - start) / DURATION);
         const v = parsed.value * easeOut(p);
-        // Render: prefix + number + suffix (suffix may contain <sup>)
-        el.innerHTML = parsed.prefix + fmt(v, parsed.decimals) + parsed.suffix;
+        parsed.node.nodeValue = p < 1 ? parsed.prefix + fmt(v, parsed.decimals) + parsed.suffix : parsed.original;
         if(p < 1) requestAnimationFrame(step);
       };
       requestAnimationFrame(step);
+      // Background tabs throttle frames; still land on the real value.
+      setTimeout(() => { parsed.node.nodeValue = parsed.original; }, DURATION + 400);
     };
 
     const io = new IntersectionObserver((entries) => {
@@ -109,7 +140,7 @@
         if(!parsed){ io.unobserve(el); return; }
         el.dataset.counted = '1';
         // Reset to 0 before animating
-        el.innerHTML = parsed.prefix + fmt(0, parsed.decimals) + parsed.suffix;
+        parsed.node.nodeValue = parsed.prefix + fmt(0, parsed.decimals) + parsed.suffix;
         requestAnimationFrame(() => animate(el, parsed));
         io.unobserve(el);
       });
@@ -195,6 +226,8 @@
     //     can time its fade-out to the last letter.
     const wrapLetters = (el) => {
       if(!el || el.dataset.wrapped === '1') return;
+      // screen readers get the whole title; the per-letter spans are hidden from them (audit fix 2026-11-26)
+      el.setAttribute('aria-label', el.textContent.replace(/\s+/g, ' ').trim());
       const tmp = document.createElement('div');
       tmp.innerHTML = el.innerHTML;
       let wIdx = 0;   // word index
@@ -211,6 +244,7 @@
               } else if(p.length){
                 const word = document.createElement('span');
                 word.className = 'cw';
+                word.setAttribute('aria-hidden', 'true');
                 word.style.setProperty('--i', wIdx++);
                 for (const c of p){
                   const letter = document.createElement('span');
@@ -548,14 +582,41 @@
   (function(){
     const form = document.getElementById('contactForm');
     if(!form) return;
+    const status = document.getElementById('contactStatus');
+    const copyBtn = document.getElementById('contactCopy');
+    const TO = 'admission@saveetha.ac.in';
+    const WA = '918939902737';
+    const LABELS = {name:'Name', email:'Email', phone:'Phone', interest:'Interested in', message:'Message'};
+    const compose = () => {
+      const fd = new FormData(form);
+      const lines = [];
+      fd.forEach((v, k) => { if(k !== 'via' && String(v).trim()) lines.push((LABELS[k] || k) + ': ' + String(v).trim()); });
+      return {name: String(fd.get('name') || '').trim(), text: lines.join('\n')};
+    };
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const fd = new FormData(form);
-      const body = Array.from(fd.entries())
-        .map(([k,v]) => `${k.toUpperCase()}: ${v}`).join('%0D%0A');
-      const subject = encodeURIComponent('MBA Admissions Enquiry — ' + (fd.get('name') || ''));
-      window.location.href = `mailto:admission@saveetha.ac.in?subject=${subject}&body=${body}`;
+      const via = (e.submitter && e.submitter.value) || 'email';
+      const msg = compose();
+      if(via === 'whatsapp'){
+        const text = 'MBA Admissions Enquiry\n' + msg.text;
+        window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
+        return;
+      }
+      const subject = 'MBA Admissions Enquiry' + (msg.name ? ' - ' + msg.name : '');
+      window.location.href = 'mailto:' + TO + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(msg.text);
+      if(status){ status.hidden = false; }
     });
+    if(copyBtn){
+      copyBtn.addEventListener('click', () => {
+        const text = compose().text;
+        const done = () => { copyBtn.textContent = 'Copied'; setTimeout(() => { copyBtn.textContent = 'Copy message'; }, 2500); };
+        if(navigator.clipboard && window.isSecureContext){
+          navigator.clipboard.writeText(text).then(done, () => { window.prompt('Copy your message:', text); });
+        } else {
+          window.prompt('Copy your message:', text);
+        }
+      });
+    }
   })();
 
   // ============ Creative header: scroll-shrink ============
@@ -941,18 +1002,20 @@
     const h1 = document.querySelector('.page-header h1, .ph-content h1');
     if(!h1 || h1.dataset.split === '1') return;
     if(h1.querySelector('.lr')) return; // already processed
-    const text = h1.textContent;
+    if(/[?&]edit=1/.test(location.search)) return; // the live editor saves innerHTML
+    const text = h1.textContent.replace(/\s+/g,' ').trim();
     if(!text || text.length > 80) return; // skip very long titles
-    const frag = document.createDocumentFragment();
     let idx = 0;
-    // split by words so spaces wrap cleanly
-    text.split(/(\s+)/).forEach(piece => {
-      if(/^\s+$/.test(piece)){
-        frag.appendChild(document.createTextNode(piece));
-      } else {
+    // Split text nodes only, so inline markup such as <em> keeps its styling.
+    const split = (node) => {
+      const frag = document.createDocumentFragment();
+      node.nodeValue.split(/(\s+)/).forEach(piece => {
+        if(!piece) return;
+        if(/^\s+$/.test(piece)){ frag.appendChild(document.createTextNode(piece)); return; }
         const word = document.createElement('span');
         word.style.display = 'inline-block';
         word.style.whiteSpace = 'nowrap';
+        word.setAttribute('aria-hidden','true');
         for (const ch of piece){
           const span = document.createElement('span');
           span.className = 'lr';
@@ -961,10 +1024,14 @@
           word.appendChild(span);
         }
         frag.appendChild(word);
-      }
-    });
-    h1.textContent = '';
-    h1.appendChild(frag);
+      });
+      node.parentNode.replaceChild(frag, node);
+    };
+    const walker = document.createTreeWalker(h1, NodeFilter.SHOW_TEXT, null);
+    const nodes = []; let n;
+    while((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach(split);
+    h1.setAttribute('aria-label', text);
     h1.dataset.split = '1';
   })();
 

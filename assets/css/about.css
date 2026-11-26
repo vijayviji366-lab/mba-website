@@ -3,7 +3,7 @@
 /* ---------- On this page ---------- */
 .ab-jump{background:var(--ivory);border-bottom:1px solid var(--line)}
 .ab-jump .container{display:flex;align-items:center;gap:8px 10px;flex-wrap:wrap;padding-block:16px}
-.ab-jump-label{font-family:var(--font-head);font-weight:700;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.ab-jump-label{font-family:var(--font-head);font-weight:700;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
 .ab-jump a{
   padding:7px 14px;border-radius:var(--r-pill);border:1px solid var(--line);background:var(--white);
   font-family:var(--font-head);font-weight:600;font-size:.84rem;color:var(--charcoal);text-decoration:none;
@@ -85,7 +85,7 @@
 .ab-table th{width:38%;padding-right:16px;font-family:var(--font-head);font-weight:700;color:var(--ink)}
 .ab-table td{color:var(--charcoal)}
 .ab-link{font-family:var(--font-head);font-weight:700;font-size:.92rem;color:var(--indigo);text-decoration:none;border-bottom:1.5px solid var(--champagne);padding-bottom:2px}
-.ab-link:hover{color:var(--ember)}
+.ab-link:hover{color:var(--ember-ink,#B8460F)}
 
 /* ---------- Closing statement: the page's one dark band ---------- */
 .ab-closing{background:var(--indigo);color:#fff;text-align:center}
@@ -101,7 +101,7 @@
 
 /* The Chancellor band is the page's dark moment, so the closing statement sits on paper. */
 .ab-closing{background:var(--paper);color:var(--ink)}
-.ab-closing .eyebrow{color:var(--ember)}
+.ab-closing .eyebrow{color:var(--ember-ink,#B8460F)}
 .ab-closing-lead{color:var(--ink)}
 .ab-closing p{color:var(--charcoal)}
 .ab-closing .ab-closing-tag{color:var(--indigo)}

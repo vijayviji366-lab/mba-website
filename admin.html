@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20261124sxp">
+<link rel="stylesheet" href="styles.css?v=20261126ft2">
 </head>
 <body class="admin-page">
 
@@ -45,7 +45,7 @@
       </button>
       <div class="err" id="loginErr" role="alert"></div>
     </form>
-    <p class="muted small">This is a client-side gate for convenience — real protection needs a backend. <a href="index.html">← Back to site</a></p>
+    <p class="muted small">This is a client-side gate for convenience, real protection needs a backend. <a href="index.html"> Back to site</a></p>
   </div>
 </section>
 
@@ -78,8 +78,8 @@
 <!-- EDIT -->
 <main class="admin-shell" id="editView" hidden>
   <div class="admin-container">
-    <button class="back-link" id="backBtn" type="button">← Back to list</button>
-    <h1 id="editTitle">New item</h1>
+    <button class="back-link" id="backBtn" type="button"> Back to list</button>
+    <h2 id="editTitle">New item</h2>
 
     <form id="editForm" class="admin-form" autocomplete="off">
       <input type="hidden" name="id" id="f_id">
@@ -109,11 +109,35 @@
             <option value="fdp">FDP / faculty workshop</option>
             <option value="conference">Conference / conclave</option>
             <option value="student-activity">Student activity</option>
+            <option value="industrial-visit">Industrial visit</option>
+            <option value="placement">Campus drive</option>
+            <option value="partnership">MoU / partnership</option>
           </select>
         </label>
         <label class="field">
           <span>End date <em>(optional, for multi-day events)</em></span>
           <input type="date" name="end" id="f_end">
+        </label>
+      </div>
+
+      <div class="row-2">
+        <label class="field">
+          <span>Industry Connect area <em>(shows the event on the Industry Connect page and under the Industry Connect filter in Life @ DoMS)</em></span>
+          <select name="industry" id="f_industry">
+            <option value="">Not an Industry Connect event</option>
+            <option value="expert-sessions">Industry expert sessions &amp; guest lectures</option>
+            <option value="industrial-visits">Industrial visits &amp; corporate exposure</option>
+            <option value="internships">Internships &amp; live industry projects</option>
+            <option value="recruitment">Campus recruitment &amp; employability</option>
+            <option value="partnerships">Industry collaborations &amp; partnerships (MoUs)</option>
+            <option value="conclaves">Corporate conferences, workshops &amp; conclaves</option>
+            <option value="alumni">Alumni industry connect</option>
+            <option value="awareness">Corporate social &amp; professional awareness</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Participants <em>(optional, e.g. "55 first-year MBA students")</em></span>
+          <input type="text" name="audience" id="f_audience" maxlength="160">
         </label>
       </div>
 
@@ -125,6 +149,7 @@
           <option value="Voice of Alumni"><option value="Alumni talk"><option value="Webinar">
           <option value="Workshop"><option value="Faculty workshop"><option value="FDP">
           <option value="Management fest"><option value="Inauguration"><option value="Club inauguration">
+          <option value="Industrial visit"><option value="Campus drive"><option value="MoU signing"><option value="Industry expert session">
         </datalist>
       </label>
 
@@ -134,12 +159,12 @@
       </label>
 
       <label class="field">
-        <span>Speaker(s) / chief guest <em>(name, designation, organisation — no phone numbers or emails)</em></span>
+        <span>Speaker(s) / chief guest <em>(name, designation, organisation, no phone numbers or emails)</em></span>
         <textarea name="speakers" id="f_speakers" rows="2" maxlength="600"></textarea>
       </label>
 
       <label class="field">
-        <span>Organisation(s) <em>(comma-separated, e.g. "Infosys, CMIE" — counted on the Industry Connect page)</em></span>
+        <span>Organisation(s) <em>(comma-separated, e.g. "Infosys, CMIE", counted on the Industry Connect page)</em></span>
         <input type="text" name="organisations" id="f_orgs" maxlength="300">
       </label>
 
@@ -149,7 +174,7 @@
       </label>
 
       <label class="field">
-        <span>Summary <em>(optional — 1–2 lines for highlight cards; leave blank to use the speakers)</em></span>
+        <span>Summary <em>(optional, 1-2 lines for highlight cards; leave blank to use the speakers)</em></span>
         <textarea name="summary" id="f_summary" rows="2" maxlength="300"></textarea>
       </label>
 
@@ -159,14 +184,14 @@
       </label>
 
       <label class="field">
-        <span>Cover image URL <em>(optional — shown on cards and at the top of the detail page)</em></span>
-        <input type="url" name="cover" id="f_cover" placeholder="https://… or assets/images/…">
+        <span>Cover image URL <em>(optional, shown on cards and at the top of the detail page)</em></span>
+        <input type="url" name="cover" id="f_cover" placeholder="https://... or assets/images/...">
       </label>
 
       <div class="field">
         <div class="gallery-head">
           <div>
-            <span class="gallery-label">Photo gallery <em>(optional — shown as a grid below the body on the detail page)</em></span>
+            <span class="gallery-label">Photo gallery <em>(optional, shown as a grid below the body on the detail page)</em></span>
             <p class="muted small gallery-hint">Paste an image URL, add a short caption and alt text for accessibility. You can add as many as you like, and drag the up/down arrows to reorder.</p>
           </div>
           <button type="button" class="btn btn-ghost btn-sm" id="galAddBtn">+ Add image
@@ -178,17 +203,17 @@
       </div>
 
       <label class="field">
-        <span>Body <em>(full content — HTML allowed: &lt;p&gt;, &lt;h3&gt;, &lt;ul&gt;, &lt;strong&gt;, &lt;a&gt;)</em></span>
+        <span>Body <em>(full content, HTML allowed: &lt;p&gt;, &lt;h3&gt;, &lt;ul&gt;, &lt;strong&gt;, &lt;a&gt;)</em></span>
         <textarea name="body" id="f_body" rows="10"></textarea>
       </label>
 
       <label class="field">
-        <span>External URL <em>(optional — if set, card links to this instead of the detail page)</em></span>
-        <input type="text" name="externalUrl" id="f_ext" placeholder="https://… or student-life.html">
+        <span>External URL <em>(optional, if set, card links to this instead of the detail page)</em></span>
+        <input type="text" name="externalUrl" id="f_ext" placeholder="https://... or student-life.html">
       </label>
 
       <div class="row-2">
-        <label class="checkbox"><input type="checkbox" name="featured" id="f_featured"><span>Featured (photo highlight on the Events page — needs a cover image)</span></label>
+        <label class="checkbox"><input type="checkbox" name="featured" id="f_featured"><span>Featured (photo highlight on the Events page, needs a cover image)</span></label>
         <label class="checkbox"><input type="checkbox" name="published" id="f_published" checked><span>Published (visible on site)</span></label>
       </div>
 
@@ -209,7 +234,7 @@
 <!-- Toast -->
 <div class="admin-toast" id="toast" hidden></div>
 
-<script src="assets/js/events-store.js?v=20261117b"></script>
+<script src="assets/js/events-store.js?v=20261126txt"></script>
 <script defer>
 (function () {
   'use strict';
@@ -220,7 +245,7 @@
   //        crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOUR-NEW-PASSWORD'))
   //          .then(h => console.log(Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('')));
   //   2. Paste the hex string below.
-  // Default password: saveetha-mba-admin
+  // The current password is kept in ADMIN-GUIDE.md (not published with the site).
   const ADMIN_HASH = '55453ef8a0255c880c34a2f6fc2217e83d463de006e112eaa7b55fe0e48b48a1';
   const SESSION_KEY = 'mba-admin-session';
 
@@ -452,6 +477,8 @@
     el('f_tag').value = ev.tag || '';
     el('f_category').value = ev.category || 'guest-lecture';
     el('f_end').value = ev.end || '';
+    el('f_industry').value = ev.industry || '';
+    el('f_audience').value = ev.audience || '';
     el('f_speakers').value = ev.speakers || '';
     el('f_orgs').value = (ev.organisations || []).join(', ');
     el('f_note').value = ev.note || '';
@@ -491,6 +518,8 @@
       kind: el('f_tag').value.trim().split(' · ')[0],
       category: el('f_category').value,
       end: el('f_end').value,
+      industry: el('f_industry').value || undefined,
+      audience: el('f_audience').value.trim() || undefined,
       speakers: el('f_speakers').value.trim(),
       organisations: el('f_orgs').value.split(',').map(s => s.trim()).filter(Boolean),
       note: el('f_note').value.trim(),

@@ -31,14 +31,14 @@
     if (!a) return '';
     if (!b || b.getTime() === a.getTime()) return a.getDate() + ' ' + MON[a.getMonth()] + ' ' + a.getFullYear();
     if (a.getMonth() === b.getMonth() && a.getFullYear() === b.getFullYear())
-      return a.getDate() + '–' + b.getDate() + ' ' + MON[a.getMonth()] + ' ' + a.getFullYear();
-    return a.getDate() + ' ' + MON[a.getMonth()] + ' – ' + b.getDate() + ' ' + MON[b.getMonth()] + ' ' + b.getFullYear();
+      return a.getDate() + '-' + b.getDate() + ' ' + MON[a.getMonth()] + ' ' + a.getFullYear();
+    return a.getDate() + ' ' + MON[a.getMonth()] + ' - ' + b.getDate() + ' ' + MON[b.getMonth()] + ' ' + b.getFullYear();
   }
 
   function datebox(ev, S) {
     const a = parse(ev.date), b = ev.end ? parse(ev.end) : null;
     if (!a) return '<span class="evl-date evl-date-tba"><b>TBA</b><span>Date to follow</span></span>';
-    const day = (b && b.getMonth() === a.getMonth() && b.getDate() !== a.getDate()) ? a.getDate() + '–' + b.getDate() : String(a.getDate());
+    const day = (b && b.getMonth() === a.getMonth() && b.getDate() !== a.getDate()) ? a.getDate() + '-' + b.getDate() : String(a.getDate());
     return '<time class="evl-date" datetime="' + S.escapeHTML(ev.date) + '"><b>' + day + '</b><span>' +
       MON[a.getMonth()] + ' ' + a.getFullYear() + '</span></time>';
   }
@@ -76,10 +76,27 @@
       '</span><h3>' + h3 + '</h3><p>' + S.escapeHTML(ev.summary || '') + link + '</p></div></article>';
   }
 
+  // Home "Life @ DoMS" grid: newest events that have a photo (cover, else first gallery image).
+  function photoOf(ev) {
+    if (ev.cover) return { url: ev.cover, alt: ev.coverAlt || ev.title };
+    const g = Array.isArray(ev.gallery) ? ev.gallery.find(p => p && p.url) : null;
+    return g ? { url: g.url, alt: g.alt || g.caption || ev.title } : null;
+  }
+  function recentHTML(ev, S, first) {
+    const p = photoOf(ev), a = parse(ev.date);
+    const kind = S.kindOf(ev) || 'Event';
+    const when = a ? MON[a.getMonth()] + ' ' + a.getFullYear() : '';
+    const title = S.escapeHTML(ev.cardTitle || ev.title);
+    const b = hasDetail(ev) ? '<a href="' + S.escapeHTML(S.hrefFor(ev)) + '">' + title + '</a>' : title;
+    const sum = first && ev.summary ? '<span class="sx-life-sum">' + S.escapeHTML(ev.summary) + '</span>' : '';
+    return '<img src="' + S.escapeHTML(p.url) + '" alt="' + S.escapeHTML(p.alt) + '" loading="lazy">' +
+      '<figcaption><small>' + S.escapeHTML(kind + (when ? ' · ' + when : '')) + '</small><b>' + b + '</b>' + sum + '</figcaption>';
+  }
+
   async function run() {
     const S = window.EventsStore;
     if (!S || !S.filterEvents) return;
-    const needs = document.querySelector('[data-ev-stat],[data-ev-list],[data-ev-featured],[data-ev-fylabel],[data-ev-range],[data-ev-latest]');
+    const needs = document.querySelector('[data-ev-stat],[data-ev-list],[data-ev-featured],[data-ev-recent],[data-ev-fylabel],[data-ev-range],[data-ev-latest]');
     if (!needs) return;
     const all = await S.loadPublished();
     if (!all.length) return; // keep the static fallback
@@ -94,7 +111,7 @@
       el.textContent = String(n) + (el.dataset.evSuffix || '');
     });
     document.querySelectorAll('[data-ev-fylabel]').forEach(el => {
-      el.textContent = S.resolveFy(el.getAttribute('data-ev-fylabel')).replace('-', '–');
+      el.textContent = S.resolveFy(el.getAttribute('data-ev-fylabel'));
     });
     const dated = events.filter(ev => ev.date).sort((a, b) => a.date.localeCompare(b.date));
     if (dated.length) {
@@ -110,6 +127,13 @@
       const max = +el.getAttribute('data-ev-featured') || 6;
       const f = events.filter(ev => ev.featured && ev.cover).sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, max);
       if (f.length) el.innerHTML = f.map(ev => featuredHTML(ev, S)).join('');
+    });
+    document.querySelectorAll('[data-ev-recent]').forEach(el => {
+      const max = +el.getAttribute('data-ev-recent') || 5;
+      const r = events.filter(ev => ev.date && photoOf(ev)).slice(0, max); // loadPublished is newest-first
+      // Fill the existing <figure>s in place: on phones motion.js has already made them carousel slides.
+      const figs = [...el.querySelectorAll(':scope > figure')];
+      if (r.length >= max && figs.length === r.length) r.forEach((ev, i) => { figs[i].innerHTML = recentHTML(ev, S, i === 0); });
     });
   }
 
@@ -137,7 +161,49 @@
       ol.after(btn);
     });
   }
-  function start() { run().catch(() => {}).finally(collapseLongLists); }
+  // Research registers: show the first few rows / the latest year, with a toggle for the rest (audit fix 2026-11-26).
+  function collapseGroup(items, anchor, label) {
+    if (!items.length || anchor.dataset.cx) return;
+    anchor.dataset.cx = '1';
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'evl-more';
+    let open = false;
+    const paint = () => {
+      items.forEach(el => el.classList.toggle('cx-hide', !open));
+      btn.textContent = open ? 'Show fewer' : label;
+      btn.setAttribute('aria-expanded', String(open));
+    };
+    btn.addEventListener('click', () => {
+      open = !open; paint();
+      if (!open) anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    });
+    paint();
+    anchor.after(btn);
+  }
+  function collapseRegisters() {
+    document.querySelectorAll('#patents tbody').forEach(tb => {
+      const rows = [...tb.rows];
+      if (rows.length >= 9) collapseGroup(rows.slice(6), tb.closest('table').parentElement.matches('.table-wrap,[class*=table]') ? tb.closest('table').parentElement : tb.closest('table'), 'Show all ' + rows.length + ' patents');
+    });
+    document.querySelectorAll('#books .chapter-list').forEach(ul => {
+      const li = [...ul.children];
+      if (li.length >= 9) collapseGroup(li.slice(6), ul, 'Show all ' + li.length + ' chapters');
+    });
+    // year-grouped registers: keep the latest year open, fold earlier years
+    document.querySelectorAll('.evl-live').forEach(box => {
+      const heads = [...box.querySelectorAll(':scope > .evl-fy')];
+      if (heads.length < 2) return;
+      const firstList = heads[0].nextElementSibling;
+      if (!firstList || firstList.dataset.collapsible) return; // already folded by entry count
+      const later = [];
+      heads.slice(1).forEach(h => { later.push(h); if (h.nextElementSibling && h.nextElementSibling.matches('ol')) later.push(h.nextElementSibling); });
+      const n = later.filter(el => el.matches('ol')).reduce((t, ol) => t + ol.children.length, 0);
+      if (n < 3) return; // folding one or two entries saves nothing
+      collapseGroup(later, firstList, 'Show earlier years (' + n + (n === 1 ? ' entry' : ' entries') + ')');
+    });
+  }
+  function start() { run().catch(() => {}).finally(() => { collapseLongLists(); collapseRegisters(); }); }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
   else start();

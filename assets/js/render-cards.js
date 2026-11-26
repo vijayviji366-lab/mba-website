@@ -98,7 +98,7 @@
     if (!host) return;
     const events = await window.EventsStore.loadPublished();
     if (!events.length) {
-      host.innerHTML = '<div class="news-empty"><p>No items yet — this page is updated regularly by the MBA Department.</p></div>';
+      host.innerHTML = '<div class="news-empty"><p>No items yet. This page is updated regularly by the MBA Department.</p></div>';
       return;
     }
     host.innerHTML = events.map(cardHTML).join('');

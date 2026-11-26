@@ -1,0 +1,132 @@
+/* =========================================================
+   Centre of Excellence lab pages (coe-<slug>.html, body.sxp.coe-lab)
+   Built by ../coe-tools/build.py. Same corporate language:
+   navy on white/ivory, ember accent, square corners, hairlines.
+   ========================================================= */
+
+/* ---------- Intro: copy + facts card ---------- */
+.lab-split{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(32px,5vw,72px);align-items:start}
+.lab-copy h2{font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.1;margin:10px 0 20px;max-width:20ch}
+.lab-copy p{color:var(--charcoal);line-height:1.75;max-width:62ch}
+.lab-copy .lab-lede{font-size:1.1rem;color:var(--ink)}
+.lab-copy strong{color:var(--ink);font-weight:600}
+
+.lab-facts{background:var(--navy-deep);color:#fff;border-bottom:3px solid var(--accent);padding:clamp(24px,3vw,36px)}
+.lab-facts dl{margin:0;display:grid;gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14)}
+.lab-facts dl > div{background:var(--navy-deep);padding:14px 16px}
+.lab-facts dt{font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.lab-facts dd{margin:0;font-size:1.02rem;font-weight:600;line-height:1.35}
+.lab-facts-people{margin-top:24px}
+.lab-facts-people > span{display:block;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:10px}
+.lab-facts-people p{margin:0 0 12px;font-size:.88rem;line-height:1.5;color:rgba(255,255,255,.72)}
+.lab-facts-people b{display:block;color:#fff;font-size:.98rem;font-weight:600}
+
+.lab-wide{margin:clamp(40px,5vw,64px) 0 0}
+.lab-wide img{display:block;width:100%;aspect-ratio:16/7;object-fit:cover;border-radius:2px;background:var(--sx-ivory)}
+.lab-wide figcaption,.lab-gallery figcaption{margin-top:12px;padding-left:12px;border-left:2px solid var(--accent);font-size:.86rem;color:var(--sx-muted)}
+
+/* ---------- Learning areas: three columns ---------- */
+.lab-areas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.lab-area{display:flex;flex-direction:column;background:#fff;border:1px solid var(--sx-line);border-top:3px solid var(--navy);border-radius:2px;padding:clamp(24px,2.6vw,34px)}
+.lab-area-k{font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink,#B8460F)}
+.lab-area h3{font-size:1.6rem;letter-spacing:-.02em;margin:10px 0 4px;color:var(--ink)}
+.lab-area-tools{margin:0 0 16px;font-size:.86rem;font-weight:600;color:var(--navy)}
+.lab-area > p{font-size:.95rem;line-height:1.65;color:var(--charcoal)}
+.lab-area h4{margin:8px 0 0;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sx-muted)}
+.lab-area ul{list-style:none;margin:10px 0 22px;padding:0;border-top:1px solid var(--sx-line)}
+.lab-area li{position:relative;padding:10px 0 10px 22px;border-bottom:1px solid var(--sx-line);font-size:.93rem;line-height:1.5;color:var(--charcoal)}
+.lab-area li::before{content:"";position:absolute;left:2px;top:1.15em;width:10px;height:2px;background:var(--accent)}
+.lab-area .lab-area-rel{margin:auto 0 0;padding:14px 16px;background:var(--sx-ivory);font-size:.9rem;line-height:1.5;color:var(--ink);font-weight:600}
+.lab-area-rel span{display:block;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sx-muted);margin-bottom:4px}
+
+/* ---------- Faculty strip ---------- */
+.lab-people{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:20px}
+.lab-people a{display:flex;flex-direction:column;height:100%;background:#fff;border:1px solid var(--sx-line);border-radius:2px;padding:22px;transition:border-color .2s,box-shadow .2s}
+.lab-people a:hover{border-color:#D9D4C8;box-shadow:0 14px 32px rgba(11,15,43,.08)}
+.lab-people img{width:84px;height:84px;object-fit:cover;object-position:center 25%;border-radius:50%;background:#E4E8EE;margin-bottom:16px}
+.lab-people b{color:var(--navy);font-size:1rem;line-height:1.3}
+.lab-people span{margin-top:6px;font-size:.86rem;line-height:1.5;color:var(--sx-muted)}
+
+/* ---------- Gallery ---------- */
+.lab-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:minmax(0,auto);gap:20px}
+.lab-gallery figure{margin:0;display:flex;flex-direction:column}
+.lab-gallery img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px;background:var(--sx-ivory)}
+.lab-gallery .g-wide{grid-column:span 2}
+.lab-gallery .g-tall{grid-row:span 2}
+.lab-gallery .g-tall img{aspect-ratio:auto;flex:1;min-height:0;object-position:center 30%}
+
+/* ---------- Other centres ---------- */
+body.sxp main > .lab-next{padding-block:40px;border-top:1px solid var(--sx-line)}
+.lab-next-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px 28px}
+.lab-next-row .eyebrow{margin:0 auto 0 0}
+.lab-next-row a{display:flex;align-items:baseline;gap:10px;font:700 1.05rem/1.2 var(--font-head);color:var(--navy);padding:10px 0;border-bottom:2px solid transparent}
+.lab-next-row a:hover{border-bottom-color:var(--accent)}
+.lab-next-row small{font-family:var(--font-display);font-style:italic;font-weight:600;font-size:.95rem;color:var(--accent-ink,#B8460F)}
+
+/* ---------- Tool cards + "working together" flow ---------- */
+.lab-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.lab-tool{background:#fff;border:1px solid var(--sx-line);border-top:3px solid var(--navy);border-radius:2px;padding:clamp(24px,2.6vw,34px)}
+.lab-tool h3{font-size:1.6rem;letter-spacing:-.02em;margin:10px 0 10px;color:var(--ink)}
+.lab-tool > p{font-size:.98rem;line-height:1.65;color:var(--charcoal);margin:0 0 20px}
+.lab-tags{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.lab-tags li{padding:8px 12px;border:1px solid var(--sx-line);background:var(--sx-ivory);font-size:.86rem;font-weight:600;color:var(--navy);border-radius:2px}
+.lab-flow{margin-top:24px;background:var(--navy-deep);color:#fff;border-bottom:3px solid var(--accent);padding:clamp(24px,3vw,36px)}
+.lab-flow-k{display:block;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.lab-flow ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16);counter-reset:f}
+.lab-flow li{position:relative;background:var(--navy-deep);padding:18px 20px 18px 56px;font-size:.92rem;line-height:1.45;color:rgba(255,255,255,.75);counter-increment:f}
+.lab-flow li::before{content:counter(f,decimal-leading-zero);position:absolute;left:18px;top:16px;font-family:var(--font-display);font-style:italic;font-weight:600;font-size:1.2rem;color:var(--accent-ink,#B8460F)}
+.lab-flow li b{display:block;color:#fff;font-size:1rem;margin-bottom:2px}
+.lab-flow p{margin:18px 0 0;font-size:.95rem;color:rgba(255,255,255,.82)}
+#faculty .section-head p + p{margin-top:12px}
+@media (max-width:900px){.lab-tools{grid-template-columns:1fr}}
+@media (max-width:640px){.lab-flow ol{grid-template-columns:1fr}}
+
+/* ---------- Activities: photo + write-up rows ---------- */
+.lab-events{display:grid;gap:clamp(40px,5vw,64px)}
+.lab-event{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(28px,4vw,56px);align-items:start}
+.lab-event-media{margin:0}
+.lab-event-media img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:2px;background:var(--sx-ivory)}
+.lab-event.is-poster .lab-event-media img{aspect-ratio:1/1;max-width:420px}
+.lab-event-body h3{font-size:clamp(1.35rem,2.2vw,1.75rem);line-height:1.2;letter-spacing:-.02em;margin:10px 0 16px;color:var(--ink)}
+.lab-event-body .lab-tags{margin-bottom:18px}
+.lab-event-body p{font-size:.97rem;line-height:1.7;color:var(--charcoal)}
+.lab-event-body a:not(.lab-event-link){color:var(--navy);font-weight:600;text-decoration:underline;text-decoration-color:var(--sx-line);text-underline-offset:3px}
+.lab-event-who{padding:14px 16px;background:var(--sx-ivory);border-left:2px solid var(--accent);font-weight:600;color:var(--ink) !important}
+.lab-event-who span{display:block;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sx-muted);margin-bottom:4px}
+.lab-event-link{display:inline-flex;gap:10px;align-items:center;margin-top:8px;padding:13px 20px;background:var(--navy);color:#fff;font:700 .88rem/1 var(--font-head);border-radius:2px;transition:background .2s}
+.lab-event-link:hover{background:var(--accent);color:#fff}
+.lab-facts-people a{color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.3);text-underline-offset:3px}
+.lab-facts-people a:hover{text-decoration-color:var(--gold)}
+@media (max-width:900px){.lab-event{grid-template-columns:1fr}}
+
+/* ---------- Check list + activity timeline ---------- */
+.lab-checks{list-style:none;margin:0;padding:0;border-top:1px solid var(--sx-line)}
+.lab-checks li{position:relative;padding:14px 0 14px 26px;border-bottom:1px solid var(--sx-line);font-size:1rem;line-height:1.6;color:var(--charcoal)}
+.lab-checks li::before{content:"";position:absolute;left:2px;top:1.45em;width:11px;height:2px;background:var(--accent)}
+.lab-checks strong{color:var(--ink);font-weight:600}
+.lab-timeline{list-style:none;margin:0;padding:0;border-top:1px solid var(--sx-line)}
+.lab-timeline li{display:grid;grid-template-columns:140px minmax(0,1fr) auto;gap:24px;align-items:start;padding:24px 0;border-bottom:1px solid var(--sx-line)}
+.lab-timeline time{font-family:var(--font-display);font-style:italic;font-weight:600;font-size:1.15rem;color:var(--accent-ink,#B8460F);padding-top:2px}
+.lab-timeline h3{font-size:1.2rem;line-height:1.3;letter-spacing:-.01em;margin:6px 0 6px;color:var(--ink)}
+.lab-timeline p{margin:0;font-size:.92rem;line-height:1.55;color:var(--sx-muted)}
+.lab-timeline li > a{align-self:center;white-space:nowrap;font:700 .88rem/1 var(--font-head);color:var(--navy);padding:10px 0;border-bottom:2px solid transparent}
+.lab-timeline li > a:hover{border-bottom-color:var(--accent)}
+@media (max-width:760px){.lab-timeline li{grid-template-columns:1fr;gap:6px}.lab-timeline li > a{justify-self:start}}
+
+@media (max-width:1024px){
+  .lab-areas{grid-template-columns:1fr 1fr}
+  .lab-areas > :last-child{grid-column:span 2}
+}
+@media (max-width:900px){
+  .lab-split{grid-template-columns:1fr}
+  .lab-gallery{grid-template-columns:1fr 1fr}
+  .lab-gallery .g-tall{grid-row:span 1}
+  .lab-gallery .g-tall img{aspect-ratio:16/9}
+}
+@media (max-width:640px){
+  .lab-areas{grid-template-columns:1fr}
+  .lab-areas > :last-child{grid-column:auto}
+  .lab-gallery{grid-template-columns:1fr}
+  .lab-gallery .g-wide{grid-column:auto}
+  .lab-wide img{aspect-ratio:16/9}
+}

@@ -199,7 +199,23 @@
     'fdp': 'FDPs & faculty workshops',
     'workshop': 'Workshops',
     'guest-lecture': 'Guest lectures, seminars & talks',
-    'student-activity': 'Student activities'
+    'student-activity': 'Student activities',
+    'industrial-visit': 'Industrial visits',
+    'placement': 'Campus drives',
+    'partnership': 'MoUs & partnerships'
+  };
+
+  // Industry Connect groups (the ev.industry field). industry-connect.html shows one
+  // section per group; the Life @ DoMS gallery offers the same groups as a filter.
+  const INDUSTRY = {
+    'expert-sessions':   { label: 'Industry Expert Sessions & Guest Lectures', short: 'Expert sessions', sub: 'Guest lectures and expert talks' },
+    'industrial-visits': { label: 'Industrial Visits & Corporate Exposure', short: 'Industrial visits', sub: 'Plants, ports and corporate exposure' },
+    'internships':       { label: 'Internships & Live Industry Projects', short: 'Internships', sub: 'Experiential learning' },
+    'recruitment':       { label: 'Campus Recruitment & Employability', short: 'Campus recruitment', sub: 'Campus drives' },
+    'partnerships':      { label: 'Industry Collaborations & Corporate Partnerships', short: 'MoUs & partnerships', sub: 'MoUs and corporate collaborations' },
+    'conclaves':         { label: 'Corporate Conferences, Workshops & Conclaves', short: 'Conclaves & workshops', sub: 'Conclaves, competitions and training' },
+    'alumni':            { label: 'Alumni Industry Connect', short: 'Alumni connect', sub: 'Mentoring, mock interviews and networking' },
+    'awareness':         { label: 'Corporate Social & Professional Awareness', short: 'Awareness programmes', sub: 'Industry-led awareness sessions' }
   };
 
   // Indian academic/financial year runs June–May: 2025-06-01 .. 2026-05-31 => "2025-26".
@@ -209,7 +225,7 @@
     const start = m >= 6 ? y : y - 1;
     return start + '-' + String(start + 1).slice(2);
   }
-  function fyLabel(fy) { return fy ? 'FY ' + fy.replace('-', '–') : ''; }
+  function fyLabel(fy) { return fy ? 'FY ' + fy : ''; }
   function currentFy() { return fyOf(new Date().toISOString().slice(0, 10)); }
   // Most recent financial year that has fully ended.
   function lastCompleteFy() {
@@ -235,9 +251,11 @@
       (!kinds.length || kinds.includes(kindOf(ev).toLowerCase())) &&
       (!fy || fyOf(ev.date) === fy));
   }
-  // Organisations that sent speakers/trainers (conclave panels are listed separately, so excluded).
+  // Organisations that sent speakers/trainers (conclave panels are listed separately, so excluded;
+  // visits, campus drives and MoUs are not sessions, so they are excluded too).
+  const NOT_SESSIONS = ['conference', 'industrial-visit', 'placement', 'partnership'];
   function industrySessions(events) {
-    return events.filter(ev => (ev.type || 'event') === 'event' && ev.category !== 'conference' &&
+    return events.filter(ev => (ev.type || 'event') === 'event' && !NOT_SESSIONS.includes(ev.category) &&
       Array.isArray(ev.organisations) && ev.organisations.length);
   }
   function industryOrgs(events) {
@@ -255,7 +273,7 @@
     // helpers
     formatDateParts, kindLabel, escapeHTML, hrefFor, slugify,
     // register helpers
-    CATEGORIES, fyOf, fyLabel, currentFy, lastCompleteFy, resolveFy, kindOf,
+    CATEGORIES, INDUSTRY, fyOf, fyLabel, currentFy, lastCompleteFy, resolveFy, kindOf,
     filterEvents, industrySessions, industryOrgs
   };
 })(window);
